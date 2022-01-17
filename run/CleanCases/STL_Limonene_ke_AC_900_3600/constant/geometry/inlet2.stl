@@ -1,0 +1,16 @@
+solid inlet2
+  facet normal 0.000000 0.000000 -1.000000
+    outer loop
+      vertex -1355.000000 -1200.000000 2580.000000
+      vertex -1605.000000 -950.000000 2580.000000
+      vertex -1355.000000 -950.000000 2580.000000
+    endloop
+  endfacet
+  facet normal 0.000000 0.000000 -1.000000
+    outer loop
+      vertex -1355.000000 -1200.000000 2580.000000
+      vertex -1605.000000 -1200.000000 2580.000000
+      vertex -1605.000000 -950.000000 2580.000000
+    endloop
+  endfacet
+endsolid inlet2

@@ -1,0 +1,51 @@
+17-11-2021 16:00:00
+* Measured speed is 0.87+1.01/2 =0.94 m/s with a grating of 50% transparancy so -0.4 is actually accurate!
+  30 m3/h from BCS -> 0.008333 m3/s
+  Speed = Qin/(0.25*0.25*0.5) = 0.26666666666666666
+  Speed set to -0.13 from -0.4. Outlet will naturally follow.
+
+* Ozone must be set to 1e-6
+* Check rate constant for secondary reaction, formaldehyde concentrations are high...
+  A reaction 2 changed to  1.3689122798608136e9; from 2.186136661679339e10.
+* Added functionObjects to calculate averages on the fly.
+
+
+18-11-2021 09:00:00
+* Initializing one hour running simulation, most equivalent to measurements taken
+* Try to use OF postprocessing.
+
+23-11-2021 10:00:00
+* Discovered that LocalEuler DDT scheme should be ONLY used for steady state, not for transient!
+* Switched to CrankNicolson 0.9 (blend between CN and Euler) for STL simulation
+* Rerunning 2h of Kazuhide case 4 2D on old desktop with Euler DDT
+
+26-11-2021 11:30:00
+* Cases in Thesis/STL_Cases
+* New case mentioned below is: STL_Cases/STL_Limonene_ke/
+* Creating new case with all components set to 0 at outlet, so actual backflow can only occur from components that enter the outlet.
+* Also remove CH2O emission and reaction.
+* Also attempt at another fieldAverage window to calculate average concentrations on the fly.
+* fieldAverage functionObject only works for time-averaging, not for volume-time-averaging.
+* volFieldValue should be able to do this.
+* this works and outputs:
+
+volFieldValue volFieldValue1 write:
+    volAverage() of Cprod = 2.50904e-10
+    volAverage() of C10H16 = 2.07334e-08
+    volAverage() of O3 = 6.35788e-08
+
+27-11-2021 12:00
+* Started new case with Co 0.5, Write 1s and CrankNicolson 0.9, most complete case.
+* Rerun base case with above settings
+
+29-11-2021 10:30:00
+* Created new AfterClean case
+* Initialize P, P_RGH, U fields with 3600s result,
+* run for 900s
+* after 900s deactivate limonene emission
+* simulate another 2700s
+
+2-1-2022 18:52:00
+* Prepared STL_Limonene_Cprod_CHCO_ke_rerun simulation
+* minor changes in 0 directory, initial conditions for gas concentrations set to $internalfield for almost everything except for explicit definitions
+* CrankNicolson 0.9 writetime 1.0s

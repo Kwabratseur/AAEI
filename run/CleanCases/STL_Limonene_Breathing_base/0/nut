@@ -1,0 +1,110 @@
+/*--------------------------------*- C++ -*----------------------------------*\
+| =========                 |                                                 |
+| \\      /  F ield         | OpenFOAM: The Open Source CFD Toolbox           |
+|  \\    /   O peration     | Version:  6                                     |
+|   \\  /    A nd           | Web:      www.OpenFOAM.com                      |
+|    \\/     M anipulation  |                                                 |
+\*---------------------------------------------------------------------------*/
+FoamFile
+{
+    version     2.0;
+    format      ascii;
+    class       volScalarField;
+    object      nut;
+}
+// * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
+
+dimensions      [0 2 -1 0 0 0 0];
+
+internalField   uniform 0.01;
+
+boundaryField
+{
+  inlet1
+  {
+      type            zeroGradient;
+  }
+  inlet2
+  {
+      type            zeroGradient;
+  }
+  outlet
+  {
+      type            zeroGradient;
+  }
+  door
+  {
+      type            nutkWallFunction;
+      value           uniform 0;
+  }
+
+  windowsmall
+  {
+      type            nutkWallFunction;
+      value           uniform 0;
+
+  }
+
+  windowbig
+  {
+      type            nutkWallFunction;
+      value           uniform 0;
+
+  }
+  columns
+  {
+      type            nutkWallFunction;
+      value           uniform 0;
+
+  }
+  ceiling
+  {
+      type            nutkWallFunction;
+      value           uniform 0;
+  }
+  floor
+  {
+      type            nutkWallFunction;
+      value           uniform 0;
+  }
+  wallwindow
+  {
+      type            nutkWallFunction;
+      value           uniform 0;
+  }
+  walldoor
+  {
+      type            nutkWallFunction;
+      value           uniform 0;
+  }
+  walloutside
+  {
+      type            nutkWallFunction;
+      value           uniform 0;
+  }
+  wallinside
+  {
+      type            nutkWallFunction;
+      value           uniform 0;
+  }
+  emission_surface
+  {
+      type            nutkWallFunction;
+      value           uniform 0;
+  }
+  IOLet_L_Man
+  {
+      type            zeroGradient;
+  }
+  IOLet_R_Man
+  {
+      type            zeroGradient;
+  }
+  LetLessMan
+  {
+      type            nutkWallFunction;
+      value           uniform 0;
+  }
+}
+
+// ************************************************************************* //

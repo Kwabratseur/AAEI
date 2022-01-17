@@ -1,0 +1,99 @@
+/*--------------------------------*- C++ -*----------------------------------*\
+| =========                 |                                                 |
+| \\      /  F ield         | OpenFOAM: The Open Source CFD Toolbox           |
+|  \\    /   O peration     | Version:  6                                     |
+|   \\  /    A nd           | Web:      www.OpenFOAM.com                      |
+|    \\/     M anipulation  |                                                 |
+\*---------------------------------------------------------------------------*/
+FoamFile
+{
+    version     2.0;
+    format      ascii;
+    class       volScalarField;
+    location    "0";
+    object      epsilon;
+}
+// * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
+
+dimensions      [0 2 -3 0 0 0 0];
+
+internalField   uniform 3.54;
+
+boundaryField
+{
+  inlet1
+  {
+      type            fixedValue;
+      value           uniform 0.00527333;
+  }
+  inlet2
+  {
+      type            fixedValue;
+      value           uniform 0.00527333;
+  }
+  outlet
+  {
+      type            zeroGradient;
+  }
+  door
+  {
+      type            epsilonWallFunction;
+      value           $internalField;
+  }
+  windowsmall
+  {
+      type            epsilonWallFunction;
+      value           $internalField;
+
+  }
+
+  windowbig
+  {
+      type            epsilonWallFunction;
+      value           $internalField;
+
+  }
+  columns
+  {
+      type            epsilonWallFunction;
+      value           $internalField;
+
+  }
+  ceiling
+  {
+      type            epsilonWallFunction;
+      value           $internalField;
+  }
+  floor
+  {
+      type            epsilonWallFunction;
+      value           $internalField;
+  }
+  wallwindow
+  {
+      type            epsilonWallFunction;
+      value           $internalField;
+  }
+  walldoor
+  {
+      type            epsilonWallFunction;
+      value           $internalField;
+  }
+  walloutside
+  {
+      type            epsilonWallFunction;
+      value           $internalField;
+  }
+  wallinside
+  {
+      type            epsilonWallFunction;
+      value           $internalField;
+  }
+  emission_surface
+  {
+      type            fixedValue;
+      value           uniform 0.00527333;
+  }
+}
+
+// ************************************************************************* //

@@ -1,0 +1,16 @@
+solid door
+  facet normal 1.000000 0.000000 -0.000000
+    outer loop
+      vertex 2280.000000 1325.000000 0.000000
+      vertex 2280.000000 1325.000000 2100.000000
+      vertex 2280.000000 390.000000 2100.000000
+    endloop
+  endfacet
+  facet normal 1.000000 0.000000 0.000000
+    outer loop
+      vertex 2280.000000 390.000000 0.000000
+      vertex 2280.000000 1325.000000 0.000000
+      vertex 2280.000000 390.000000 2100.000000
+    endloop
+  endfacet
+endsolid door

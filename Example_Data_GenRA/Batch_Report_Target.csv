@@ -1,0 +1,1087 @@
+Formula,Name,total targets,positive targets,positive targets decimal,weighted and averaged limit [mg/kg/day],Effectgroup,Testgroup
+O3,Ozone,4,4,3.848,10472.426,:mean corpuscular hemoglobin (mch),SUB
+O3,Ozone,1,1,1.0,68.75,:bile duct,CHR
+O3,Ozone,1,1,1.0,698.25,:thyroxine (t4),CHR
+O3,Ozone,4,1,1.231,4685.1553,:testes,SUB
+O3,Ozone,4,1,1.392,12221.58475,:lung,SUB
+O3,Ozone,1,0,0.0,0.0,:preputial separation,MGR
+O3,Ozone,4,0,0.0,0.0,:seminal vesicle,SUB
+O3,Ozone,3,3,2.468,8901.3995,:hematocrit (hct),SUB
+O3,Ozone,3,0,0.308,85.932,:thyroid gland,SUB
+O3,Ozone,1,0,0.0,0.0,:trunk,DEV
+O3,Ozone,3,0,0.0,0.0,:clitoral gland,SUB
+O3,Ozone,2,0,0.0,0.0,:offspring survival early other,MGR
+O3,Ozone,3,0,0.0,0.0,:ear,SUB
+O3,Ozone,2,2,1.734,884.76,:mean corpuscular hemoglobin concentration (mchc),SUB
+O3,Ozone,2,0,0.0,0.0,:dead fetuses,MGR
+O3,Ozone,3,0,0.154,31.416,:parathyroid gland,SUB
+O3,Ozone,2,0,0.0,0.0,:dystocia,MGR
+O3,Ozone,2,2,2.0,1308.0,:nucleated red blood cell (nrbc),SUB
+O3,Ozone,2,2,2.0,4845.77,:neutrophils,SUB
+O3,Ozone,1,1,1.0,165.0,:methemoglobin,SUB
+O3,Ozone,5,4,4.083,20314.42206,:body weight,SUB
+O3,Ozone,3,0,0.246,408.48300000000006,:bone marrow,SUB
+O3,Ozone,2,0,0.11,391.875,:resorptions,MGR
+O3,Ozone,1,1,1.0,1375.0,:blood,SUB
+O3,Ozone,2,2,1.734,972.76,:reticulocyte,SUB
+O3,Ozone,5,2,2.252,10422.0770625,:kidney,SUB
+O3,Ozone,3,0,0.0,0.0,:gallbladder,SUB
+O3,Ozone,1,1,0.5,64.5,:lactation index,MGR
+O3,Ozone,2,0,0.0,0.0,:implantations,MGR
+O3,Ozone,1,0,0.0,0.0,:precoital interval,MGR
+O3,Ozone,3,1,0.9530000000000001,1113.34225,:volume,SUB
+O3,Ozone,1,1,1.0,3.4375,:non-protein sulfhydryl (npsh),SUB
+O3,Ozone,1,1,1.0,698.25,:triiodothyronine (t3),CHR
+O3,Ozone,2,2,1.242,3111.5205,:urea nitrogen,SUB
+O3,Ozone,3,0,0.251,148.3922,:pancreas,SUB
+O3,Ozone,1,0,0.0,0.0,:viability index,MGR
+O3,Ozone,2,2,2.0,2073.25,:calcium,SUB
+O3,Ozone,1,1,1.0,698.25,:peritoneum,CHR
+O3,Ozone,1,1,1.0,1375.0,:lipids,SUB
+O3,Ozone,1,1,1.0,1375.0,:glutamate dehydrogenase,SUB
+O3,Ozone,3,1,0.621,3009.0555,:leukocyte (wbc) count differential,SUB
+O3,Ozone,1,1,1.0,540.0,:paw / digit,DEV
+O3,Ozone,4,0,0.626,1174.9696,:spleen,SUB
+O3,Ozone,2,0,0.278,27.522000000000002,:aborted,MGR
+O3,Ozone,2,0,0.0,0.0,:litter size,MGR
+O3,Ozone,3,0,0.0,0.0,:pharynx,SUB
+O3,Ozone,1,1,1.0,3888.5,:albumin-globulin ratio,SUB
+O3,Ozone,1,0,0.0,0.0,:lacrimal gland,SUB
+O3,Ozone,4,1,0.5,230.25,:prostate,SUB
+O3,Ozone,5,3,3.029,8547.956,:food consumption,SUB
+O3,Ozone,1,1,0.5,84.375,:fertility,MGR
+O3,Ozone,5,0,0.383,1157.085,:uterus,SUB
+O3,Ozone,4,0,0.116,93.96000000000001,:full gross necropsy,SUB
+O3,Ozone,1,0,0.299,11.959999999999999,:bile acids,SUB
+O3,Ozone,2,0,0.0,0.0,:pregnancy,MGR
+O3,Ozone,2,1,1.177,1385.62,:specific gravity/osmolality,SUB
+O3,Ozone,1,1,0.5,797.3,:alkaline phosphatase (alp/alk),SUB
+O3,Ozone,2,0,0.0,0.0,:reproductive performance other,MGR
+O3,Ozone,5,2,1.7610000000000001,9056.896625000001,:mortality,SUB
+O3,Ozone,1,1,1.0,56.0,:oral mucosa,CHR
+O3,Ozone,2,1,1.0,450.0,:general,SAC
+O3,Ozone,3,3,2.5,1893.25,:[other],MGR
+O3,Ozone,2,0,0.0,0.0,:postimplantation loss,MGR
+O3,Ozone,3,0,0.0,0.0,:esophagus,SUB
+O3,Ozone,3,0,0.0,0.0,:preputial gland,SUB
+O3,Ozone,2,1,0.831,1739.6465625,:creatinine,SUB
+O3,Ozone,1,0,0.0,0.0,:vaginal opening,MGR
+O3,Ozone,3,0,0.261,200.71699999999998,:intestine large,SUB
+O3,Ozone,5,4,3.715,12252.913249999998,:liver,SUB
+O3,Ozone,4,4,3.023,9374.1234,:erythrocyte (rbc) count differential,SUB
+O3,Ozone,3,3,2.246,5811.368,:cholesterol,SUB
+O3,Ozone,2,1,1.0,1375.0,:blood clotting,SUB
+O3,Ozone,3,2,2.0,2462.5,:estrous cycle,SUB
+O3,Ozone,2,0,0.0,0.0,:birth index,MGR
+O3,Ozone,4,1,1.0,7665.0,:eye,SUB
+O3,Ozone,4,1,1.9389999999999998,9927.590000000002,:stomach,SUB
+O3,Ozone,4,0,0.0,0.0,:pituitary gland,SUB
+O3,Ozone,2,2,1.512,4915.1496,:triglycerides,SUB
+O3,Ozone,1,0,0.0,0.0,:oviduct,MGR
+O3,Ozone,3,1,1.0,735.75,:albumin,SUB
+O3,Ozone,5,1,1.131,594.5076,:thymus,SUB
+O3,Ozone,3,0,0.177,123.59025,:ph,SUB
+O3,Ozone,3,1,0.7110000000000001,2266.474,:skin,SUB
+O3,Ozone,3,0,0.277,0.9521875000000001,:glucose,SUB
+O3,Ozone,1,1,1.0,1760.0,:anisocytosis,DEV
+O3,Ozone,1,0,0.299,11.959999999999999,:sorbitol dehydrogenase,SUB
+O3,Ozone,1,1,1.0,1760.0,:hypochromia,DEV
+O3,Ozone,1,0,0.299,40.664,:creatine phosphokinase,SUB
+O3,Ozone,1,0,0.0,0.0,:gestational length,MGR
+O3,Ozone,2,0,0.0,0.0,:live fetuses,MGR
+O3,Ozone,3,0,0.0,0.0,:tongue,SUB
+O3,Ozone,3,0,0.154,11.55,:mammary gland,SUB
+O3,Ozone,2,1,0.5,64.5,:litter viability other,MGR
+O3,Ozone,2,1,1.0,1375.0,:potassium,SUB
+O3,Ozone,3,0,0.0,0.0,:urinary bladder,SUB
+O3,Ozone,4,0,0.371,400.68,:bone,SUB
+O3,Ozone,2,0,0.0,0.0,:gestation index,MGR
+O3,Ozone,2,0,0.0,0.0,:corpora lutea,MGR
+O3,Ozone,1,1,1.0,4845.5,:lymphocyte,SAC
+O3,Ozone,2,0,0.0,0.0,:premature delivery,MGR
+O3,Ozone,1,0,0.0,0.0,:pregnancy index,MGR
+O3,Ozone,3,0,0.33499999999999996,876.9345999999999,:heart,SUB
+O3,Ozone,3,3,3.0,8276.5,:globulins,SUB
+O3,Ozone,5,1,1.704,2927.7975,:brain,SUB
+O3,Ozone,3,0,0.0,0.0,:nerve,SUB
+O3,Ozone,2,0,0.0,0.0,:preimplantation loss,MGR
+O3,Ozone,4,4,3.479,10261.4875,:hemoglobin (hgb),SUB
+O3,Ozone,2,1,1.0,632.5,:sperm measure,SUB
+O3,Ozone,4,1,1.0,4500.0,:trachea,SUB
+O3,Ozone,5,2,2.885,29631.8655,:clinical signs,SUB
+O3,Ozone,1,0,0.0,0.0,:sodium,SAC
+O3,Ozone,4,0,0.282,82.27349999999998,:adrenal gland,SUB
+O3,Ozone,3,0,0.144,8.064,:salivary glands,SUB
+O3,Ozone,1,1,1.0,6319.5,:phosphorus,SAC
+O3,Ozone,2,1,1.446,133.3816,:alanine aminotransferase (alt/sgpt),SUB
+O3,Ozone,3,0,0.0,0.0,:harderian gland,SUB
+O3,Ozone,4,0,0.443,3130.9025,:ovary,SUB
+O3,Ozone,1,0,0.0,0.0,:nipple development,MGR
+O3,Ozone,1,0,0.0,0.0,:other,DEV
+O3,Ozone,2,0,0.0,0.0,:appearance and color,SUB
+O3,Ozone,4,0,0.0,0.0,:vagina,SUB
+O3,Ozone,1,0,0.0,0.0,:cervix,MGR
+O3,Ozone,4,0,0.0,0.0,:spinal cord,SUB
+O3,Ozone,3,0,0.0,0.0,:skeletal muscle,SUB
+O3,Ozone,3,0,0.219,8.323800000000002,:nose,SUB
+O3,Ozone,4,1,1.325,533.1741999999999,:intestine small,SUB
+O3,Ozone,3,1,1.251,4705.24075,:protein,SUB
+O3,Ozone,3,0,0.67,368.0072,:lymph node,SUB
+O3,Ozone,1,0,0.0,0.0,:coagulating gland,MGR
+O3,Ozone,2,0,0.0,0.0,:all gross anomalies,MGR
+O3,Ozone,1,1,0.5,64.5,:mating,MGR
+O3,Ozone,3,0,0.0,0.0,:occult blood,SUB
+O3,Ozone,5,5,4.848,10541.451000000001,:mean corpuscular (cell) volume (mcv),SUB
+O3,Ozone,2,1,0.734,937.685,:platelet,SUB
+O3,Ozone,4,0,0.181,704.1080999999999,:epididymis,SUB
+O3,Ozone,3,0,0.0,0.0,:larynx,SUB
+O3,Ozone,1,0,0.0,0.0,:parathyroid,SUB
+O3,Ozone,2,0,0.0,0.0,:sex ratio,MGR
+O3,Ozone,3,3,3.0,2644.55,:water consumption,SUB
+O3,Ozone,1,1,1.0,1760.0,":lipids, total",DEV
+C10H16O2,3-Isopropenyl-6-oxo-heptanal,1,0,0.222,456.987,:mean corpuscular hemoglobin (mch),SUB
+C10H16O2,3-Isopropenyl-6-oxo-heptanal,5,0,0.45399999999999996,6005.602208333334,:testes,SUB
+C10H16O2,3-Isopropenyl-6-oxo-heptanal,4,1,1.3579999999999999,1387.5701428571429,:lung,SUB
+C10H16O2,3-Isopropenyl-6-oxo-heptanal,1,0,0.0,0.0,:preputial separation,MGR
+C10H16O2,3-Isopropenyl-6-oxo-heptanal,4,0,0.095,13.3,:seminal vesicle,SUB
+C10H16O2,3-Isopropenyl-6-oxo-heptanal,2,2,1.595,4378.692142857142,:hematocrit (hct),SUB
+C10H16O2,3-Isopropenyl-6-oxo-heptanal,3,0,0.0,0.0,:thyroid gland,SUB
+C10H16O2,3-Isopropenyl-6-oxo-heptanal,1,0,0.094,235.67142857142855,:trunk,DEV
+C10H16O2,3-Isopropenyl-6-oxo-heptanal,3,0,0.0,0.0,:clitoral gland,SUB
+C10H16O2,3-Isopropenyl-6-oxo-heptanal,3,0,0.0,0.0,:offspring survival early other,REP
+C10H16O2,3-Isopropenyl-6-oxo-heptanal,3,1,1.0,1928.5714285714284,:ear,SUB
+C10H16O2,3-Isopropenyl-6-oxo-heptanal,3,1,1.085,5637.142857142857,:dead fetuses,REP
+C10H16O2,3-Isopropenyl-6-oxo-heptanal,1,0,0.0,0.0,:mean corpuscular hemoglobin concentration (mchc),SUB
+C10H16O2,3-Isopropenyl-6-oxo-heptanal,3,0,0.0,0.0,:parathyroid gland,SUB
+C10H16O2,3-Isopropenyl-6-oxo-heptanal,3,1,1.0,2812.5,:dystocia,REP
+C10H16O2,3-Isopropenyl-6-oxo-heptanal,1,1,1.0,2648.5714285714284,:limb,DEV
+C10H16O2,3-Isopropenyl-6-oxo-heptanal,6,6,5.528,47597.57411190476,:body weight,SUB
+C10H16O2,3-Isopropenyl-6-oxo-heptanal,2,0,0.42799999999999994,1923.9299999999998,:bone marrow,SUB
+C10H16O2,3-Isopropenyl-6-oxo-heptanal,3,0,0.221,1482.1031746031745,:resorptions,REP
+C10H16O2,3-Isopropenyl-6-oxo-heptanal,1,1,1.0,642.8571428571429,:mouth / jaw,DEV
+C10H16O2,3-Isopropenyl-6-oxo-heptanal,1,0,0.222,665.9999999999999,:reticulocyte,SUB
+C10H16O2,3-Isopropenyl-6-oxo-heptanal,5,2,2.15,17762.175880952378,:kidney,SUB
+C10H16O2,3-Isopropenyl-6-oxo-heptanal,4,1,1.0,2648.5714285714284,:gallbladder,SUB
+C10H16O2,3-Isopropenyl-6-oxo-heptanal,1,0,0.0,0.0,:lactation index,MGR
+C10H16O2,3-Isopropenyl-6-oxo-heptanal,3,0,0.201,1615.1785714285716,:implantations,REP
+C10H16O2,3-Isopropenyl-6-oxo-heptanal,2,0,0.0,0.0,:precoital interval,REP
+C10H16O2,3-Isopropenyl-6-oxo-heptanal,2,0,0.338,6.419102857142858,:volume,SUB
+C10H16O2,3-Isopropenyl-6-oxo-heptanal,1,1,1.0,5625.0,:eye opening,REP
+C10H16O2,3-Isopropenyl-6-oxo-heptanal,1,0,0.0,0.0,:urea nitrogen,SUB
+C10H16O2,3-Isopropenyl-6-oxo-heptanal,3,0,0.0,0.0,:pancreas,SUB
+C10H16O2,3-Isopropenyl-6-oxo-heptanal,1,0,0.0,0.0,:viability index,MGR
+C10H16O2,3-Isopropenyl-6-oxo-heptanal,3,2,1.62,17798.001571428573,:leukocyte (wbc) count differential,SUB
+C10H16O2,3-Isopropenyl-6-oxo-heptanal,1,1,1.0,3542.8571428571427,:uric acid,SUB
+C10H16O2,3-Isopropenyl-6-oxo-heptanal,1,1,1.0,8183.333333333333,:paw / digit,DEV
+C10H16O2,3-Isopropenyl-6-oxo-heptanal,5,1,1.51,7387.030785714285,:spleen,SUB
+C10H16O2,3-Isopropenyl-6-oxo-heptanal,3,0,0.0,0.0,:aborted,REP
+C10H16O2,3-Isopropenyl-6-oxo-heptanal,3,0,0.0,0.0,:litter size,REP
+C10H16O2,3-Isopropenyl-6-oxo-heptanal,2,0,0.0,0.0,:pharynx,SUB
+C10H16O2,3-Isopropenyl-6-oxo-heptanal,4,0,0.188,414.4057142857143,:prostate,SUB
+C10H16O2,3-Isopropenyl-6-oxo-heptanal,6,2,2.8299999999999996,29971.975470238096,:food consumption,SUB
+C10H16O2,3-Isopropenyl-6-oxo-heptanal,2,1,1.0,5625.0,:fertility,REP
+C10H16O2,3-Isopropenyl-6-oxo-heptanal,1,1,1.0,140.0,:cholinesterase,SUB
+C10H16O2,3-Isopropenyl-6-oxo-heptanal,6,0,0.754,5767.500714285716,:uterus,SUB
+C10H16O2,3-Isopropenyl-6-oxo-heptanal,3,0,0.385,2072.8924285714284,:full gross necropsy,SUB
+C10H16O2,3-Isopropenyl-6-oxo-heptanal,1,0,0.0,0.0,:bile acids,SUB
+C10H16O2,3-Isopropenyl-6-oxo-heptanal,3,0,0.127,182.03333333333333,:pregnancy,REP
+C10H16O2,3-Isopropenyl-6-oxo-heptanal,2,1,1.0,2161.848571428571,:specific gravity/osmolality,SUB
+C10H16O2,3-Isopropenyl-6-oxo-heptanal,1,0,0.366,804.651,:alkaline phosphatase (alp/alk),SUB
+C10H16O2,3-Isopropenyl-6-oxo-heptanal,2,0,0.0,0.0,:reproductive performance other,MGR
+C10H16O2,3-Isopropenyl-6-oxo-heptanal,6,2,3.0749999999999997,62243.72949801588,:mortality,SUB
+C10H16O2,3-Isopropenyl-6-oxo-heptanal,2,2,2.0,6770.392857142857,:general,REP
+C10H16O2,3-Isopropenyl-6-oxo-heptanal,1,1,1.0,1785.7142857142856,:ureter,DEV
+C10H16O2,3-Isopropenyl-6-oxo-heptanal,3,2,2.0,285.1428571428571,:[other],SUB
+C10H16O2,3-Isopropenyl-6-oxo-heptanal,3,0,0.345,2039.5523809523806,:postimplantation loss,REP
+C10H16O2,3-Isopropenyl-6-oxo-heptanal,3,0,0.0,0.0,:esophagus,SUB
+C10H16O2,3-Isopropenyl-6-oxo-heptanal,1,1,1.0,1983.5714285714282,:aspartate aminotransferase (ast/sgot),SUB
+C10H16O2,3-Isopropenyl-6-oxo-heptanal,4,0,0.0,0.0,:preputial gland,SUB
+C10H16O2,3-Isopropenyl-6-oxo-heptanal,1,0,0.0,0.0,:creatinine,SUB
+C10H16O2,3-Isopropenyl-6-oxo-heptanal,1,0,0.0,0.0,:vaginal opening,MGR
+C10H16O2,3-Isopropenyl-6-oxo-heptanal,3,0,0.0,0.0,:intestine large,SUB
+C10H16O2,3-Isopropenyl-6-oxo-heptanal,5,4,3.258,25559.49016031746,:liver,SUB
+C10H16O2,3-Isopropenyl-6-oxo-heptanal,3,2,1.683,7107.6668,:erythrocyte (rbc) count differential,SUB
+C10H16O2,3-Isopropenyl-6-oxo-heptanal,1,0,0.299,1264.2716666666665,:cholesterol,SUB
+C10H16O2,3-Isopropenyl-6-oxo-heptanal,2,0,0.0,0.0,:birth index,MGR
+C10H16O2,3-Isopropenyl-6-oxo-heptanal,2,1,1.0,1928.5714285714284,:estrous cycle,MGR
+C10H16O2,3-Isopropenyl-6-oxo-heptanal,4,1,1.28,1126.5,:eye,SUB
+C10H16O2,3-Isopropenyl-6-oxo-heptanal,4,1,1.7790000000000001,22379.117827380953,:stomach,SUB
+C10H16O2,3-Isopropenyl-6-oxo-heptanal,4,0,0.0,0.0,:pituitary gland,SUB
+C10H16O2,3-Isopropenyl-6-oxo-heptanal,1,0,0.299,1482.8406666666665,:triglycerides,SUB
+C10H16O2,3-Isopropenyl-6-oxo-heptanal,1,0,0.0,0.0,:oviduct,MGR
+C10H16O2,3-Isopropenyl-6-oxo-heptanal,2,1,1.2429999999999999,2017.2857142857142,:albumin,SUB
+C10H16O2,3-Isopropenyl-6-oxo-heptanal,1,1,1.0,642.8571428571429,:great vessels,DEV
+C10H16O2,3-Isopropenyl-6-oxo-heptanal,4,0,0.326,3963.95625,:thymus,SUB
+C10H16O2,3-Isopropenyl-6-oxo-heptanal,2,0,0.0,0.0,:ph,SUB
+C10H16O2,3-Isopropenyl-6-oxo-heptanal,3,0,0.0,0.0,:skin,SUB
+C10H16O2,3-Isopropenyl-6-oxo-heptanal,2,0,0.312,50.36571428571428,:glucose,SUB
+C10H16O2,3-Isopropenyl-6-oxo-heptanal,1,0,0.0,0.0,:sorbitol dehydrogenase,SUB
+C10H16O2,3-Isopropenyl-6-oxo-heptanal,1,0,0.0,0.0,:creatine phosphokinase,SUB
+C10H16O2,3-Isopropenyl-6-oxo-heptanal,2,0,0.0,0.0,:gestational length,REP
+C10H16O2,3-Isopropenyl-6-oxo-heptanal,2,0,0.323,1424.0999503968255,:live fetuses,MGR
+C10H16O2,3-Isopropenyl-6-oxo-heptanal,3,0,0.0,0.0,:tongue,SUB
+C10H16O2,3-Isopropenyl-6-oxo-heptanal,3,0,0.0,0.0,:mammary gland,SUB
+C10H16O2,3-Isopropenyl-6-oxo-heptanal,3,1,1.085,3358.9285714285716,:litter viability other,REP
+C10H16O2,3-Isopropenyl-6-oxo-heptanal,1,1,1.0,479.57142857142856,:potassium,SUB
+C10H16O2,3-Isopropenyl-6-oxo-heptanal,3,0,0.232,394.30091428571427,:urinary bladder,SUB
+C10H16O2,3-Isopropenyl-6-oxo-heptanal,4,1,1.046,20782.59966666667,:bone,SUB
+C10H16O2,3-Isopropenyl-6-oxo-heptanal,3,0,0.0,0.0,:gestation index,REP
+C10H16O2,3-Isopropenyl-6-oxo-heptanal,3,0,0.0,0.0,:corpora lutea,REP
+C10H16O2,3-Isopropenyl-6-oxo-heptanal,1,1,1.0,22736.25,:lymphocyte,SUB
+C10H16O2,3-Isopropenyl-6-oxo-heptanal,3,1,1.0,734.375,:pregnancy index,REP
+C10H16O2,3-Isopropenyl-6-oxo-heptanal,3,0,0.0,0.0,:premature delivery,REP
+C10H16O2,3-Isopropenyl-6-oxo-heptanal,4,1,1.2209999999999999,856.6642857142856,:heart,SUB
+C10H16O2,3-Isopropenyl-6-oxo-heptanal,1,1,1.0,6333.333333333334,:globulins,SUB
+C10H16O2,3-Isopropenyl-6-oxo-heptanal,5,1,1.095,3375.2047619047617,:brain,SUB
+C10H16O2,3-Isopropenyl-6-oxo-heptanal,3,0,0.095,0.665,:nerve,SUB
+C10H16O2,3-Isopropenyl-6-oxo-heptanal,3,0,0.0,0.0,:preimplantation loss,REP
+C10H16O2,3-Isopropenyl-6-oxo-heptanal,2,2,1.63,6216.215142857143,:hemoglobin (hgb),SUB
+C10H16O2,3-Isopropenyl-6-oxo-heptanal,1,1,1.0,140.0,:sperm measure,MGR
+C10H16O2,3-Isopropenyl-6-oxo-heptanal,3,0,0.0,0.0,:trachea,SUB
+C10H16O2,3-Isopropenyl-6-oxo-heptanal,6,1,1.198,10167.679281746032,:clinical signs,SUB
+C10H16O2,3-Isopropenyl-6-oxo-heptanal,4,0,0.43099999999999994,1283.5266714285713,:adrenal gland,SUB
+C10H16O2,3-Isopropenyl-6-oxo-heptanal,3,0,0.0,0.0,:salivary glands,SUB
+C10H16O2,3-Isopropenyl-6-oxo-heptanal,1,1,1.0,5625.0,:pinna unfolding,REP
+C10H16O2,3-Isopropenyl-6-oxo-heptanal,3,0,0.362,1018.125,:harderian gland,SUB
+C10H16O2,3-Isopropenyl-6-oxo-heptanal,5,0,0.113,2569.19625,:ovary,SUB
+C10H16O2,3-Isopropenyl-6-oxo-heptanal,1,0,0.299,3897.099555555555,:alanine aminotransferase (alt/sgpt),SUB
+C10H16O2,3-Isopropenyl-6-oxo-heptanal,1,0,0.0,0.0,:nipple development,MGR
+C10H16O2,3-Isopropenyl-6-oxo-heptanal,1,0,0.0,0.0,:other,DEV
+C10H16O2,3-Isopropenyl-6-oxo-heptanal,2,0,0.0,0.0,:appearance and color,SUB
+C10H16O2,3-Isopropenyl-6-oxo-heptanal,5,1,1.0,357.1428571428571,:vagina,SUB
+C10H16O2,3-Isopropenyl-6-oxo-heptanal,1,0,0.0,0.0,:cervix,MGR
+C10H16O2,3-Isopropenyl-6-oxo-heptanal,3,0,0.141,19.74,:spinal cord,SUB
+C10H16O2,3-Isopropenyl-6-oxo-heptanal,3,0,0.225,31.5,:skeletal muscle,SUB
+C10H16O2,3-Isopropenyl-6-oxo-heptanal,3,0,0.278,1113.75,:nose,SUB
+C10H16O2,3-Isopropenyl-6-oxo-heptanal,3,0,0.0,0.0,:intestine small,SUB
+C10H16O2,3-Isopropenyl-6-oxo-heptanal,2,0,0.642,2243.583971428572,:protein,SUB
+C10H16O2,3-Isopropenyl-6-oxo-heptanal,2,1,0.676,4287.031328571428,:lymph node,SUB
+C10H16O2,3-Isopropenyl-6-oxo-heptanal,1,0,0.0,0.0,:coagulating gland,MGR
+C10H16O2,3-Isopropenyl-6-oxo-heptanal,3,0,0.0,0.0,:all gross anomalies,REP
+C10H16O2,3-Isopropenyl-6-oxo-heptanal,2,0,0.0,0.0,:mating,REP
+C10H16O2,3-Isopropenyl-6-oxo-heptanal,2,0,0.0,0.0,:occult blood,SUB
+C10H16O2,3-Isopropenyl-6-oxo-heptanal,2,1,1.0,642.8571428571429,:mean corpuscular (cell) volume (mcv),SUB
+C10H16O2,3-Isopropenyl-6-oxo-heptanal,1,1,1.0,4972.541904761904,:bilirubin,SUB
+C10H16O2,3-Isopropenyl-6-oxo-heptanal,2,1,1.0,642.8571428571429,:platelet,SUB
+C10H16O2,3-Isopropenyl-6-oxo-heptanal,5,0,0.095,13.3,:epididymis,SUB
+C10H16O2,3-Isopropenyl-6-oxo-heptanal,3,0,0.0,0.0,:larynx,SUB
+C10H16O2,3-Isopropenyl-6-oxo-heptanal,1,1,1.0,305.5,:ketones,SUB
+C10H16O2,3-Isopropenyl-6-oxo-heptanal,1,0,0.0,0.0,:parathyroid,SUB
+C10H16O2,3-Isopropenyl-6-oxo-heptanal,3,0,0.0,0.0,:sex ratio,REP
+C10H16O2,3-Isopropenyl-6-oxo-heptanal,1,1,1.0,1433.3333333333333,:placenta,DEV
+C10H16O2,3-Isopropenyl-6-oxo-heptanal,2,2,2.0,3025.658095238095,:water consumption,SUB
+C8H14O,6-Methyl-5-hepten-2-one,1,0,0.236,105.02,:mean corpuscular hemoglobin (mch),SUB
+C8H14O,6-Methyl-5-hepten-2-one,3,0,0.505,4330.66857142857,:testes,SUB
+C8H14O,6-Methyl-5-hepten-2-one,3,1,1.2249999999999999,1376.5351085714283,:lung,SUB
+C8H14O,6-Methyl-5-hepten-2-one,1,1,1.0,2672.5,:polychromasia,SUB
+C8H14O,6-Methyl-5-hepten-2-one,2,0,0.0,0.0,:seminal vesicle,SUB
+C8H14O,6-Methyl-5-hepten-2-one,2,2,1.537,2004.0393758241755,:hematocrit (hct),SUB
+C8H14O,6-Methyl-5-hepten-2-one,2,0,0.0,0.0,:thyroid gland,SUB
+C8H14O,6-Methyl-5-hepten-2-one,1,0,0.101,202.5771428571429,:trunk,DEV
+C8H14O,6-Methyl-5-hepten-2-one,2,0,0.0,0.0,:clitoral gland,SUB
+C8H14O,6-Methyl-5-hepten-2-one,2,0,0.0,0.0,:offspring survival early other,REP
+C8H14O,6-Methyl-5-hepten-2-one,3,1,1.0,1542.857142857143,:ear,SUB
+C8H14O,6-Methyl-5-hepten-2-one,2,1,1.0,2384.6153846153843,:dead fetuses,REP
+C8H14O,6-Methyl-5-hepten-2-one,1,0,0.12,28.152,:mean corpuscular hemoglobin concentration (mchc),SUB
+C8H14O,6-Methyl-5-hepten-2-one,2,0,0.0,0.0,:parathyroid gland,SUB
+C8H14O,6-Methyl-5-hepten-2-one,2,1,1.0,1192.3076923076922,:dystocia,REP
+C8H14O,6-Methyl-5-hepten-2-one,1,1,1.0,2118.8571428571427,:limb,DEV
+C8H14O,6-Methyl-5-hepten-2-one,1,1,1.0,155.0,:methemoglobin,SUB
+C8H14O,6-Methyl-5-hepten-2-one,2,1,1.072,3906.978269230769,:bone marrow,SUB
+C8H14O,6-Methyl-5-hepten-2-one,4,4,3.855,36735.419985576926,:body weight,SUB
+C8H14O,6-Methyl-5-hepten-2-one,2,0,0.271,2170.580952380952,:resorptions,REP
+C8H14O,6-Methyl-5-hepten-2-one,1,1,1.0,514.2857142857142,:mouth / jaw,DEV
+C8H14O,6-Methyl-5-hepten-2-one,1,0,0.132,81.84,:reticulocyte,SUB
+C8H14O,6-Methyl-5-hepten-2-one,3,3,2.255,16156.35221978022,:kidney,SUB
+C8H14O,6-Methyl-5-hepten-2-one,3,1,1.0,2118.8571428571427,:gallbladder,SUB
+C8H14O,6-Methyl-5-hepten-2-one,2,0,0.318,1237.054945054945,:implantations,REP
+C8H14O,6-Methyl-5-hepten-2-one,1,0,0.0,0.0,:precoital interval,REP
+C8H14O,6-Methyl-5-hepten-2-one,2,0,0.0,0.0,:volume,SUB
+C8H14O,6-Methyl-5-hepten-2-one,1,1,1.0,2384.6153846153843,:eye opening,REP
+C8H14O,6-Methyl-5-hepten-2-one,1,0,0.12,28.152,:urea nitrogen,SUB
+C8H14O,6-Methyl-5-hepten-2-one,2,0,0.087,630.75,:pancreas,SUB
+C8H14O,6-Methyl-5-hepten-2-one,1,1,1.0,234.60000000000002,:calcium,SUB
+C8H14O,6-Methyl-5-hepten-2-one,2,2,1.601,8270.149214285713,:leukocyte (wbc) count differential,SUB
+C8H14O,6-Methyl-5-hepten-2-one,1,1,1.0,4711.538461538461,:paw / digit,DEV
+C8H14O,6-Methyl-5-hepten-2-one,3,1,1.821,3997.164366575091,:spleen,SUB
+C8H14O,6-Methyl-5-hepten-2-one,2,0,0.0,0.0,:aborted,REP
+C8H14O,6-Methyl-5-hepten-2-one,2,0,0.0,0.0,:litter size,REP
+C8H14O,6-Methyl-5-hepten-2-one,2,0,0.0,0.0,:pharynx,SUB
+C8H14O,6-Methyl-5-hepten-2-one,1,1,1.0,234.60000000000002,:albumin-globulin ratio,SUB
+C8H14O,6-Methyl-5-hepten-2-one,2,0,0.0,0.0,:prostate,SUB
+C8H14O,6-Methyl-5-hepten-2-one,4,2,1.4569999999999999,33140.83257142857,:food consumption,SUB
+C8H14O,6-Methyl-5-hepten-2-one,1,1,1.0,2384.6153846153843,:fertility,REP
+C8H14O,6-Methyl-5-hepten-2-one,4,0,0.9179999999999999,3835.1791679670328,:uterus,SUB
+C8H14O,6-Methyl-5-hepten-2-one,3,0,0.379,242.91392857142856,:full gross necropsy,SUB
+C8H14O,6-Methyl-5-hepten-2-one,1,0,0.132,163.68,:bile acids,SUB
+C8H14O,6-Methyl-5-hepten-2-one,2,0,0.084,155.4,:pregnancy,REP
+C8H14O,6-Methyl-5-hepten-2-one,1,0,0.0,0.0,:specific gravity/osmolality,CHR
+C8H14O,6-Methyl-5-hepten-2-one,1,0,0.132,20.46,:alkaline phosphatase (alp/alk),SUB
+C8H14O,6-Methyl-5-hepten-2-one,1,0,0.0,0.0,:reproductive performance other,DEV
+C8H14O,6-Methyl-5-hepten-2-one,4,3,2.71,25452.424938663004,:mortality,SUB
+C8H14O,6-Methyl-5-hepten-2-one,2,2,2.0,3755.0505494505496,:general,REP
+C8H14O,6-Methyl-5-hepten-2-one,1,1,1.0,2537.5,:[other],SUB
+C8H14O,6-Methyl-5-hepten-2-one,2,0,0.367,2376.027904761904,:postimplantation loss,REP
+C8H14O,6-Methyl-5-hepten-2-one,2,0,0.0,0.0,:esophagus,SUB
+C8H14O,6-Methyl-5-hepten-2-one,3,0,0.0,0.0,:preputial gland,SUB
+C8H14O,6-Methyl-5-hepten-2-one,1,0,0.12,28.152,:creatinine,SUB
+C8H14O,6-Methyl-5-hepten-2-one,2,0,0.0,0.0,:intestine large,SUB
+C8H14O,6-Methyl-5-hepten-2-one,3,3,2.309,21004.20414675824,:liver,SUB
+C8H14O,6-Methyl-5-hepten-2-one,2,2,1.603,3898.6927912087913,:erythrocyte (rbc) count differential,SUB
+C8H14O,6-Methyl-5-hepten-2-one,1,0,0.117,638.5275,:cholesterol,SUB
+C8H14O,6-Methyl-5-hepten-2-one,1,0,0.0,0.0,:birth index,DEV
+C8H14O,6-Methyl-5-hepten-2-one,2,2,2.0,2490.357142857143,:estrous cycle,SUB
+C8H14O,6-Methyl-5-hepten-2-one,3,1,1.146,222.17142857142858,:eye,SUB
+C8H14O,6-Methyl-5-hepten-2-one,4,4,3.154,22944.912619999996,:stomach,SUB
+C8H14O,6-Methyl-5-hepten-2-one,2,0,0.0,0.0,:pituitary gland,SUB
+C8H14O,6-Methyl-5-hepten-2-one,1,0,0.117,748.917,:triglycerides,SUB
+C8H14O,6-Methyl-5-hepten-2-one,1,0,0.257,1321.8366666666666,:albumin,SUB
+C8H14O,6-Methyl-5-hepten-2-one,1,1,1.0,514.2857142857142,:great vessels,DEV
+C8H14O,6-Methyl-5-hepten-2-one,2,1,0.608,10213.993553113552,:thymus,SUB
+C8H14O,6-Methyl-5-hepten-2-one,2,0,0.0,0.0,:ph,SUB
+C8H14O,6-Methyl-5-hepten-2-one,2,0,0.138,0.21677500000000002,:skin,SUB
+C8H14O,6-Methyl-5-hepten-2-one,2,0,0.12,16.2,:glucose,SUB
+C8H14O,6-Methyl-5-hepten-2-one,1,1,1.0,135.0,:anisocytosis,SUB
+C8H14O,6-Methyl-5-hepten-2-one,1,0,0.0,0.0,:sorbitol dehydrogenase,SUB
+C8H14O,6-Methyl-5-hepten-2-one,1,1,1.0,135.0,:hypochromia,SUB
+C8H14O,6-Methyl-5-hepten-2-one,1,0,0.0,0.0,:creatine phosphokinase,SUB
+C8H14O,6-Methyl-5-hepten-2-one,1,0,0.0,0.0,:gestational length,REP
+C8H14O,6-Methyl-5-hepten-2-one,1,0,0.497,2334.7166666666662,:live fetuses,DEV
+C8H14O,6-Methyl-5-hepten-2-one,2,0,0.0,0.0,:tongue,SUB
+C8H14O,6-Methyl-5-hepten-2-one,2,0,0.138,0.21677500000000002,:mammary gland,SUB
+C8H14O,6-Methyl-5-hepten-2-one,2,1,1.0,1192.3076923076922,:litter viability other,REP
+C8H14O,6-Methyl-5-hepten-2-one,1,1,1.0,135.0,:potassium,SUB
+C8H14O,6-Methyl-5-hepten-2-one,3,1,1.068,659.6666666666666,:urinary bladder,SUB
+C8H14O,6-Methyl-5-hepten-2-one,3,1,1.42,10014.877604395602,:bone,SUB
+C8H14O,6-Methyl-5-hepten-2-one,2,0,0.0,0.0,:gestation index,REP
+C8H14O,6-Methyl-5-hepten-2-one,2,0,0.0,0.0,:corpora lutea,REP
+C8H14O,6-Methyl-5-hepten-2-one,1,1,1.0,8898.880952380952,:lymphocyte,SUB
+C8H14O,6-Methyl-5-hepten-2-one,2,1,1.0,285.7142857142857,:pregnancy index,REP
+C8H14O,6-Methyl-5-hepten-2-one,2,0,0.0,0.0,:premature delivery,REP
+C8H14O,6-Methyl-5-hepten-2-one,3,1,1.293,741.5607035714286,:heart,SUB
+C8H14O,6-Methyl-5-hepten-2-one,1,1,1.0,5067.933333333333,:globulins,SUB
+C8H14O,6-Methyl-5-hepten-2-one,3,1,1.0,3392.857142857143,:brain,SUB
+C8H14O,6-Methyl-5-hepten-2-one,2,0,0.0,0.0,:nerve,SUB
+C8H14O,6-Methyl-5-hepten-2-one,2,0,0.0,0.0,:preimplantation loss,REP
+C8H14O,6-Methyl-5-hepten-2-one,2,2,1.603,3898.6927912087913,:hemoglobin (hgb),SUB
+C8H14O,6-Methyl-5-hepten-2-one,1,1,1.0,79.75,:sperm measure,SUB
+C8H14O,6-Methyl-5-hepten-2-one,3,1,1.0,450.0,:trachea,SUB
+C8H14O,6-Methyl-5-hepten-2-one,4,2,1.538,18655.754377289377,:clinical signs,SUB
+C8H14O,6-Methyl-5-hepten-2-one,3,1,1.48,2396.2373333333335,:adrenal gland,SUB
+C8H14O,6-Methyl-5-hepten-2-one,2,0,0.0,0.0,:salivary glands,SUB
+C8H14O,6-Methyl-5-hepten-2-one,1,1,1.0,2384.6153846153843,:pinna unfolding,REP
+C8H14O,6-Methyl-5-hepten-2-one,1,1,1.0,135.0,:phosphorus,SUB
+C8H14O,6-Methyl-5-hepten-2-one,2,0,0.503,407.7964666025641,:harderian gland,SUB
+C8H14O,6-Methyl-5-hepten-2-one,3,0,0.41000000000000003,3057.011060714286,:ovary,SUB
+C8H14O,6-Methyl-5-hepten-2-one,1,0,0.233,3955.7963333333328,:alanine aminotransferase (alt/sgpt),SUB
+C8H14O,6-Methyl-5-hepten-2-one,1,0,0.0,0.0,:other,DEV
+C8H14O,6-Methyl-5-hepten-2-one,1,0,0.0,0.0,:appearance and color,CHR
+C8H14O,6-Methyl-5-hepten-2-one,3,1,1.0,300.0,:vagina,SUB
+C8H14O,6-Methyl-5-hepten-2-one,3,0,0.0,0.0,:spinal cord,SUB
+C8H14O,6-Methyl-5-hepten-2-one,2,0,0.0,0.0,:skeletal muscle,SUB
+C8H14O,6-Methyl-5-hepten-2-one,2,0,0.525,956.051923076923,:nose,SUB
+C8H14O,6-Methyl-5-hepten-2-one,2,0,0.09,672.0,:intestine small,SUB
+C8H14O,6-Methyl-5-hepten-2-one,2,0,0.335,1801.6076666666668,:protein,SUB
+C8H14O,6-Methyl-5-hepten-2-one,2,1,1.067,3601.7938461538456,:lymph node,SUB
+C8H14O,6-Methyl-5-hepten-2-one,1,1,1.0,2537.5,:jolly bodies,SUB
+C8H14O,6-Methyl-5-hepten-2-one,1,1,1.0,135.0,:macrocytosis,SUB
+C8H14O,6-Methyl-5-hepten-2-one,2,0,0.0,0.0,:all gross anomalies,REP
+C8H14O,6-Methyl-5-hepten-2-one,1,0,0.0,0.0,:mating,REP
+C8H14O,6-Methyl-5-hepten-2-one,2,0,0.0,0.0,:occult blood,SUB
+C8H14O,6-Methyl-5-hepten-2-one,1,1,1.0,135.0,:chloride,SUB
+C8H14O,6-Methyl-5-hepten-2-one,2,1,1.236,619.3057142857142,:mean corpuscular (cell) volume (mcv),SUB
+C8H14O,6-Methyl-5-hepten-2-one,1,1,1.0,6401.0,:bilirubin,SUB
+C8H14O,6-Methyl-5-hepten-2-one,2,1,1.0,514.2857142857142,:platelet,SUB
+C8H14O,6-Methyl-5-hepten-2-one,3,0,0.0,0.0,:epididymis,SUB
+C8H14O,6-Methyl-5-hepten-2-one,2,0,0.0,0.0,:larynx,SUB
+C8H14O,6-Methyl-5-hepten-2-one,1,1,1.0,281.66666666666663,:ketones,SUB
+C8H14O,6-Methyl-5-hepten-2-one,2,0,0.0,0.0,:sex ratio,REP
+C8H14O,6-Methyl-5-hepten-2-one,1,1,1.0,1850.0,:placenta,DEV
+C8H14O,6-Methyl-5-hepten-2-one,2,2,2.0,6237.5,:water consumption,SUB
+CH3CHO,Acetaldehyde,1,1,0.523,197.4325,:mean corpuscular hemoglobin (mch),SUB
+CH3CHO,Acetaldehyde,1,1,1.0,698.25,:thyroxine (t4),CHR
+CH3CHO,Acetaldehyde,5,2,1.96,18686.639799999997,:testes,SUB
+CH3CHO,Acetaldehyde,1,1,1.0,1359.2,:gamma glutamyl transpeptides (gtp),SUB
+CH3CHO,Acetaldehyde,4,2,2.178,4139.835321979999,:lung,SUB
+CH3CHO,Acetaldehyde,1,0,0.0,0.0,:preputial separation,MGR
+CH3CHO,Acetaldehyde,4,0,0.0,0.0,:seminal vesicle,SUB
+CH3CHO,Acetaldehyde,2,2,1.576,778.6032,:hematocrit (hct),SUB
+CH3CHO,Acetaldehyde,4,1,1.3970000000000002,1859.13562,:thyroid gland,SUB
+CH3CHO,Acetaldehyde,1,0,0.222,274.725,:trunk,DEV
+CH3CHO,Acetaldehyde,3,0,0.0,0.0,:clitoral gland,SUB
+CH3CHO,Acetaldehyde,3,0,0.0,0.0,:offspring survival early other,REP
+CH3CHO,Acetaldehyde,3,0,0.0,0.0,:ear,SUB
+CH3CHO,Acetaldehyde,2,1,1.44,1325.6480000000001,:mean corpuscular hemoglobin concentration (mchc),SUB
+CH3CHO,Acetaldehyde,3,1,1.0,130.0,:dead fetuses,REP
+CH3CHO,Acetaldehyde,3,0,0.055,11.22,:parathyroid gland,SUB
+CH3CHO,Acetaldehyde,3,0,0.0,0.0,:dystocia,REP
+CH3CHO,Acetaldehyde,1,1,1.0,1237.5,:limb,DEV
+CH3CHO,Acetaldehyde,2,2,2.0,325.0,:nucleated red blood cell (nrbc),SUB
+CH3CHO,Acetaldehyde,1,1,1.0,398.95833333333337,:neutrophils,SUB
+CH3CHO,Acetaldehyde,6,5,4.373,43143.329983333344,:body weight,SUB
+CH3CHO,Acetaldehyde,3,1,0.6,2404.7994999999996,:bone marrow,SUB
+CH3CHO,Acetaldehyde,3,0,0.44,612.1133333333333,:resorptions,REP
+CH3CHO,Acetaldehyde,1,1,0.576,425.77919999999995,:reticulocyte,SUB
+CH3CHO,Acetaldehyde,4,2,1.7960000000000003,19977.337923333333,:kidney,SUB
+CH3CHO,Acetaldehyde,4,1,1.0,1100.0,:gallbladder,SUB
+CH3CHO,Acetaldehyde,1,0,0.114,14.706000000000001,:lactation index,MGR
+CH3CHO,Acetaldehyde,3,0,0.0,0.0,:implantations,REP
+CH3CHO,Acetaldehyde,2,0,0.0,0.0,:precoital interval,REP
+CH3CHO,Acetaldehyde,2,1,1.329,1146.55595,:volume,SUB
+CH3CHO,Acetaldehyde,1,1,1.0,698.25,:triiodothyronine (t3),CHR
+CH3CHO,Acetaldehyde,1,0,0.487,1085.5717,:urea nitrogen,SUB
+CH3CHO,Acetaldehyde,3,0,0.37,583.6466666666668,:pancreas,SUB
+CH3CHO,Acetaldehyde,1,0,0.0,0.0,:viability index,MGR
+CH3CHO,Acetaldehyde,1,1,1.0,698.25,:calcium,CHR
+CH3CHO,Acetaldehyde,1,1,1.0,698.25,:peritoneum,CHR
+CH3CHO,Acetaldehyde,1,1,1.0,137.5,:lipids,SUB
+CH3CHO,Acetaldehyde,1,1,1.0,30.0,:glutamate dehydrogenase,CHR
+CH3CHO,Acetaldehyde,2,1,0.74,20345.066666666666,:leukocyte (wbc) count differential,SUB
+CH3CHO,Acetaldehyde,5,1,1.8329999999999997,3271.9618333333333,:spleen,SUB
+CH3CHO,Acetaldehyde,3,0,0.284,144.83999999999997,:aborted,REP
+CH3CHO,Acetaldehyde,3,1,1.019,3071.0913499999997,:litter size,REP
+CH3CHO,Acetaldehyde,3,0,0.0,0.0,:pharynx,SUB
+CH3CHO,Acetaldehyde,1,0,0.0,0.0,:lacrimal gland,SUB
+CH3CHO,Acetaldehyde,4,1,0.594,832.7434499999999,:prostate,SUB
+CH3CHO,Acetaldehyde,6,3,3.2899999999999996,25464.263166666668,:food consumption,SUB
+CH3CHO,Acetaldehyde,2,1,0.83,3183.548,:fertility,REP
+CH3CHO,Acetaldehyde,6,0,0.513,391.2282000000001,:uterus,SUB
+CH3CHO,Acetaldehyde,5,1,1.1280000000000001,313.956,:full gross necropsy,SUB
+CH3CHO,Acetaldehyde,1,0,0.273,897.897,:bile acids,SUB
+CH3CHO,Acetaldehyde,3,0,0.284,161.88,:pregnancy,REP
+CH3CHO,Acetaldehyde,2,1,1.198,1038.2064,:specific gravity/osmolality,SUB
+CH3CHO,Acetaldehyde,1,0,0.423,2783.5515,:alkaline phosphatase (alp/alk),SUB
+CH3CHO,Acetaldehyde,2,0,0.284,166.14,:reproductive performance other,MGR
+CH3CHO,Acetaldehyde,6,3,2.3529999999999998,16980.023453533337,:mortality,SUB
+CH3CHO,Acetaldehyde,1,1,1.0,0.5,:dopamine,SAC
+CH3CHO,Acetaldehyde,1,1,1.0,2422.5,:general,DEV
+CH3CHO,Acetaldehyde,3,2,2.114,1785.706,:[other],SUB
+CH3CHO,Acetaldehyde,3,0,0.218,76.66333333333333,:postimplantation loss,REP
+CH3CHO,Acetaldehyde,3,0,0.0,0.0,:esophagus,SUB
+CH3CHO,Acetaldehyde,2,2,2.0,2489.2,:aspartate aminotransferase (ast/sgot),SUB
+CH3CHO,Acetaldehyde,1,1,1.0,5.0,:penis,SUB
+CH3CHO,Acetaldehyde,4,0,0.0,0.0,:preputial gland,SUB
+CH3CHO,Acetaldehyde,1,0,0.147,38.1024,:creatinine,SUB
+CH3CHO,Acetaldehyde,1,0,0.0,0.0,:vaginal opening,MGR
+CH3CHO,Acetaldehyde,4,1,1.594,510.5769666666667,:intestine large,SUB
+CH3CHO,Acetaldehyde,1,1,1.0,2200.0,:lactic acid dehydrogenase (ldh),SUB
+CH3CHO,Acetaldehyde,6,4,4.443,23976.55076087333,:liver,SUB
+CH3CHO,Acetaldehyde,2,1,0.8839999999999999,3780.0384,:erythrocyte (rbc) count differential,SUB
+CH3CHO,Acetaldehyde,1,1,1.0,240.0,:eosinophils,SUB
+CH3CHO,Acetaldehyde,2,1,1.354,838.6818000000001,:cholesterol,SUB
+CH3CHO,Acetaldehyde,3,3,2.777,4622.779,:estrous cycle,SUB
+CH3CHO,Acetaldehyde,2,0,0.0,0.0,:birth index,MGR
+CH3CHO,Acetaldehyde,4,1,1.188,925.7333333333333,:eye,SUB
+CH3CHO,Acetaldehyde,5,2,2.9939999999999998,7648.678966666667,:stomach,SUB
+CH3CHO,Acetaldehyde,4,0,0.083,9.628,:pituitary gland,SUB
+CH3CHO,Acetaldehyde,1,0,0.273,150.15,:triglycerides,SUB
+CH3CHO,Acetaldehyde,1,0,0.0,0.0,:oviduct,MGR
+CH3CHO,Acetaldehyde,2,2,1.737,2812.6866666666665,:albumin,SUB
+CH3CHO,Acetaldehyde,4,0,0.456,5951.028000000001,:thymus,SUB
+CH3CHO,Acetaldehyde,2,0,0.316,120.54360000000001,:ph,SUB
+CH3CHO,Acetaldehyde,3,0,0.103,25.75,:skin,SUB
+CH3CHO,Acetaldehyde,2,0,0.0,0.0,:glucose,SUB
+CH3CHO,Acetaldehyde,2,1,1.2730000000000001,723.9485,:sorbitol dehydrogenase,SUB
+CH3CHO,Acetaldehyde,1,0,0.354,2420.3688,:creatine phosphokinase,SUB
+CH3CHO,Acetaldehyde,2,2,2.0,483.33333333333337,:monocytes,SUB
+CH3CHO,Acetaldehyde,2,0,0.284,161.88,:gestational length,REP
+CH3CHO,Acetaldehyde,2,0,0.087,76.125,:live fetuses,MGR
+CH3CHO,Acetaldehyde,3,1,1.0,101.99999999999999,:tongue,SUB
+CH3CHO,Acetaldehyde,3,0,0.0,0.0,:mammary gland,SUB
+CH3CHO,Acetaldehyde,3,0,0.424,1090.2205999999999,:litter viability other,REP
+CH3CHO,Acetaldehyde,3,0,0.228,542.71482,:urinary bladder,SUB
+CH3CHO,Acetaldehyde,5,2,2.034,4046.277066666667,:bone,SUB
+CH3CHO,Acetaldehyde,3,0,0.0,0.0,:gestation index,REP
+CH3CHO,Acetaldehyde,3,0,0.0,0.0,:corpora lutea,REP
+CH3CHO,Acetaldehyde,1,1,1.0,27570.0,:lymphocyte,SUB
+CH3CHO,Acetaldehyde,3,1,1.0,875.0,:pregnancy index,REP
+CH3CHO,Acetaldehyde,3,0,0.0,0.0,:premature delivery,REP
+CH3CHO,Acetaldehyde,3,0,0.504,2206.9943,:heart,SUB
+CH3CHO,Acetaldehyde,2,2,2.0,162.71333333333334,:globulins,SUB
+CH3CHO,Acetaldehyde,4,0,0.545,3106.8358333333335,:brain,SUB
+CH3CHO,Acetaldehyde,3,0,0.0,0.0,:nerve,SUB
+CH3CHO,Acetaldehyde,3,0,0.0,0.0,:preimplantation loss,REP
+CH3CHO,Acetaldehyde,2,2,1.576,4743.4,:hemoglobin (hgb),SUB
+CH3CHO,Acetaldehyde,1,1,0.645,1819.8675,:sperm measure,MGR
+CH3CHO,Acetaldehyde,3,0,0.5630000000000001,89.877,:trachea,SUB
+CH3CHO,Acetaldehyde,6,2,2.789,18366.5945,:clinical signs,SUB
+CH3CHO,Acetaldehyde,1,1,1.0,577.5,:sodium,SUB
+CH3CHO,Acetaldehyde,4,0,0.5269999999999999,871.30475,:adrenal gland,SUB
+CH3CHO,Acetaldehyde,3,0,0.0,0.0,:salivary glands,SUB
+CH3CHO,Acetaldehyde,2,1,1.487,405.14674999999994,:alanine aminotransferase (alt/sgpt),SUB
+CH3CHO,Acetaldehyde,3,0,0.0,0.0,:harderian gland,SUB
+CH3CHO,Acetaldehyde,5,0,0.357,2051.694,:ovary,SUB
+CH3CHO,Acetaldehyde,1,0,0.0,0.0,:nipple development,MGR
+CH3CHO,Acetaldehyde,1,0,0.0,0.0,:other,DEV
+CH3CHO,Acetaldehyde,2,0,0.0,0.0,:appearance and color,SUB
+CH3CHO,Acetaldehyde,4,0,0.0,0.0,:vagina,SUB
+CH3CHO,Acetaldehyde,1,0,0.0,0.0,:cervix,MGR
+CH3CHO,Acetaldehyde,4,0,0.0,0.0,:spinal cord,SUB
+CH3CHO,Acetaldehyde,3,0,0.0,0.0,:skeletal muscle,SUB
+CH3CHO,Acetaldehyde,4,2,1.871,2689.0856875,:nose,SUB
+CH3CHO,Acetaldehyde,3,0,0.164,37.2685,:intestine small,SUB
+CH3CHO,Acetaldehyde,2,0,0.516,190.28164,:protein,SUB
+CH3CHO,Acetaldehyde,4,1,1.134,366.5666666666666,:lymph node,SUB
+CH3CHO,Acetaldehyde,1,0,0.0,0.0,:coagulating gland,MGR
+CH3CHO,Acetaldehyde,3,0,0.0,0.0,:all gross anomalies,REP
+CH3CHO,Acetaldehyde,2,0,0.424,2018.2399999999998,:mating,REP
+CH3CHO,Acetaldehyde,2,0,0.0,0.0,:occult blood,SUB
+CH3CHO,Acetaldehyde,2,2,1.576,11994.6192,:mean corpuscular (cell) volume (mcv),SUB
+CH3CHO,Acetaldehyde,1,1,1.0,1100.0,:bilirubin,SUB
+CH3CHO,Acetaldehyde,1,0,0.436,121.35333333333332,:platelet,SUB
+CH3CHO,Acetaldehyde,5,1,1.246,794.93465,:epididymis,SUB
+CH3CHO,Acetaldehyde,3,0,0.5850000000000001,38.8773,:larynx,SUB
+CH3CHO,Acetaldehyde,1,1,1.0,216.0,:diaphragm,DEV
+CH3CHO,Acetaldehyde,1,0,0.0,0.0,:parathyroid,SUB
+CH3CHO,Acetaldehyde,3,0,0.0,0.0,:sex ratio,REP
+CH3CHO,Acetaldehyde,1,1,1.0,258.5,:placenta,DEV
+CH3CHO,Acetaldehyde,5,5,5.0,2207.3333333333335,:water consumption,SUB
+C10H16,D-Limonene,1,0,0.264,880.0000000000001,:mean corpuscular hemoglobin (mch),SUB
+C10H16,D-Limonene,4,0,0.933,16295.191792857144,:testes,SUB
+C10H16,D-Limonene,1,1,1.0,6424.0,:gamma glutamyl transpeptides (gtp),SUB
+C10H16,D-Limonene,4,1,1.378,5894.569428571428,:lung,SUB
+C10H16,D-Limonene,1,0,0.0,0.0,:preputial separation,MGR
+C10H16,D-Limonene,4,0,0.25,1550.0159999999998,:seminal vesicle,SUB
+C10H16,D-Limonene,2,1,0.636,4990.268,:hematocrit (hct),SUB
+C10H16,D-Limonene,3,0,0.44699999999999995,902.2266095238095,:thyroid gland,SUB
+C10H16,D-Limonene,1,0,0.0,0.0,:trunk,DEV
+C10H16,D-Limonene,3,0,0.0,0.0,:clitoral gland,SUB
+C10H16,D-Limonene,2,0,0.0,0.0,:offspring survival early other,MGR
+C10H16,D-Limonene,2,0,0.0,0.0,:ear,SUB
+C10H16,D-Limonene,2,0,0.0,0.0,:dead fetuses,MGR
+C10H16,D-Limonene,1,0,0.0,0.0,:mean corpuscular hemoglobin concentration (mchc),SUB
+C10H16,D-Limonene,3,0,0.0,0.0,:parathyroid gland,SUB
+C10H16,D-Limonene,2,0,0.0,0.0,:dystocia,MGR
+C10H16,D-Limonene,1,1,1.0,7324.0,:neutrophils,SUB
+C10H16,D-Limonene,1,1,1.0,83.33333333333334,:luteinizing hormone (lh),CHR
+C10H16,D-Limonene,5,5,4.161,50509.20678438095,:body weight,SUB
+C10H16,D-Limonene,3,0,0.624,4976.054666666667,:bone marrow,SUB
+C10H16,D-Limonene,2,0,0.069,28.092857142857145,:resorptions,MGR
+C10H16,D-Limonene,1,1,1.0,1916.6666666666667,:blood,CHR
+C10H16,D-Limonene,1,0,0.293,32.9625,:reticulocyte,SUB
+C10H16,D-Limonene,4,4,2.851,23790.71161752381,:kidney,SUB
+C10H16,D-Limonene,3,0,0.0,0.0,:gallbladder,SUB
+C10H16,D-Limonene,1,0,0.177,1582.6614299999999,:lactation index,MGR
+C10H16,D-Limonene,2,0,0.074,112.05714285714285,:implantations,MGR
+C10H16,D-Limonene,1,0,0.0,0.0,:precoital interval,MGR
+C10H16,D-Limonene,2,0,0.528,5133.428571428572,:volume,SUB
+C10H16,D-Limonene,3,1,1.332,3751.5947523809527,:urea nitrogen,SUB
+C10H16,D-Limonene,3,0,0.484,2739.649066666667,:pancreas,SUB
+C10H16,D-Limonene,1,0,0.177,1582.6614299999999,:viability index,MGR
+C10H16,D-Limonene,2,2,2.0,44.44571428571429,:calcium,SUB
+C10H16,D-Limonene,1,1,1.0,25.92,:lipids,SUB
+C10H16,D-Limonene,1,1,1.0,83.33333333333334,:follicle stimulating hormone (fsh),CHR
+C10H16,D-Limonene,1,1,1.0,4928.0,:glutamate dehydrogenase,SUB
+C10H16,D-Limonene,3,2,1.712,4064.8386666666665,:leukocyte (wbc) count differential,SUB
+C10H16,D-Limonene,4,0,0.915,5883.995466666667,:spleen,SUB
+C10H16,D-Limonene,2,0,0.074,112.05714285714285,:aborted,MGR
+C10H16,D-Limonene,2,0,0.0,0.0,:litter size,MGR
+C10H16,D-Limonene,2,0,0.0,0.0,:pharynx,SUB
+C10H16,D-Limonene,2,2,2.0,1494.2285714285715,:albumin-globulin ratio,SUB
+C10H16,D-Limonene,4,0,0.25,1550.0159999999998,:prostate,SUB
+C10H16,D-Limonene,5,3,3.141,32863.049699761905,:food consumption,SUB
+C10H16,D-Limonene,1,0,0.0,0.0,:fertility,MGR
+C10H16,D-Limonene,5,0,0.535,1856.288,:uterus,SUB
+C10H16,D-Limonene,4,0,0.114,50.87005714285715,:full gross necropsy,SUB
+C10H16,D-Limonene,1,1,0.507,4273.224150000001,:bile acids,SUB
+C10H16,D-Limonene,2,0,0.0,0.0,:pregnancy,MGR
+C10H16,D-Limonene,2,1,0.724,8529.138571428572,:specific gravity/osmolality,SUB
+C10H16,D-Limonene,1,0,0.42,158.172,:alkaline phosphatase (alp/alk),SUB
+C10H16,D-Limonene,2,0,0.0,0.0,:reproductive performance other,MGR
+C10H16,D-Limonene,5,2,1.87,18686.665111238097,:mortality,SUB
+C10H16,D-Limonene,1,1,1.0,8128.0,":cytochrome p450, nos",MGR
+C10H16,D-Limonene,2,1,1.0,407.14285714285717,:general,SAC
+C10H16,D-Limonene,3,2,2.0,14.559999999999999,:[other],SUB
+C10H16,D-Limonene,2,0,0.08,100.8,:postimplantation loss,MGR
+C10H16,D-Limonene,3,0,0.0,0.0,:esophagus,SUB
+C10H16,D-Limonene,2,2,2.0,340.2742857142857,:aspartate aminotransferase (ast/sgot),SUB
+C10H16,D-Limonene,3,0,0.228,874.0000000000001,:preputial gland,SUB
+C10H16,D-Limonene,3,1,1.332,1748.8876190476194,:creatinine,SUB
+C10H16,D-Limonene,1,0,0.459,5049.0,:vaginal opening,MGR
+C10H16,D-Limonene,1,1,1.0,13636.6,:5' nucleotidase,SUB
+C10H16,D-Limonene,4,1,1.0,2250.0,:intestine large,SUB
+C10H16,D-Limonene,3,3,3.0,3265.2742857142857,:lactic acid dehydrogenase (ldh),SUB
+C10H16,D-Limonene,5,5,4.348,18597.49324914286,:liver,SUB
+C10H16,D-Limonene,3,1,0.636,4918.718000000001,:erythrocyte (rbc) count differential,SUB
+C10H16,D-Limonene,1,1,1.0,6477.6,:eosinophils,SUB
+C10H16,D-Limonene,3,1,1.484,1785.6407466666667,:cholesterol,SUB
+C10H16,D-Limonene,2,1,1.0,151.6,:blood clotting,SUB
+C10H16,D-Limonene,2,0,0.0,0.0,:birth index,MGR
+C10H16,D-Limonene,3,2,2.0,2605.4190476190474,:estrous cycle,SUB
+C10H16,D-Limonene,4,1,1.155,2389.5,:eye,SUB
+C10H16,D-Limonene,5,3,2.9139999999999997,22708.759035714287,:stomach,SUB
+C10H16,D-Limonene,4,0,0.6449999999999999,4201.674,:pituitary gland,SUB
+C10H16,D-Limonene,2,1,1.18,6.359999999999999,:triglycerides,SUB
+C10H16,D-Limonene,1,1,1.0,5188.0,:gamma glutamyl transferase (ggt),SUB
+C10H16,D-Limonene,1,0,0.0,0.0,:oviduct,MGR
+C10H16,D-Limonene,3,1,1.332,3013.1436190476193,:albumin,SUB
+C10H16,D-Limonene,5,1,1.9340000000000002,7716.775533333333,:thymus,SUB
+C10H16,D-Limonene,2,0,0.301,1483.328,:ph,SUB
+C10H16,D-Limonene,3,0,0.694,1605.3716125714286,:skin,SUB
+C10H16,D-Limonene,3,0,0.346,981.2933142857144,:glucose,SUB
+C10H16,D-Limonene,1,0,0.0,0.0,:sorbitol dehydrogenase,SUB
+C10H16,D-Limonene,1,0,0.0,0.0,:creatine phosphokinase,SUB
+C10H16,D-Limonene,1,0,0.0,0.0,:gestational length,MGR
+C10H16,D-Limonene,2,0,0.074,112.05714285714285,:live fetuses,MGR
+C10H16,D-Limonene,3,0,0.0,0.0,:tongue,SUB
+C10H16,D-Limonene,3,0,0.114,50.87005714285715,:mammary gland,SUB
+C10H16,D-Limonene,2,0,0.074,112.05714285714285,:litter viability other,MGR
+C10H16,D-Limonene,2,1,1.0,7956.571428571428,:potassium,SUB
+C10H16,D-Limonene,3,0,0.269,246.48085714285716,:urinary bladder,SUB
+C10H16,D-Limonene,4,1,0.702,3159.0,:bone,SUB
+C10H16,D-Limonene,2,0,0.0,0.0,:gestation index,MGR
+C10H16,D-Limonene,1,1,1.0,1576.0,:testosterone,MGR
+C10H16,D-Limonene,2,0,0.0,0.0,:corpora lutea,MGR
+C10H16,D-Limonene,2,2,2.0,6507.333333333333,:lymphocyte,SUB
+C10H16,D-Limonene,2,0,0.0,0.0,:premature delivery,MGR
+C10H16,D-Limonene,1,0,0.0,0.0,:pregnancy index,MGR
+C10H16,D-Limonene,4,1,1.573,6019.564,:heart,SUB
+C10H16,D-Limonene,2,2,2.0,1494.2285714285715,:globulins,SUB
+C10H16,D-Limonene,4,0,0.7990000000000002,4499.990476190476,:brain,SUB
+C10H16,D-Limonene,3,0,0.0,0.0,:nerve,SUB
+C10H16,D-Limonene,2,0,0.0,0.0,:preimplantation loss,MGR
+C10H16,D-Limonene,2,1,0.704,5539.646933333333,:hemoglobin (hgb),SUB
+C10H16,D-Limonene,2,2,2.0,5045.333333333334,:sperm measure,SUB
+C10H16,D-Limonene,3,0,0.0,0.0,:trachea,SUB
+C10H16,D-Limonene,5,4,2.5789999999999997,24784.988816000005,:clinical signs,SUB
+C10H16,D-Limonene,2,1,1.0,1840.0,:sodium,SAC
+C10H16,D-Limonene,4,0,0.742,4362.069333333333,:adrenal gland,SUB
+C10H16,D-Limonene,3,0,0.0,0.0,:salivary glands,SUB
+C10H16,D-Limonene,1,1,1.0,2035.7142857142858,:phosphorus,CHR
+C10H16,D-Limonene,2,2,1.596,16267.910285714284,:alanine aminotransferase (alt/sgpt),SUB
+C10H16,D-Limonene,3,0,0.0,0.0,:harderian gland,SUB
+C10H16,D-Limonene,4,0,0.774,4830.66114,:ovary,SUB
+C10H16,D-Limonene,1,0,0.0,0.0,:nipple development,MGR
+C10H16,D-Limonene,1,0,0.07,336.00000000000006,:other,DEV
+C10H16,D-Limonene,2,0,0.0,0.0,:appearance and color,SUB
+C10H16,D-Limonene,5,1,1.179,2679.6,:vagina,SUB
+C10H16,D-Limonene,1,0,0.0,0.0,:cervix,MGR
+C10H16,D-Limonene,4,0,0.0,0.0,:spinal cord,SUB
+C10H16,D-Limonene,3,0,0.0,0.0,:skeletal muscle,SUB
+C10H16,D-Limonene,3,0,0.155,34.875,:nose,SUB
+C10H16,D-Limonene,3,0,0.0,0.0,:intestine small,SUB
+C10H16,D-Limonene,3,0,0.482,1006.743619047619,:protein,SUB
+C10H16,D-Limonene,3,0,0.209,188.1,:lymph node,SUB
+C10H16,D-Limonene,1,0,0.0,0.0,:coagulating gland,MGR
+C10H16,D-Limonene,2,0,0.0,0.0,:all gross anomalies,MGR
+C10H16,D-Limonene,1,0,0.0,0.0,:mating,MGR
+C10H16,D-Limonene,2,0,0.0,0.0,:occult blood,SUB
+C10H16,D-Limonene,2,2,2.0,1445.7142857142858,:bilirubin,SUB
+C10H16,D-Limonene,1,0,0.0,0.0,:mean corpuscular (cell) volume (mcv),SUB
+C10H16,D-Limonene,2,1,1.42,3340.992,:platelet,SUB
+C10H16,D-Limonene,4,0,0.361,2831.354666666667,:epididymis,SUB
+C10H16,D-Limonene,3,0,0.0,0.0,:larynx,SUB
+C10H16,D-Limonene,1,1,1.0,1815.857142857143,:ketones,SUB
+C10H16,D-Limonene,1,0,0.0,0.0,:parathyroid,SUB
+C10H16,D-Limonene,2,0,0.0,0.0,:sex ratio,MGR
+N2,Nitrogen,2,1,1.0,2.8000000000000003,:mean corpuscular hemoglobin (mch),SUB
+N2,Nitrogen,2,2,2.0,60.9,:thyroxine (t4),SUB
+N2,Nitrogen,3,1,1.079,626.2341000000001,:testes,SUB
+N2,Nitrogen,2,0,0.452,352.56,:lung,SUB
+N2,Nitrogen,3,0,0.0,0.0,:seminal vesicle,SUB
+N2,Nitrogen,2,2,2.0,520.9,:hematocrit (hct),SUB
+N2,Nitrogen,2,1,0.853,50.591300000000004,:thyroid gland,SUB
+N2,Nitrogen,1,0,0.0,0.0,:trunk,DEV
+N2,Nitrogen,2,0,0.0,0.0,:clitoral gland,SUB
+N2,Nitrogen,2,0,0.0,0.0,:offspring survival early other,MGR
+N2,Nitrogen,2,0,0.0,0.0,:ear,SUB
+N2,Nitrogen,2,1,1.0,70.0,:mean corpuscular hemoglobin concentration (mchc),SUB
+N2,Nitrogen,2,0,0.37,93.24,:dead fetuses,MGR
+N2,Nitrogen,2,0,0.0,0.0,:parathyroid gland,SUB
+N2,Nitrogen,2,0,0.0,0.0,:dystocia,MGR
+N2,Nitrogen,1,1,1.0,70.0,:neutrophils,CHR
+N2,Nitrogen,4,4,4.0,4201.75,:body weight,SUB
+N2,Nitrogen,2,0,0.0,0.0,:bone marrow,SUB
+N2,Nitrogen,2,1,0.63,662.76,:resorptions,MGR
+N2,Nitrogen,1,1,0.708,48.4272,:reticulocyte,SUB
+N2,Nitrogen,2,1,0.9710000000000001,233.73430000000002,:kidney,SUB
+N2,Nitrogen,3,1,1.417,281.19,:gallbladder,SUB
+N2,Nitrogen,1,0,0.0,0.0,:lactation index,MGR
+N2,Nitrogen,2,0,0.0,0.0,:implantations,MGR
+N2,Nitrogen,1,0,0.0,0.0,:precoital interval,MGR
+N2,Nitrogen,2,0,0.0,0.0,:volume,SUB
+N2,Nitrogen,2,2,2.0,25.9,:triiodothyronine (t3),SUB
+N2,Nitrogen,2,2,1.5,100.0,:urea nitrogen,SUB
+N2,Nitrogen,2,0,0.0,0.0,:pancreas,SUB
+N2,Nitrogen,1,1,1.0,80.89999999999999,:myeloid/erythroid (m:e) ratio,SUB
+N2,Nitrogen,1,1,1.0,8.75,:viability index,MGR
+N2,Nitrogen,1,1,1.0,52.5,:calcium,CHR
+N2,Nitrogen,2,2,1.533,307.22749999999996,:leukocyte (wbc) count differential,SUB
+N2,Nitrogen,1,1,1.0,80.89999999999999,:uric acid,SUB
+N2,Nitrogen,2,0,0.531,151.17000000000002,:spleen,SUB
+N2,Nitrogen,2,0,0.0,0.0,:aborted,MGR
+N2,Nitrogen,2,0,0.0,0.0,:litter size,MGR
+N2,Nitrogen,2,0,0.0,0.0,:pharynx,SUB
+N2,Nitrogen,1,1,1.0,52.5,:albumin-globulin ratio,CHR
+N2,Nitrogen,3,0,0.0,0.0,:prostate,SUB
+N2,Nitrogen,4,1,1.37,103.95,:food consumption,SUB
+N2,Nitrogen,1,0,0.0,0.0,:fertility,MGR
+N2,Nitrogen,4,0,0.37,10.36,:uterus,SUB
+N2,Nitrogen,3,0,0.267,160.20000000000002,:full gross necropsy,SUB
+N2,Nitrogen,1,0,0.0,0.0,:bile acids,SUB
+N2,Nitrogen,2,0,0.0,0.0,:pregnancy,MGR
+N2,Nitrogen,2,0,0.0,0.0,:specific gravity/osmolality,SUB
+N2,Nitrogen,1,0,0.333,109.89,:alkaline phosphatase (alp/alk),SUB
+N2,Nitrogen,2,0,0.37,93.24,:reproductive performance other,MGR
+N2,Nitrogen,4,3,2.093,4503.2538,:mortality,SUB
+N2,Nitrogen,2,2,2.0,68.0,:oral mucosa,SUB
+N2,Nitrogen,1,1,1.0,126.0,:general,DEV
+N2,Nitrogen,2,1,1.0,11.1,:[other],SUB
+N2,Nitrogen,2,1,1.0,2977.0,:postimplantation loss,MGR
+N2,Nitrogen,2,0,0.214,8.56,:esophagus,SUB
+N2,Nitrogen,1,1,1.0,70.0,:aspartate aminotransferase (ast/sgot),CHR
+N2,Nitrogen,2,0,0.0,0.0,:preputial gland,SUB
+N2,Nitrogen,2,2,1.5,125.0,:creatinine,SUB
+N2,Nitrogen,1,1,1.0,80.0,:5' nucleotidase,SUB
+N2,Nitrogen,2,0,0.0,0.0,:intestine large,SUB
+N2,Nitrogen,1,1,1.0,80.89999999999999,:lactic acid dehydrogenase (ldh),SUB
+N2,Nitrogen,3,2,2.0789999999999997,337.8345,:liver,SUB
+N2,Nitrogen,2,2,1.533,515.9825,:erythrocyte (rbc) count differential,SUB
+N2,Nitrogen,2,2,1.548,385.54400000000004,:cholesterol,SUB
+N2,Nitrogen,2,0,0.0,0.0,:birth index,MGR
+N2,Nitrogen,3,1,1.0,84.0,:eye,SUB
+N2,Nitrogen,1,1,1.0,52.5,:gamma glutamyl transferase (ggt),CHR
+N2,Nitrogen,3,0,0.305,4.27,:pituitary gland,SUB
+N2,Nitrogen,2,0,0.653,150.18,:stomach,SUB
+N2,Nitrogen,1,0,0.0,0.0,:triglycerides,SUB
+N2,Nitrogen,2,2,1.5,47.5,:albumin,SUB
+N2,Nitrogen,2,1,0.9650000000000001,310.314,:thymus,SUB
+N2,Nitrogen,2,0,0.0,0.0,:ph,SUB
+N2,Nitrogen,1,1,1.0,52.5,:anemia,CHR
+N2,Nitrogen,2,0,0.214,17.12,:skin,SUB
+N2,Nitrogen,2,1,1.0,7.0,:glucose,SUB
+N2,Nitrogen,1,0,0.0,0.0,:sorbitol dehydrogenase,SUB
+N2,Nitrogen,1,0,0.0,0.0,:creatine phosphokinase,SUB
+N2,Nitrogen,1,1,1.0,8.4,:monocytes,SUB
+N2,Nitrogen,1,0,0.0,0.0,:gestational length,MGR
+N2,Nitrogen,2,0,0.37,712.25,:live fetuses,MGR
+N2,Nitrogen,2,0,0.0,0.0,:tongue,SUB
+N2,Nitrogen,2,0,0.267,10.68,:mammary gland,SUB
+N2,Nitrogen,1,1,1.0,52.5,:potassium,CHR
+N2,Nitrogen,2,0,0.0,0.0,:litter viability other,MGR
+N2,Nitrogen,2,0,0.305,29.036,:urinary bladder,SUB
+N2,Nitrogen,3,1,1.0,2955.0,:bone,SUB
+N2,Nitrogen,2,0,0.0,0.0,:gestation index,MGR
+N2,Nitrogen,2,0,0.0,0.0,:corpora lutea,MGR
+N2,Nitrogen,2,2,2.0,315.4,:lymphocyte,SUB
+N2,Nitrogen,2,0,0.0,0.0,:premature delivery,MGR
+N2,Nitrogen,1,0,0.0,0.0,:pregnancy index,MGR
+N2,Nitrogen,2,0,0.226,45.2,:heart,SUB
+N2,Nitrogen,2,2,2.0,502.5,:globulins,SUB
+N2,Nitrogen,3,1,1.757,620.5725,:brain,SUB
+N2,Nitrogen,2,0,0.0,0.0,:nerve,SUB
+N2,Nitrogen,2,0,0.0,0.0,:preimplantation loss,MGR
+N2,Nitrogen,2,2,2.0,170.9,:hemoglobin (hgb),SUB
+N2,Nitrogen,1,1,1.0,20.0,:sperm measure,SUB
+N2,Nitrogen,2,0,0.0,0.0,:trachea,SUB
+N2,Nitrogen,4,2,1.594,1832.5915,:clinical signs,SUB
+N2,Nitrogen,1,1,1.0,52.5,:sodium,CHR
+N2,Nitrogen,3,0,0.0,0.0,:adrenal gland,SUB
+N2,Nitrogen,2,0,0.323,2.7132,:salivary glands,SUB
+N2,Nitrogen,1,1,1.0,52.5,:phosphorus,CHR
+N2,Nitrogen,2,2,1.5,100.0,:alanine aminotransferase (alt/sgpt),SUB
+N2,Nitrogen,2,1,0.5,12.5,:harderian gland,SUB
+N2,Nitrogen,3,1,0.745,221.2727,:ovary,SUB
+N2,Nitrogen,1,0,0.0,0.0,:other,DEV
+N2,Nitrogen,2,0,0.0,0.0,:appearance and color,SUB
+N2,Nitrogen,3,0,0.0,0.0,:vagina,SUB
+N2,Nitrogen,3,0,0.0,0.0,:spinal cord,SUB
+N2,Nitrogen,2,0,0.0,0.0,:skeletal muscle,SUB
+N2,Nitrogen,2,0,0.0,0.0,:nose,SUB
+N2,Nitrogen,2,0,0.0,0.0,:intestine small,SUB
+N2,Nitrogen,2,1,1.452,338.42,:protein,SUB
+N2,Nitrogen,2,0,0.0,0.0,:lymph node,SUB
+N2,Nitrogen,2,0,0.0,0.0,:all gross anomalies,MGR
+N2,Nitrogen,1,0,0.0,0.0,:mating,MGR
+N2,Nitrogen,2,0,0.0,0.0,:occult blood,SUB
+N2,Nitrogen,2,1,1.0,14.0,:mean corpuscular (cell) volume (mcv),SUB
+N2,Nitrogen,1,0,0.417,3.5028,:platelet,SUB
+N2,Nitrogen,3,1,0.548,59.403200000000005,:epididymis,SUB
+N2,Nitrogen,2,0,0.0,0.0,:larynx,SUB
+N2,Nitrogen,1,1,1.0,17.5,:ketones,CHR
+N2,Nitrogen,1,1,1.0,630.0,:diaphragm,DEV
+N2,Nitrogen,1,0,0.0,0.0,:parathyroid,SUB
+N2,Nitrogen,2,0,0.0,0.0,:sex ratio,MGR
+N2,Nitrogen,2,2,2.0,110.89999999999999,:water consumption,SUB
+CO2,Carbon dioxide,3,2,2.6310000000000002,15640.060000000001,:mean corpuscular hemoglobin (mch),SUB
+CO2,Carbon dioxide,1,1,1.0,125.0,:bile duct,CHR
+CO2,Carbon dioxide,2,2,2.0,78.3,:thyroxine (t4),SUB
+CO2,Carbon dioxide,4,1,1.6500000000000001,16838.169850000002,:testes,SUB
+CO2,Carbon dioxide,5,2,2.7319999999999998,2067.94605,:lung,SUB
+CO2,Carbon dioxide,4,0,0.0,0.0,:seminal vesicle,SUB
+CO2,Carbon dioxide,3,2,2.5,17136.3,:hematocrit (hct),SUB
+CO2,Carbon dioxide,3,0,0.7969999999999999,797.086773,:thyroid gland,SUB
+CO2,Carbon dioxide,1,0,0.115,66.24000000000001,:trunk,DEV
+CO2,Carbon dioxide,2,0,0.0,0.0,:clitoral gland,SUB
+CO2,Carbon dioxide,2,0,0.0,0.0,:offspring survival early other,MGR
+CO2,Carbon dioxide,2,0,0.0,0.0,:ear,SUB
+CO2,Carbon dioxide,2,1,1.537,1650.64,:mean corpuscular hemoglobin concentration (mchc),SUB
+CO2,Carbon dioxide,2,0,0.115,37.260000000000005,:dead fetuses,MGR
+CO2,Carbon dioxide,2,0,0.177,198.24,:parathyroid gland,SUB
+CO2,Carbon dioxide,2,0,0.0,0.0,:dystocia,MGR
+CO2,Carbon dioxide,1,1,1.0,2720.0,:nucleated red blood cell (nrbc),SUB
+CO2,Carbon dioxide,3,3,3.0,9720.21,:neutrophils,SUB
+CO2,Carbon dioxide,1,1,1.0,300.0,:methemoglobin,SUB
+CO2,Carbon dioxide,5,5,4.821,42475.30541666667,:body weight,SUB
+CO2,Carbon dioxide,3,0,0.305,281.45,:bone marrow,SUB
+CO2,Carbon dioxide,2,0,0.345,583.74,:resorptions,MGR
+CO2,Carbon dioxide,2,2,2.0,3300.0,:blood,SUB
+CO2,Carbon dioxide,2,2,2.0,3583.8,:reticulocyte,SUB
+CO2,Carbon dioxide,5,3,3.52,12038.66702,:kidney,SUB
+CO2,Carbon dioxide,3,1,1.22,10343.8,:gallbladder,SUB
+CO2,Carbon dioxide,1,0,0.171,38.475,:lactation index,MGR
+CO2,Carbon dioxide,2,0,0.0,0.0,:implantations,MGR
+CO2,Carbon dioxide,1,0,0.0,0.0,:precoital interval,MGR
+CO2,Carbon dioxide,2,0,0.375,55.5,:volume,SUB
+CO2,Carbon dioxide,1,1,1.0,6.25,:non-protein sulfhydryl (npsh),SUB
+CO2,Carbon dioxide,2,2,2.0,33.3,:triiodothyronine (t3),SUB
+CO2,Carbon dioxide,3,2,2.217,7203.761,:urea nitrogen,SUB
+CO2,Carbon dioxide,2,0,0.189,85.86,:pancreas,SUB
+CO2,Carbon dioxide,1,1,1.0,44.495,:myeloid/erythroid (m:e) ratio,SUB
+CO2,Carbon dioxide,1,0,0.342,80.7975,:viability index,MGR
+CO2,Carbon dioxide,2,2,2.0,201.15,:calcium,SUB
+CO2,Carbon dioxide,3,1,1.8010000000000002,7242.52587,:leukocyte (wbc) count differential,SUB
+CO2,Carbon dioxide,1,1,1.0,44.495,:uric acid,SUB
+CO2,Carbon dioxide,1,1,1.0,133.65,:flouride,SUB
+CO2,Carbon dioxide,4,1,1.45,1276.2826,:spleen,SUB
+CO2,Carbon dioxide,2,0,0.218,2454.68,:aborted,MGR
+CO2,Carbon dioxide,2,0,0.457,806.6700000000001,:litter size,MGR
+CO2,Carbon dioxide,2,0,0.0,0.0,:pharynx,SUB
+CO2,Carbon dioxide,2,2,2.0,7137.5,:albumin-globulin ratio,SUB
+CO2,Carbon dioxide,1,0,0.0,0.0,:lacrimal gland,SUB
+CO2,Carbon dioxide,4,0,0.084,33.6,:prostate,SUB
+CO2,Carbon dioxide,5,1,2.079,13059.271955000002,:food consumption,SUB
+CO2,Carbon dioxide,1,0,0.342,677.1600000000001,:fertility,MGR
+CO2,Carbon dioxide,5,0,0.23,298.08000000000004,:uterus,SUB
+CO2,Carbon dioxide,4,0,0.093,188.325,:full gross necropsy,SUB
+CO2,Carbon dioxide,1,0,0.0,0.0,:bile acids,SUB
+CO2,Carbon dioxide,2,0,0.171,292.41,:pregnancy,MGR
+CO2,Carbon dioxide,2,0,0.78,10266.3431,:specific gravity/osmolality,SUB
+CO2,Carbon dioxide,2,1,1.474,2021.7093,:alkaline phosphatase (alp/alk),SUB
+CO2,Carbon dioxide,2,0,0.28600000000000003,337.365,:reproductive performance other,MGR
+CO2,Carbon dioxide,5,2,1.754,12831.110250000002,:mortality,SUB
+CO2,Carbon dioxide,2,2,2.0,58.0,:oral mucosa,SUB
+CO2,Carbon dioxide,2,1,1.0,162.0,:general,SAC
+CO2,Carbon dioxide,4,3,3.0,4038.305,:[other],SUB
+CO2,Carbon dioxide,2,0,0.345,1164.3749999999998,:postimplantation loss,MGR
+CO2,Carbon dioxide,2,0,0.237,77.26199999999999,:esophagus,SUB
+CO2,Carbon dioxide,1,1,1.0,90.0,:aspartate aminotransferase (ast/sgot),CHR
+CO2,Carbon dioxide,2,0,0.0,0.0,:preputial gland,SUB
+CO2,Carbon dioxide,3,2,1.775,3619.23125,:creatinine,SUB
+CO2,Carbon dioxide,4,1,1.0,285.0,:intestine large,SUB
+CO2,Carbon dioxide,1,1,1.0,44.495,:lactic acid dehydrogenase (ldh),SUB
+CO2,Carbon dioxide,4,2,2.644,18062.14032,:liver,SUB
+CO2,Carbon dioxide,4,3,3.036,17675.23,:erythrocyte (rbc) count differential,SUB
+CO2,Carbon dioxide,1,1,1.0,720.0,:eosinophils,SUB
+CO2,Carbon dioxide,3,1,1.942,9440.232,:cholesterol,SUB
+CO2,Carbon dioxide,2,1,1.0,20000.0,:blood clotting,SUB
+CO2,Carbon dioxide,2,0,0.0,0.0,:birth index,MGR
+CO2,Carbon dioxide,2,2,2.0,6160.0,:estrous cycle,SUB
+CO2,Carbon dioxide,4,1,1.177,253.14,:eye,SUB
+CO2,Carbon dioxide,1,1,1.0,67.5,:gamma glutamyl transferase (ggt),CHR
+CO2,Carbon dioxide,3,0,0.093,1.674,:pituitary gland,SUB
+CO2,Carbon dioxide,5,2,2.586,12532.442,:stomach,SUB
+CO2,Carbon dioxide,3,2,2.203,9530.0126875,:triglycerides,SUB
+CO2,Carbon dioxide,3,2,1.834,2653.6561,:albumin,SUB
+CO2,Carbon dioxide,4,1,1.921,1740.5581499999998,:thymus,SUB
+CO2,Carbon dioxide,2,0,0.175,87.5,:ph,SUB
+CO2,Carbon dioxide,1,1,1.0,167.5,:anemia,CHR
+CO2,Carbon dioxide,3,0,0.737,343.371,:skin,SUB
+CO2,Carbon dioxide,3,0,0.683,1116.88715,:glucose,SUB
+CO2,Carbon dioxide,1,1,1.0,3200.0,:anisocytosis,DEV
+CO2,Carbon dioxide,1,0,0.0,0.0,:sorbitol dehydrogenase,SUB
+CO2,Carbon dioxide,1,1,1.0,3200.0,:hypochromia,DEV
+CO2,Carbon dioxide,1,0,0.0,0.0,:creatine phosphokinase,SUB
+CO2,Carbon dioxide,1,1,1.0,730.8,:monocytes,SUB
+CO2,Carbon dioxide,1,0,0.171,292.41,:gestational length,MGR
+CO2,Carbon dioxide,2,0,0.333,4345.983,:live fetuses,MGR
+CO2,Carbon dioxide,2,0,0.0,0.0,:tongue,SUB
+CO2,Carbon dioxide,2,0,0.0,0.0,:mammary gland,SUB
+CO2,Carbon dioxide,2,1,1.0,72.5,:potassium,SAC
+CO2,Carbon dioxide,2,0,0.316,564.06,:litter viability other,MGR
+CO2,Carbon dioxide,3,0,0.179,12.3507,:urinary bladder,SUB
+CO2,Carbon dioxide,3,0,0.68,2348.46,:bone,SUB
+CO2,Carbon dioxide,2,0,0.0,0.0,:gestation index,MGR
+CO2,Carbon dioxide,2,0,0.0,0.0,:corpora lutea,MGR
+CO2,Carbon dioxide,3,3,3.0,10426.345,:lymphocyte,SUB
+CO2,Carbon dioxide,2,0,0.218,2183.924,:premature delivery,MGR
+CO2,Carbon dioxide,1,0,0.0,0.0,:pregnancy index,MGR
+CO2,Carbon dioxide,3,0,0.358,1845.10455,:heart,SUB
+CO2,Carbon dioxide,3,3,3.0,15528.65,:globulins,SUB
+CO2,Carbon dioxide,5,2,3.109,7438.17215,:brain,SUB
+CO2,Carbon dioxide,3,0,0.084,16.8,:nerve,SUB
+CO2,Carbon dioxide,2,0,0.0,0.0,:preimplantation loss,MGR
+CO2,Carbon dioxide,4,3,3.5,16886.8,:hemoglobin (hgb),SUB
+CO2,Carbon dioxide,1,1,1.0,1161.0,:sperm measure,SUB
+CO2,Carbon dioxide,3,0,0.096,86.4,:trachea,SUB
+CO2,Carbon dioxide,5,3,3.2960000000000003,24975.191333333336,:clinical signs,SUB
+CO2,Carbon dioxide,2,1,1.0,67.5,:sodium,SAC
+CO2,Carbon dioxide,4,0,0.263,1004.4200000000001,:adrenal gland,SUB
+CO2,Carbon dioxide,2,0,0.096,1.0368000000000002,:salivary glands,SUB
+CO2,Carbon dioxide,2,2,2.0,14107.5,:phosphorus,SAC
+CO2,Carbon dioxide,3,2,2.668,2814.5464,:alanine aminotransferase (alt/sgpt),SUB
+CO2,Carbon dioxide,2,0,0.0,0.0,:harderian gland,SUB
+CO2,Carbon dioxide,4,1,0.848,6784.9397,:ovary,SUB
+CO2,Carbon dioxide,1,0,0.0,0.0,:other,DEV
+CO2,Carbon dioxide,2,0,0.135,247.05,:appearance and color,SUB
+CO2,Carbon dioxide,3,0,0.0,0.0,:vagina,SUB
+CO2,Carbon dioxide,4,0,0.0,0.0,:spinal cord,SUB
+CO2,Carbon dioxide,2,0,0.0,0.0,:skeletal muscle,SUB
+CO2,Carbon dioxide,2,0,0.444,187.38467666666668,:nose,SUB
+CO2,Carbon dioxide,4,1,1.26,608.12,:intestine small,SUB
+CO2,Carbon dioxide,3,1,1.472,11127.4944,:protein,SUB
+CO2,Carbon dioxide,1,1,1.0,576.0,:blood vessel,DEV
+CO2,Carbon dioxide,3,0,0.483,689.4688,:lymph node,SUB
+CO2,Carbon dioxide,2,0,0.0,0.0,:all gross anomalies,MGR
+CO2,Carbon dioxide,1,0,0.0,0.0,:mating,MGR
+CO2,Carbon dioxide,1,1,1.0,720.0,:chloride,CHR
+CO2,Carbon dioxide,2,0,0.0,0.0,:occult blood,SUB
+CO2,Carbon dioxide,1,1,1.0,18.0,:bilirubin,CHR
+CO2,Carbon dioxide,4,3,3.6310000000000002,16677.8,:mean corpuscular (cell) volume (mcv),SUB
+CO2,Carbon dioxide,2,1,0.704,1939.1328,:platelet,SUB
+CO2,Carbon dioxide,4,0,0.44800000000000006,2652.6716,:epididymis,SUB
+CO2,Carbon dioxide,2,0,0.096,155.52,:larynx,SUB
+CO2,Carbon dioxide,1,1,1.0,22.5,:ketones,CHR
+CO2,Carbon dioxide,1,1,1.0,810.0,:diaphragm,DEV
+CO2,Carbon dioxide,1,0,0.0,0.0,:parathyroid,SUB
+CO2,Carbon dioxide,2,0,0.0,0.0,:sex ratio,MGR
+CO2,Carbon dioxide,4,4,4.0,6077.995,:water consumption,SUB
+CO2,Carbon dioxide,1,1,1.0,3200.0,":lipids, total",DEV
+CH2O,Formaldehyde,2,2,2.0,17515.0,:mean corpuscular hemoglobin (mch),SUB
+CH2O,Formaldehyde,1,1,1.0,112.5,:bile duct,CHR
+CH2O,Formaldehyde,4,2,2.238,22208.2628,:testes,SUB
+CH2O,Formaldehyde,1,1,1.0,432.0,:gamma glutamyl transpeptides (gtp),SUB
+CH2O,Formaldehyde,5,2,2.735,1655.0055,:lung,SUB
+CH2O,Formaldehyde,4,0,0.135,16.200000000000003,:seminal vesicle,SUB
+CH2O,Formaldehyde,3,3,3.0,20484.0,:hematocrit (hct),SUB
+CH2O,Formaldehyde,3,0,0.641,523.10248,:thyroid gland,SUB
+CH2O,Formaldehyde,1,0,0.109,55.808,:trunk,DEV
+CH2O,Formaldehyde,2,0,0.0,0.0,:clitoral gland,SUB
+CH2O,Formaldehyde,2,0,0.0,0.0,:offspring survival early other,MGR
+CH2O,Formaldehyde,2,0,0.0,0.0,:ear,SUB
+CH2O,Formaldehyde,2,0,0.0,0.0,:dead fetuses,MGR
+CH2O,Formaldehyde,1,1,1.0,2872.0,:mean corpuscular hemoglobin concentration (mchc),SUB
+CH2O,Formaldehyde,2,0,0.138,88.32000000000001,:parathyroid gland,SUB
+CH2O,Formaldehyde,2,0,0.0,0.0,:dystocia,MGR
+CH2O,Formaldehyde,1,1,1.0,2440.0,:nucleated red blood cell (nrbc),SUB
+CH2O,Formaldehyde,2,2,2.0,8569.18,:neutrophils,SUB
+CH2O,Formaldehyde,1,1,1.0,270.0,:methemoglobin,SUB
+CH2O,Formaldehyde,5,5,4.5729999999999995,25589.6077,:body weight,SUB
+CH2O,Formaldehyde,3,0,0.328,367.05,:bone marrow,SUB
+CH2O,Formaldehyde,2,0,0.219,266.30400000000003,:resorptions,MGR
+CH2O,Formaldehyde,1,1,1.0,2250.0,:blood,SUB
+CH2O,Formaldehyde,1,1,1.0,3512.0,:reticulocyte,SUB
+CH2O,Formaldehyde,4,3,2.923,16895.602675000002,:kidney,SUB
+CH2O,Formaldehyde,2,0,0.0,0.0,:gallbladder,SUB
+CH2O,Formaldehyde,1,0,0.257,51.4,:lactation index,MGR
+CH2O,Formaldehyde,2,0,0.0,0.0,:implantations,MGR
+CH2O,Formaldehyde,1,0,0.0,0.0,:precoital interval,MGR
+CH2O,Formaldehyde,2,1,0.872,1717.289,:volume,SUB
+CH2O,Formaldehyde,1,1,1.0,5.625,:non-protein sulfhydryl (npsh),SUB
+CH2O,Formaldehyde,3,3,2.628,8763.68,:urea nitrogen,SUB
+CH2O,Formaldehyde,2,0,0.329,574.07,:pancreas,SUB
+CH2O,Formaldehyde,1,0,0.257,51.4,:viability index,MGR
+CH2O,Formaldehyde,1,1,1.0,2368.8,:calcium,SUB
+CH2O,Formaldehyde,1,1,1.0,2250.0,:lipids,SUB
+CH2O,Formaldehyde,1,1,1.0,2250.0,:glutamate dehydrogenase,SUB
+CH2O,Formaldehyde,3,2,1.9009999999999998,8862.76,:leukocyte (wbc) count differential,SUB
+CH2O,Formaldehyde,1,1,1.0,118.8,:flouride,SUB
+CH2O,Formaldehyde,4,1,1.5799999999999998,2535.495,:spleen,SUB
+CH2O,Formaldehyde,2,0,0.109,122.08,:aborted,MGR
+CH2O,Formaldehyde,2,1,0.623,1006.16,:litter size,MGR
+CH2O,Formaldehyde,2,0,0.0,0.0,:pharynx,SUB
+CH2O,Formaldehyde,1,1,1.0,6363.0,:albumin-globulin ratio,SUB
+CH2O,Formaldehyde,1,0,0.0,0.0,:lacrimal gland,SUB
+CH2O,Formaldehyde,4,0,0.135,16.200000000000003,:prostate,SUB
+CH2O,Formaldehyde,5,1,2.135,10746.55924,:food consumption,SUB
+CH2O,Formaldehyde,1,1,0.514,904.64,:fertility,MGR
+CH2O,Formaldehyde,1,1,1.0,120.0,:cholinesterase,SUB
+CH2O,Formaldehyde,5,0,0.692,1431.035,:uterus,SUB
+CH2O,Formaldehyde,4,0,0.383,703.1600000000001,:full gross necropsy,SUB
+CH2O,Formaldehyde,1,0,0.0,0.0,:bile acids,SUB
+CH2O,Formaldehyde,2,0,0.257,390.64,:pregnancy,MGR
+CH2O,Formaldehyde,2,1,1.039,2003.1336,:specific gravity/osmolality,SUB
+CH2O,Formaldehyde,1,1,0.707,1863.0864,:alkaline phosphatase (alp/alk),SUB
+CH2O,Formaldehyde,2,0,0.257,400.92,:reproductive performance other,MGR
+CH2O,Formaldehyde,5,0,1.423,2436.376,:mortality,SUB
+CH2O,Formaldehyde,2,1,1.0,360.0,:general,SAC
+CH2O,Formaldehyde,4,3,3.0,3312.5,:[other],SUB
+CH2O,Formaldehyde,2,0,0.244,410.408,:postimplantation loss,MGR
+CH2O,Formaldehyde,2,0,0.0,0.0,:esophagus,SUB
+CH2O,Formaldehyde,1,1,1.0,432.0,:aspartate aminotransferase (ast/sgot),SUB
+CH2O,Formaldehyde,2,0,0.0,0.0,:preputial gland,SUB
+CH2O,Formaldehyde,3,2,1.776,3633.517,:creatinine,SUB
+CH2O,Formaldehyde,4,1,1.09,472.5,:intestine large,SUB
+CH2O,Formaldehyde,4,4,3.203,29912.723865,:liver,SUB
+CH2O,Formaldehyde,4,4,3.628,20676.144,:erythrocyte (rbc) count differential,SUB
+CH2O,Formaldehyde,1,1,1.0,640.0,:eosinophils,SUB
+CH2O,Formaldehyde,3,3,2.577,11928.871,:cholesterol,SUB
+CH2O,Formaldehyde,2,1,1.0,2250.0,:blood clotting,SUB
+CH2O,Formaldehyde,2,0,0.0,0.0,:birth index,MGR
+CH2O,Formaldehyde,2,2,2.0,5525.0,:estrous cycle,SUB
+CH2O,Formaldehyde,3,0,0.138,88.32000000000001,:eye,SUB
+CH2O,Formaldehyde,5,2,2.574,2872.84,:stomach,SUB
+CH2O,Formaldehyde,3,0,0.0,0.0,:pituitary gland,SUB
+CH2O,Formaldehyde,3,2,2.32,8569.018,:triglycerides,SUB
+CH2O,Formaldehyde,3,2,1.759,2429.5771999999997,:albumin,SUB
+CH2O,Formaldehyde,4,1,1.7160000000000002,1138.8647999999998,:thymus,SUB
+CH2O,Formaldehyde,2,0,0.163,70.416,:ph,SUB
+CH2O,Formaldehyde,3,0,0.0,0.0,:skin,SUB
+CH2O,Formaldehyde,3,0,0.355,102.664875,:glucose,SUB
+CH2O,Formaldehyde,1,1,1.0,2880.0,:anisocytosis,DEV
+CH2O,Formaldehyde,1,0,0.0,0.0,:sorbitol dehydrogenase,SUB
+CH2O,Formaldehyde,1,1,1.0,2880.0,:hypochromia,DEV
+CH2O,Formaldehyde,1,0,0.298,128.736,:creatine phosphokinase,SUB
+CH2O,Formaldehyde,1,1,1.0,640.0,:monocytes,SUB
+CH2O,Formaldehyde,1,0,0.257,390.64,:gestational length,MGR
+CH2O,Formaldehyde,2,0,0.109,55.808,:live fetuses,MGR
+CH2O,Formaldehyde,2,0,0.0,0.0,:tongue,SUB
+CH2O,Formaldehyde,2,0,0.0,0.0,:mammary gland,SUB
+CH2O,Formaldehyde,2,0,0.229,61.830000000000005,:litter viability other,MGR
+CH2O,Formaldehyde,2,1,1.0,2250.0,:potassium,SUB
+CH2O,Formaldehyde,3,0,0.325,245.68800000000002,:urinary bladder,SUB
+CH2O,Formaldehyde,3,0,0.794,859.576,:bone,SUB
+CH2O,Formaldehyde,2,0,0.0,0.0,:gestation index,MGR
+CH2O,Formaldehyde,2,0,0.0,0.0,:corpora lutea,MGR
+CH2O,Formaldehyde,2,2,2.0,9209.0,:lymphocyte,SUB
+CH2O,Formaldehyde,2,0,0.109,1.744,:premature delivery,MGR
+CH2O,Formaldehyde,1,0,0.0,0.0,:pregnancy index,MGR
+CH2O,Formaldehyde,3,0,0.544,3705.8744,:heart,SUB
+CH2O,Formaldehyde,3,3,3.0,13608.099999999999,:globulins,SUB
+CH2O,Formaldehyde,4,2,2.544,10946.7364,:brain,SUB
+CH2O,Formaldehyde,3,0,0.135,0.81,:nerve,SUB
+CH2O,Formaldehyde,2,0,0.0,0.0,:preimplantation loss,MGR
+CH2O,Formaldehyde,4,4,4.0,22572.45,:hemoglobin (hgb),SUB
+CH2O,Formaldehyde,1,1,1.0,1035.0,:sperm measure,SUB
+CH2O,Formaldehyde,3,0,0.101,80.80000000000001,:trachea,SUB
+CH2O,Formaldehyde,5,3,3.069,18468.048,:clinical signs,SUB
+CH2O,Formaldehyde,1,0,0.0,0.0,:sodium,SAC
+CH2O,Formaldehyde,4,0,0.21900000000000003,91.965,:adrenal gland,SUB
+CH2O,Formaldehyde,2,0,0.0,0.0,:salivary glands,SUB
+CH2O,Formaldehyde,2,2,2.0,10981.0,:phosphorus,SAC
+CH2O,Formaldehyde,2,0,0.0,0.0,:harderian gland,SUB
+CH2O,Formaldehyde,4,1,1.2570000000000001,11743.872,:ovary,SUB
+CH2O,Formaldehyde,1,1,0.53,98.79200000000002,:alanine aminotransferase (alt/sgpt),SUB
+CH2O,Formaldehyde,1,0,0.0,0.0,:other,DEV
+CH2O,Formaldehyde,2,0,0.0,0.0,:appearance and color,SUB
+CH2O,Formaldehyde,3,0,0.0,0.0,:vagina,SUB
+CH2O,Formaldehyde,4,0,0.15,18.0,:spinal cord,SUB
+CH2O,Formaldehyde,2,0,0.414,49.68,:skeletal muscle,SUB
+CH2O,Formaldehyde,2,0,0.373,111.0445,:nose,SUB
+CH2O,Formaldehyde,4,1,1.179,753.3,:intestine small,SUB
+CH2O,Formaldehyde,3,1,1.627,11635.107100000001,:protein,SUB
+CH2O,Formaldehyde,1,1,1.0,512.0,:blood vessel,DEV
+CH2O,Formaldehyde,3,0,0.55,612.0436,:lymph node,SUB
+CH2O,Formaldehyde,2,0,0.0,0.0,:all gross anomalies,MGR
+CH2O,Formaldehyde,1,0,0.0,0.0,:mating,MGR
+CH2O,Formaldehyde,1,1,1.0,640.0,:chloride,CHR
+CH2O,Formaldehyde,2,0,0.0,0.0,:occult blood,SUB
+CH2O,Formaldehyde,4,4,4.0,18752.45,:mean corpuscular (cell) volume (mcv),SUB
+CH2O,Formaldehyde,2,1,1.0,2463.8,:platelet,SUB
+CH2O,Formaldehyde,4,0,0.5820000000000001,2913.615,:epididymis,SUB
+CH2O,Formaldehyde,2,0,0.101,145.44,:larynx,SUB
+CH2O,Formaldehyde,1,1,1.0,360.0,:diaphragm,DEV
+CH2O,Formaldehyde,1,0,0.0,0.0,:parathyroid,SUB
+CH2O,Formaldehyde,2,0,0.0,0.0,:sex ratio,MGR
+CH2O,Formaldehyde,4,4,4.0,3592.9,:water consumption,SUB
+CH2O,Formaldehyde,1,1,1.0,2880.0,":lipids, total",DEV

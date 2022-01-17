@@ -1,0 +1,39 @@
+/*--------------------------------*- C++ -*----------------------------------*\
+| =========                 |                                                 |
+| \\      /  F ield         | OpenFOAM: The Open Source CFD Toolbox           |
+|  \\    /   O peration     | Version:  4.0                                   |
+|   \\  /    A nd           | Web:      www.OpenFOAM.org                      |
+|    \\/     M anipulation  |                                                 |
+\*---------------------------------------------------------------------------*/
+FoamFile
+{
+    version     2.0;
+    format      ascii;
+    class       dictionary;
+    object      surfaceFeaturesDict;
+}
+// * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
+
+//JN: Here we define, which edges we want to use as features for the geometry. Usually we use all of them
+surfaces
+(
+  "inlet1.stl"
+  "inlet2.stl"
+  "outlet.stl"
+  "windowsmall.stl"
+  "door.stl"
+  "columns.stl"
+  "windowbig.stl"
+  "ceiling.stl"
+  "floor.stl"
+  "wallwindow.stl"
+  "walldoor.stl"
+  "walloutside.stl"
+  "wallinside.stl"
+  "emission_surface.stl"
+);
+
+includedAngle   180;
+
+
+// ************************************************************************* //

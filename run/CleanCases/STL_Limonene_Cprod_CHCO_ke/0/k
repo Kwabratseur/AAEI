@@ -1,0 +1,96 @@
+/*--------------------------------*- C++ -*----------------------------------*\
+| =========                 |                                                 |
+| \\      /  F ield         | OpenFOAM: The Open Source CFD Toolbox           |
+|  \\    /   O peration     | Version:  6                                     |
+|   \\  /    A nd           | Web:      www.OpenFOAM.com                      |
+|    \\/     M anipulation  |                                                 |
+\*---------------------------------------------------------------------------*/
+FoamFile
+{
+    version     2.0;
+    format      ascii;
+    class       volScalarField;
+    object      k;
+}
+// * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
+
+dimensions      [0 2 -2 0 0 0 0];
+
+internalField   uniform 0.00307; //3/2*(U*0.015)^2
+
+boundaryField
+{
+  inlet1
+  {
+      type            zeroGradient;
+  }
+  inlet2
+  {
+      type            zeroGradient;
+  }
+  outlet
+  {
+      type            zeroGradient;
+  }
+  door
+  {
+      type            fixedValue;
+      value           $internalField;
+  }
+  windowsmall
+  {
+      type            fixedValue;
+      value           $internalField;
+
+  }
+
+  windowbig
+  {
+      type            fixedValue;
+      value           $internalField;
+
+  }
+  columns
+  {
+      type            fixedValue;
+      value           $internalField;
+
+  }
+  ceiling
+  {
+      type            fixedValue;
+      value           $internalField;
+  }
+  floor
+  {
+      type            fixedValue;
+      value           $internalField;
+  }
+  wallwindow
+  {
+      type            fixedValue;
+      value           $internalField;
+  }
+  walldoor
+  {
+      type            fixedValue;
+      value           $internalField;
+  }
+  walloutside
+  {
+      type            fixedValue;
+      value           $internalField;
+  }
+  wallinside
+  {
+      type            fixedValue;
+      value           $internalField;
+  }
+  emission_surface
+  {
+      type            fixedValue;
+      value           $internalField;
+  }
+}
+
+// ************************************************************************* //

@@ -1,0 +1,147 @@
+/*--------------------------------*- C++ -*----------------------------------*\
+  =========                 |
+  \\      /  F ield         | OpenFOAM: The Open Source CFD Toolbox
+   \\    /   O peration     | Website:  https://openfoam.org
+    \\  /    A nd           | Version:  9
+     \\/     M anipulation  |
+\*---------------------------------------------------------------------------*/
+FoamFile
+{
+    format      ascii;
+    class       volVectorField;
+    location    "0";
+    object      U;
+}
+// * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
+
+dimensions      [0 1 -1 0 0 0 0];
+
+internalField   uniform (0 0 0);
+
+boundaryField
+{
+  inlet1
+  {
+      type            fixedValue;
+      value           uniform (0 0 -0.13);
+  }
+  inlet2
+  {
+      type            fixedValue;
+      value           uniform (0 0 -0.13);
+  }
+  outlet
+  {
+      type            pressureInletOutletVelocity;
+      value           uniform (0 0 0);
+  }
+    windowsmall
+    {
+        type            fixedValue;
+        value           uniform (0 0 0);
+    }
+    door
+    {
+        type            fixedValue;
+        value           uniform (0 0 0);
+    }
+    columns
+    {
+        type            fixedValue;
+        value           uniform (0 0 0);
+    }
+    windowbig
+    {
+        type            fixedValue;
+        value           uniform (0 0 0);
+    }
+    ceiling
+    {
+        type            fixedValue;
+        value           uniform (0 0 0);
+    }
+    floor
+    {
+        type            fixedValue;
+        value           uniform (0 0 0);
+    }
+    wallwindow
+    {
+        type            fixedValue;
+        value           uniform (0 0 0);
+    }
+    walldoor
+    {
+        type            fixedValue;
+        value           uniform (0 0 0);
+    }
+    walloutside
+    {
+        type            fixedValue;
+        value           uniform (0 0 0);
+    }
+    wallinside
+    {
+        type            fixedValue;
+        value           uniform (0 0 0);
+    }
+    emission_surface
+    {
+        type            fixedValue;
+        value           uniform (0 0 6.02e-05);
+    }
+    IOLet_L_Man
+    {
+        type            fixedNormalInletOutletVelocity;
+        fixTangentialInflow false;
+        normalVelocity
+        {
+            type            uniformFixedValue;
+            uniformValue    scale;
+            uniformValueCoeffs
+            {
+                value           sine;
+                valueCoeffs
+                {
+                    amplitude       constant (0.4237 -0.3224 0.5971);
+                    frequency       0.23;
+                    start           0;
+                    level           constant (0 0 0);
+                }
+            }
+            value           uniform (0 0 0);
+        }
+        value           uniform (0 0 0);
+    }
+    IOLet_R_Man
+    {
+        type            fixedNormalInletOutletVelocity;
+        fixTangentialInflow false;
+        normalVelocity
+        {
+            type            uniformFixedValue;
+            uniformValue    scale;
+            uniformValueCoeffs
+            {
+                value           sine;
+                valueCoeffs
+                {
+                    amplitude       constant (0.3847 -0.4297 0.5544);
+                    frequency       0.23;
+                    start           0;
+                    level           constant (0 0 0);
+                }
+            }
+            value           uniform (0 0 0);
+        }
+        value           uniform (0 0 0);
+    }
+    LetLessMan
+    {
+        type            fixedValue;
+        value           $internalField;
+    }
+}
+
+
+// ************************************************************************* //

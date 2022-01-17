@@ -1,0 +1,32 @@
+/*--------------------------------*- C++ -*----------------------------------*\
+  =========                 |
+  \\      /  F ield         | OpenFOAM: The Open Source CFD Toolbox
+   \\    /   O peration     | Website:  https://openfoam.org
+    \\  /    A nd           | Version:  8
+     \\/     M anipulation  |
+-------------------------------------------------------------------------------
+
+
+\*---------------------------------------------------------------------------*/
+
+reactions
+{
+    limoneneReaction
+    {
+        type     irreversibleArrhenius;
+        reaction "C10H16 + O3 = 2Cprod";
+        A        1.753e6;//2.91e-15; Conversion from cm3 molec-1 s-1 to m3 kmol-1 s-1
+        beta     0;
+        Ta       770;
+    }
+    // limoneneFormaldehydeReaction
+    // {
+    //   type     irreversibleArrhenius;
+    //   reaction "Cprod + O3 = 4.666435533494661CH2O ";
+    //   A        1.3689122798608136e9; //3.630164886825291e-11 Convert from cm3 molecule-1 s-1 tp m3 kmol-1 s-1
+    //   beta     0.0;
+    //   Ta       770;
+    // }
+}
+
+// ************************************************************************* //

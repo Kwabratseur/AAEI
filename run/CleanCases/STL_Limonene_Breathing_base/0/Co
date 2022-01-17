@@ -1,0 +1,94 @@
+/*--------------------------------*- C++ -*----------------------------------*\
+  =========                 |
+  \\      /  F ield         | OpenFOAM: The Open Source CFD Toolbox
+   \\    /   O peration     | Website:  https://openfoam.org
+    \\  /    A nd           | Version:  9
+     \\/     M anipulation  |
+\*---------------------------------------------------------------------------*/
+FoamFile
+{
+    format      ascii;
+    class       volScalarField;
+    location    "0";
+    object      Co;
+}
+// * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
+
+dimensions      [0 0 0 0 0 0 0];
+
+internalField   uniform 0;
+
+boundaryField
+{
+    inlet1
+    {
+        type            zeroGradient;
+    }
+    inlet2
+    {
+        type            zeroGradient;
+    }
+    outlet
+    {
+        type            zeroGradient;
+    }
+    windowsmall
+    {
+        type            zeroGradient;
+    }
+    door
+    {
+        type            zeroGradient;
+    }
+    columns
+    {
+        type            zeroGradient;
+    }
+    windowbig
+    {
+        type            zeroGradient;
+    }
+    ceiling
+    {
+        type            zeroGradient;
+    }
+    floor
+    {
+        type            zeroGradient;
+    }
+    wallwindow
+    {
+        type            zeroGradient;
+    }
+    walldoor
+    {
+        type            zeroGradient;
+    }
+    walloutside
+    {
+        type            zeroGradient;
+    }
+    wallinside
+    {
+        type            zeroGradient;
+    }
+    emission_surface
+    {
+        type            zeroGradient;
+    }
+    IOLet_L_Man
+    {
+        type            zeroGradient;
+    }
+    IOLet_R_Man
+    {
+        type            zeroGradient;
+    }
+    LetLessMan
+    {
+        type            zeroGradient;
+    }
+}
+
+
+// ************************************************************************* //

@@ -1,0 +1,16 @@
+solid outlet
+  facet normal 0.000000 0.000000 1.000000
+    outer loop
+      vertex 1180.000000 -0.000000 2580.000000
+      vertex 1780.000000 600.000000 2580.000000
+      vertex 1180.000000 600.000000 2580.000000
+    endloop
+  endfacet
+  facet normal 0.000000 0.000000 1.000000
+    outer loop
+      vertex 1180.000000 -0.000000 2580.000000
+      vertex 1780.000000 -0.000000 2580.000000
+      vertex 1780.000000 600.000000 2580.000000
+    endloop
+  endfacet
+endsolid outlet

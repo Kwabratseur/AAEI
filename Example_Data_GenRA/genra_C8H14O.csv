@@ -1,0 +1,245 @@
+role,target,analog,analog,analog,analog,analog,analog,analog,analog,analog,analog,analog,analog,analog,analog,analog
+preferred name,6-Methyl-5-hepten-2-one,"3,7-Dimethyl-2,6-octadienal",Myrcene,4-(4-Hydroxyphenyl)butan-2-one,Ethyl acrylate,Acetamide,tert-Butyl acetate,Urethane,Tetraacetylethylenediamine,Ethylene glycol monoethyl ether acetate,Methacrylamide,"1,4-Bis(bromoacetoxy)-2-butene",2-Ethylhexanoic acid,Fosamine ammonium,Butyraldehyde oxime,Glycolic acid
+dsstox_sid,DTXSID5021629,DTXSID6024836,DTXSID6025692,DTXSID5044495,DTXSID4020583,DTXSID7020005,DTXSID1022055,DTXSID9021427,DTXSID5040752,DTXSID9021928,DTXSID8029600,DTXSID0034308,DTXSID9025293,DTXSID9032406,DTXSID2024664,DTXSID0025363
+molecular weight,126.199,152.237,136.238,164.204,100.117,59.068,116.160,89.094,228.248,132.159,85.106,329.972,144.214,170.105,87.122,76.051
+similarity,1.00001,0.4375,0.41935483870967744,0.23076923076923078,0.21875,0.21739130434782608,0.21428571428571427,0.20689655172413793,0.20689655172413793,0.19444444444444445,0.18518518518518517,0.16666666666666666,0.16216216216216217,0.16216216216216217,0.16129032258064516,0.16
+CHR:adrenal gland,GenRA Neg Act=0 (0.292) AUC=0 p=0.84,210mg/kg/day,no_effect,no_data,no_effect,no_effect,no_data,no_effect,no_data,no_data,no_data,no_data,no_data,no_data,no_data,no_data
+CHR:appearance and color,GenRA Neg Act=0 (0) AUC=0 p=1,no_data,no_data,no_data,no_data,no_effect,no_data,no_data,no_data,no_data,no_data,no_data,no_data,no_data,no_data,no_data
+CHR:body weight,GenRA Pos Act=1 (0.855) AUC=0 p=0.765,60mg/kg/day,500mg/kg/day,no_data,100mg/kg/day,no_effect,no_data,0.325mg/kg/day,no_data,no_data,no_data,no_data,no_data,no_data,no_data,no_data
+CHR:bone,GenRA Neg Act=0 (0.341) AUC=0 p=0.715,60mg/kg/day,no_effect,no_data,no_effect,no_data,no_data,no_effect,no_data,no_data,no_data,no_data,no_data,no_data,no_data,no_data
+CHR:bone marrow,GenRA Pos Act=1 (0.659) AUC=0 p=0.545,no_data,500mg/kg/day,no_data,no_data,no_effect,no_data,no_data,no_data,no_data,no_data,no_data,no_data,no_data,no_data,no_data
+CHR:brain,GenRA Neg Act=0 (0) AUC=0 p=1,no_effect,no_effect,no_data,no_effect,no_effect,no_data,no_effect,no_data,no_data,no_data,no_data,no_data,no_data,no_data,no_data
+CHR:clinical signs,GenRA Neg Act=0 (0.28) AUC=0 p=0.71,no_effect,500mg/kg/day,no_data,no_effect,no_effect,no_data,no_effect,no_data,no_data,no_data,no_data,no_data,no_data,no_data,no_data
+CHR:clitoral gland,GenRA Neg Act=0 (0) AUC=0 p=1,no_effect,no_effect,no_data,no_effect,no_data,no_data,no_effect,no_data,no_data,no_data,no_data,no_data,no_data,no_data,no_data
+CHR:ear,GenRA Neg Act=0 (0) AUC=0 p=1,no_data,no_data,no_data,no_data,no_effect,no_data,no_data,no_data,no_data,no_data,no_data,no_data,no_data,no_data,no_data
+CHR:epididymis,GenRA Neg Act=0 (0) AUC=0 p=1,no_effect,no_effect,no_data,no_effect,no_effect,no_data,no_effect,no_data,no_data,no_data,no_data,no_data,no_data,no_data,no_data
+CHR:esophagus,GenRA Neg Act=0 (0) AUC=0 p=1,no_effect,no_effect,no_data,no_effect,no_effect,no_data,no_effect,no_data,no_data,no_data,no_data,no_data,no_data,no_data,no_data
+CHR:eye,GenRA Neg Act=0 (0.146) AUC=0 p=0.815,no_effect,no_effect,no_data,100mg/kg/day,no_effect,no_data,no_effect,no_data,no_data,no_data,no_data,no_data,no_data,no_data,no_data
+CHR:food consumption,GenRA Neg Act=0 (0) AUC=0 p=1,no_data,no_data,no_data,no_data,no_effect,no_data,no_data,no_data,no_data,no_data,no_data,no_data,no_data,no_data,no_data
+CHR:full gross necropsy,GenRA Neg Act=0 (0.292) AUC=0 p=0.805,260mg/kg/day,no_effect,no_data,no_effect,no_effect,no_data,no_effect,no_data,no_data,no_data,no_data,no_data,no_data,no_data,no_data
+CHR:gallbladder,GenRA Neg Act=0 (0) AUC=0 p=1,no_effect,no_effect,no_data,no_effect,no_data,no_data,no_effect,no_data,no_data,no_data,no_data,no_data,no_data,no_data,no_data
+CHR:glucose,GenRA Neg Act=0 (0) AUC=0 p=1,no_data,no_data,no_data,no_data,no_effect,no_data,no_data,no_data,no_data,no_data,no_data,no_data,no_data,no_data,no_data
+CHR:harderian gland,GenRA Neg Act=0 (0.161) AUC=0 p=0.74,no_effect,no_effect,no_data,no_effect,no_data,no_data,0.035mg/kg/day,no_data,no_data,no_data,no_data,no_data,no_data,no_data,no_data
+CHR:heart,GenRA Neg Act=0 (0.138) AUC=0 p=0.765,no_effect,no_effect,no_data,no_effect,no_effect,no_data,0.325mg/kg/day,no_data,no_data,no_data,no_data,no_data,no_data,no_data,no_data
+CHR:intestine large,GenRA Neg Act=0 (0) AUC=0 p=1,no_effect,no_effect,no_data,no_effect,no_effect,no_data,no_effect,no_data,no_data,no_data,no_data,no_data,no_data,no_data,no_data
+CHR:intestine small,GenRA Neg Act=0 (0) AUC=0 p=1,no_effect,no_effect,no_data,no_effect,no_effect,no_data,no_effect,no_data,no_data,no_data,no_data,no_data,no_data,no_data,no_data
+CHR:kidney,GenRA Pos Act=1 (0.571) AUC=1 p=0,60mg/kg/day,250mg/kg/day,no_data,no_effect,no_effect,no_data,no_effect,no_data,no_data,no_data,no_data,no_data,no_data,no_data,no_data
+CHR:larynx,GenRA Neg Act=0 (0) AUC=0 p=1,no_effect,no_effect,no_data,no_effect,no_effect,no_data,no_effect,no_data,no_data,no_data,no_data,no_data,no_data,no_data,no_data
+CHR:liver,GenRA Pos Act=1 (0.562) AUC=0 p=0.93,no_effect,250mg/kg/day,no_data,no_effect,1180mg/kg/day,no_data,0.035mg/kg/day,no_data,no_data,no_data,no_data,no_data,no_data,no_data,no_data
+CHR:lung,GenRA Neg Act=0 (0.138) AUC=0 p=0.78,no_effect,no_effect,no_data,no_effect,no_effect,no_data,0.04mg/kg/day,no_data,no_data,no_data,no_data,no_data,no_data,no_data,no_data
+CHR:lymph node,GenRA Pos Act=1 (0.659) AUC=0 p=0.49,no_data,500mg/kg/day,no_data,no_data,no_effect,no_data,no_data,no_data,no_data,no_data,no_data,no_data,no_data,no_data,no_data
+CHR:mammary gland,GenRA Neg Act=0 (0.138) AUC=0 p=0.82,no_effect,no_effect,no_data,no_effect,no_effect,no_data,0.325mg/kg/day,no_data,no_data,no_data,no_data,no_data,no_data,no_data,no_data
+CHR:mortality,GenRA Neg Act=0 (0.418) AUC=0 p=0.91,no_effect,1000mg/kg/day,no_data,no_effect,no_effect,no_data,0.105mg/kg/day,no_data,no_data,no_data,no_data,no_data,no_data,no_data,no_data
+CHR:nerve,GenRA Neg Act=0 (0) AUC=0 p=1,no_effect,no_effect,no_data,no_effect,no_effect,no_data,no_effect,no_data,no_data,no_data,no_data,no_data,no_data,no_data,no_data
+CHR:nose,GenRA Neg Act=0 (0.28) AUC=0 p=0.83,no_effect,500mg/kg/day,no_data,no_effect,no_effect,no_data,no_effect,no_data,no_data,no_data,no_data,no_data,no_data,no_data,no_data
+CHR:occult blood,GenRA Neg Act=0 (0) AUC=0 p=1,no_data,no_data,no_data,no_data,no_effect,no_data,no_data,no_data,no_data,no_data,no_data,no_data,no_data,no_data,no_data
+CHR:ovary,GenRA Neg Act=0 (0.138) AUC=0 p=0.835,no_effect,no_effect,no_data,no_effect,no_effect,no_data,0.325mg/kg/day,no_data,no_data,no_data,no_data,no_data,no_data,no_data,no_data
+CHR:pancreas,GenRA Neg Act=0 (0) AUC=0 p=1,no_effect,no_effect,no_data,no_effect,no_effect,no_data,no_effect,no_data,no_data,no_data,no_data,no_data,no_data,no_data,no_data
+CHR:parathyroid gland,GenRA Neg Act=0 (0) AUC=0 p=1,no_effect,no_effect,no_data,no_effect,no_effect,no_data,no_effect,no_data,no_data,no_data,no_data,no_data,no_data,no_data,no_data
+CHR:ph,GenRA Neg Act=0 (0) AUC=0 p=1,no_data,no_data,no_data,no_data,no_effect,no_data,no_data,no_data,no_data,no_data,no_data,no_data,no_data,no_data,no_data
+CHR:pharynx,GenRA Neg Act=0 (0) AUC=0 p=1,no_data,no_data,no_data,no_data,no_effect,no_data,no_data,no_data,no_data,no_data,no_data,no_data,no_data,no_data,no_data
+CHR:pituitary gland,GenRA Neg Act=0 (0) AUC=0 p=1,no_effect,no_effect,no_data,no_effect,no_effect,no_data,no_effect,no_data,no_data,no_data,no_data,no_data,no_data,no_data,no_data
+CHR:preputial gland,GenRA Neg Act=0 (0) AUC=0 p=1,no_effect,no_effect,no_data,no_effect,no_data,no_data,no_effect,no_data,no_data,no_data,no_data,no_data,no_data,no_data,no_data
+CHR:prostate,GenRA Neg Act=0 (0) AUC=0 p=1,no_effect,no_effect,no_data,no_effect,no_effect,no_data,no_effect,no_data,no_data,no_data,no_data,no_data,no_data,no_data,no_data
+CHR:protein,GenRA Neg Act=0 (0) AUC=0 p=1,no_data,no_data,no_data,no_data,no_effect,no_data,no_data,no_data,no_data,no_data,no_data,no_data,no_data,no_data,no_data
+CHR:salivary glands,GenRA Neg Act=0 (0) AUC=0 p=1,no_effect,no_effect,no_data,no_effect,no_effect,no_data,no_effect,no_data,no_data,no_data,no_data,no_data,no_data,no_data,no_data
+CHR:seminal vesicle,GenRA Neg Act=0 (0) AUC=0 p=1,no_effect,no_effect,no_data,no_effect,no_effect,no_data,no_effect,no_data,no_data,no_data,no_data,no_data,no_data,no_data,no_data
+CHR:skeletal muscle,GenRA Neg Act=0 (0) AUC=0 p=1,no_effect,no_effect,no_data,no_effect,no_data,no_data,no_effect,no_data,no_data,no_data,no_data,no_data,no_data,no_data,no_data
+CHR:skin,GenRA Neg Act=0 (0.138) AUC=0 p=0.83,no_effect,no_effect,no_data,no_effect,no_effect,no_data,0.325mg/kg/day,no_data,no_data,no_data,no_data,no_data,no_data,no_data,no_data
+CHR:specific gravity/osmolality,GenRA Neg Act=0 (0) AUC=0 p=1,no_data,no_data,no_data,no_data,no_effect,no_data,no_data,no_data,no_data,no_data,no_data,no_data,no_data,no_data,no_data
+CHR:spinal cord,GenRA Neg Act=0 (0) AUC=0 p=1,no_data,no_data,no_data,no_data,no_effect,no_data,no_data,no_data,no_data,no_data,no_data,no_data,no_data,no_data,no_data
+CHR:spleen,GenRA Neg Act=0 (0.418) AUC=0 p=0.905,no_effect,500mg/kg/day,no_data,no_effect,no_effect,no_data,0.325mg/kg/day,no_data,no_data,no_data,no_data,no_data,no_data,no_data,no_data
+CHR:stomach,GenRA Pos Act=1 (0.563) AUC=0 p=0.875,no_effect,500mg/kg/day,no_data,100mg/kg/day,no_effect,no_data,0.36mg/kg/day,no_data,no_data,no_data,no_data,no_data,no_data,no_data,no_data
+CHR:testes,GenRA Neg Act=0 (0.145) AUC=0 p=0.77,no_effect,no_effect,no_data,no_effect,1180mg/kg/day,no_data,no_effect,no_data,no_data,no_data,no_data,no_data,no_data,no_data,no_data
+CHR:thymus,GenRA Neg Act=0 (0) AUC=0 p=1,no_effect,no_effect,no_data,no_effect,no_data,no_data,no_effect,no_data,no_data,no_data,no_data,no_data,no_data,no_data,no_data
+CHR:thyroid gland,GenRA Neg Act=0 (0) AUC=0 p=1,no_effect,no_effect,no_data,no_effect,no_effect,no_data,no_effect,no_data,no_data,no_data,no_data,no_data,no_data,no_data,no_data
+CHR:tongue,GenRA Neg Act=0 (0) AUC=0 p=1,no_effect,no_effect,no_data,no_effect,no_data,no_data,no_effect,no_data,no_data,no_data,no_data,no_data,no_data,no_data,no_data
+CHR:trachea,GenRA Neg Act=0 (0) AUC=0 p=1,no_effect,no_effect,no_data,no_effect,no_effect,no_data,no_effect,no_data,no_data,no_data,no_data,no_data,no_data,no_data,no_data
+CHR:urinary bladder,GenRA Neg Act=0 (0) AUC=0 p=1,no_effect,no_effect,no_data,no_effect,no_effect,no_data,no_effect,no_data,no_data,no_data,no_data,no_data,no_data,no_data,no_data
+CHR:uterus,GenRA Neg Act=0 (0.418) AUC=0 p=0.905,no_effect,1000mg/kg/day,no_data,no_effect,no_effect,no_data,0.105mg/kg/day,no_data,no_data,no_data,no_data,no_data,no_data,no_data,no_data
+CHR:vagina,GenRA Neg Act=0 (0) AUC=0 p=1,no_effect,no_effect,no_data,no_effect,no_data,no_data,no_effect,no_data,no_data,no_data,no_data,no_data,no_data,no_data,no_data
+CHR:volume,GenRA Neg Act=0 (0) AUC=0 p=1,no_data,no_data,no_data,no_data,no_effect,no_data,no_data,no_data,no_data,no_data,no_data,no_data,no_data,no_data,no_data
+DEV:aborted,GenRA Neg Act=0 (0) AUC=0 p=1,no_effect,no_effect,no_data,no_data,no_data,no_data,no_data,no_effect,no_effect,no_effect,no_effect,no_effect,no_data,no_data,no_effect
+DEV:adrenal gland,GenRA Pos Act=1 (1) AUC=0 p=1,no_data,no_data,no_data,no_data,no_data,no_data,no_data,no_data,no_data,no_data,50mg/kg/day,no_data,no_data,no_data,no_data
+DEV:all gross anomalies,GenRA Neg Act=0 (0) AUC=0 p=1,no_effect,no_effect,no_data,no_data,no_data,no_data,no_data,no_effect,no_effect,no_effect,no_effect,no_effect,no_data,no_data,no_effect
+DEV:birth index,GenRA Neg Act=0 (0) AUC=0 p=1,no_effect,no_effect,no_data,no_data,no_data,no_data,no_data,no_effect,no_effect,no_effect,no_effect,no_effect,no_data,no_data,no_effect
+DEV:body weight,GenRA Pos Act=1 (1) AUC=0 p=1,68ppm,1200mg/kg/day,no_data,no_data,no_data,no_data,no_data,200mg/kg/day,99ppm,120mg/kg/day,35mg/kg/day,300mg/kg/day,no_data,no_data,600mg/kg/day
+DEV:bone,GenRA Pos Act=1 (0.818) AUC=0 p=0.96,68ppm,1200mg/kg/day,no_data,no_data,no_data,no_data,no_data,1000mg/kg/day,50ppm,no_effect,no_effect,100mg/kg/day,no_data,no_data,300mg/kg/day
+DEV:brain,GenRA Pos Act=1 (1) AUC=0 p=1,no_data,no_data,no_data,no_data,no_data,no_data,no_data,no_data,300ppm,no_data,no_data,300mg/kg/day,no_data,no_data,no_data
+DEV:clinical signs,GenRA Pos Act=1 (0.58) AUC=0 p=0.995,68ppm,no_effect,no_data,no_data,no_data,no_data,no_data,no_effect,100ppm,no_effect,20mg/kg/day,500mg/kg/day,no_data,no_data,300mg/kg/day
+DEV:corpora lutea,GenRA Neg Act=0 (0) AUC=0 p=1,no_effect,no_effect,no_data,no_data,no_data,no_data,no_data,no_effect,no_effect,no_effect,no_effect,no_effect,no_data,no_data,no_effect
+DEV:dead fetuses,GenRA Neg Act=0 (0) AUC=0 p=1,no_effect,no_effect,no_data,no_data,no_data,no_data,no_data,no_effect,no_effect,no_effect,no_effect,no_effect,no_data,no_data,no_effect
+DEV:dystocia,GenRA Neg Act=0 (0) AUC=0 p=1,no_effect,no_effect,no_data,no_data,no_data,no_data,no_data,no_effect,no_effect,no_effect,no_effect,no_effect,no_data,no_data,no_effect
+DEV:ear,GenRA Pos Act=1 (1) AUC=0 p=1,no_data,no_data,no_data,no_data,no_data,no_data,no_data,no_data,300ppm,no_data,no_data,no_data,no_data,no_data,no_data
+DEV:erythrocyte (rbc) count differential,GenRA Pos Act=1 (1) AUC=0 p=1,no_data,no_data,no_data,no_data,no_data,no_data,no_data,no_data,100ppm,no_data,no_data,no_data,no_data,no_data,no_data
+DEV:estrous cycle,GenRA Pos Act=1 (1) AUC=0 p=1,no_data,no_data,no_data,no_data,no_data,no_data,no_data,no_data,300ppm,no_data,25mg/kg/day,no_data,no_data,no_data,no_data
+DEV:eye,GenRA Pos Act=1 (1) AUC=0 p=1,68ppm,no_data,no_data,no_data,no_data,no_data,no_data,no_data,no_data,no_data,no_data,no_data,no_data,no_data,no_data
+DEV:food consumption,GenRA Pos Act=1 (0.603) AUC=0 p=0.99,160mg/kg/day,no_effect,no_data,no_data,no_data,no_data,no_data,200mg/kg/day,300ppm,no_effect,20mg/kg/day,no_effect,no_data,no_data,600mg/kg/day
+DEV:full gross necropsy,GenRA Neg Act=0 (0) AUC=0 p=1,no_effect,no_effect,no_data,no_data,no_data,no_data,no_data,no_effect,no_effect,no_effect,no_effect,no_effect,no_data,no_data,no_effect
+DEV:gallbladder,GenRA Pos Act=1 (1) AUC=0 p=1,no_data,no_data,no_data,no_data,no_data,no_data,no_data,no_data,412ppm,no_data,no_data,no_data,no_data,no_data,no_data
+DEV:general,GenRA Pos Act=1 (1) AUC=0 p=1,250mg/kg/day,no_data,no_data,no_data,no_data,no_data,no_data,no_data,387.2ppm,no_data,no_data,no_data,no_data,no_data,no_data
+DEV:gestation index,GenRA Neg Act=0 (0) AUC=0 p=1,no_effect,no_effect,no_data,no_data,no_data,no_data,no_data,no_effect,no_effect,no_effect,no_effect,no_effect,no_data,no_data,no_effect
+DEV:great vessels,GenRA Pos Act=1 (1) AUC=0 p=1,no_data,no_data,no_data,no_data,no_data,no_data,no_data,no_data,100ppm,no_data,no_data,no_data,no_data,no_data,no_data
+DEV:heart,GenRA Pos Act=1 (1) AUC=0 p=1,no_data,no_data,no_data,no_data,no_data,no_data,no_data,no_data,130ppm,no_data,no_data,no_data,no_data,no_data,no_data
+DEV:hematocrit (hct),GenRA Pos Act=1 (1) AUC=0 p=1,no_data,no_data,no_data,no_data,no_data,no_data,no_data,no_data,100ppm,no_data,no_data,no_data,no_data,no_data,no_data
+DEV:hemoglobin (hgb),GenRA Pos Act=1 (1) AUC=0 p=1,no_data,no_data,no_data,no_data,no_data,no_data,no_data,no_data,100ppm,no_data,no_data,no_data,no_data,no_data,no_data
+DEV:implantations,GenRA Neg Act=0 (0.318) AUC=0 p=0.98,no_effect,1200mg/kg/day,no_data,no_data,no_data,no_data,no_data,no_effect,200ppm,no_effect,no_effect,no_effect,no_data,no_data,no_effect
+DEV:kidney,GenRA Pos Act=1 (1) AUC=0 p=1,no_data,no_data,no_data,no_data,no_data,no_data,no_data,no_data,300ppm,no_data,no_data,no_data,no_data,no_data,no_data
+DEV:leukocyte (wbc) count differential,GenRA Pos Act=1 (1) AUC=0 p=1,no_data,no_data,no_data,no_data,no_data,no_data,no_data,no_data,200ppm,no_data,no_data,no_data,no_data,no_data,no_data
+DEV:limb,GenRA Pos Act=1 (1) AUC=0 p=1,no_data,no_data,no_data,no_data,no_data,no_data,no_data,no_data,412ppm,no_data,no_data,no_data,no_data,no_data,no_data
+DEV:litter size,GenRA Neg Act=0 (0) AUC=0 p=1,no_effect,no_effect,no_data,no_data,no_data,no_data,no_data,no_effect,no_effect,no_effect,no_effect,no_effect,no_data,no_data,no_effect
+DEV:litter viability other,GenRA Neg Act=0 (0) AUC=0 p=1,no_effect,no_effect,no_data,no_data,no_data,no_data,no_data,no_effect,no_effect,no_effect,no_effect,no_effect,no_data,no_data,no_effect
+DEV:live fetuses,GenRA Neg Act=0 (0.497) AUC=0 p=0.985,125mg/kg/day,no_effect,no_data,no_data,no_data,no_data,no_data,no_effect,200ppm,no_effect,50mg/kg/day,500mg/kg/day,no_data,no_data,no_effect
+DEV:liver,GenRA Pos Act=1 (1) AUC=0 p=1,no_data,no_data,no_data,no_data,no_data,no_data,no_data,no_data,50ppm,120mg/kg/day,75mg/kg/day,500mg/kg/day,no_data,no_data,no_data
+DEV:lung,GenRA Pos Act=1 (1) AUC=0 p=1,no_data,no_data,no_data,no_data,no_data,no_data,no_data,no_data,200ppm,no_data,50mg/kg/day,no_data,no_data,no_data,no_data
+DEV:mean corpuscular (cell) volume (mcv),GenRA Pos Act=1 (1) AUC=0 p=1,no_data,no_data,no_data,no_data,no_data,no_data,no_data,no_data,100ppm,no_data,no_data,no_data,no_data,no_data,no_data
+DEV:mortality,GenRA Pos Act=1 (0.614) AUC=0.375 p=0.655,68ppm,1200mg/kg/day,no_data,no_data,no_data,no_data,no_data,no_effect,no_effect,no_effect,50mg/kg/day,1000mg/kg/day,no_data,no_data,no_effect
+DEV:mouth / jaw,GenRA Pos Act=1 (1) AUC=0 p=1,no_data,no_data,no_data,no_data,no_data,no_data,no_data,no_data,100ppm,no_data,no_data,no_data,no_data,no_data,no_data
+DEV:offspring survival early other,GenRA Neg Act=0 (0) AUC=0 p=1,no_effect,no_effect,no_data,no_data,no_data,no_data,no_data,no_effect,no_effect,no_effect,no_effect,no_effect,no_data,no_data,no_effect
+DEV:other,GenRA Neg Act=0 (0) AUC=0 p=1,no_effect,no_effect,no_data,no_data,no_data,no_data,no_data,no_effect,no_effect,no_effect,no_effect,no_effect,no_data,no_data,no_effect
+DEV:paw / digit,GenRA Pos Act=1 (1) AUC=0 p=1,no_data,1200mg/kg/day,no_data,no_data,no_data,no_data,no_data,no_data,no_data,no_data,no_data,300mg/kg/day,no_data,no_data,no_data
+DEV:placenta,GenRA Pos Act=1 (1) AUC=0 p=1,no_data,no_data,no_data,no_data,no_data,no_data,no_data,no_data,no_data,no_data,no_data,300mg/kg/day,no_data,no_data,no_data
+DEV:platelet,GenRA Pos Act=1 (1) AUC=0 p=1,no_data,no_data,no_data,no_data,no_data,no_data,no_data,no_data,100ppm,no_data,no_data,no_data,no_data,no_data,no_data
+DEV:postimplantation loss,GenRA Neg Act=0 (0.367) AUC=0.25 p=0.84,no_effect,no_effect,no_data,no_data,no_data,no_data,no_data,no_effect,412ppm,180mg/kg/day,50mg/kg/day,500mg/kg/day,no_data,no_data,no_effect
+DEV:pregnancy,GenRA Neg Act=0 (0.084) AUC=0 p=0.865,no_effect,no_effect,no_data,no_data,no_data,no_data,no_data,no_effect,no_effect,no_effect,no_effect,300mg/kg/day,no_data,no_data,no_effect
+DEV:pregnancy index,GenRA Pos Act=1 (1) AUC=0 p=1,125mg/kg/day,no_data,no_data,no_data,no_data,no_data,no_data,no_data,no_data,no_data,no_data,no_data,no_data,no_data,no_data
+DEV:preimplantation loss,GenRA Neg Act=0 (0) AUC=0 p=1,no_effect,no_effect,no_data,no_data,no_data,no_data,no_data,no_effect,no_effect,no_effect,no_effect,no_effect,no_data,no_data,no_effect
+DEV:premature delivery,GenRA Neg Act=0 (0) AUC=0 p=1,no_effect,no_effect,no_data,no_data,no_data,no_data,no_data,no_effect,no_effect,no_effect,no_effect,no_effect,no_data,no_data,no_effect
+DEV:reproductive performance other,GenRA Neg Act=0 (0) AUC=0 p=1,no_effect,no_effect,no_data,no_data,no_data,no_data,no_data,no_effect,no_effect,no_effect,no_effect,no_effect,no_data,no_data,no_effect
+DEV:resorptions,GenRA Neg Act=0 (0.271) AUC=0.2666666666666666 p=0.88,no_effect,no_effect,no_data,no_data,no_data,no_data,no_data,no_effect,300ppm,no_effect,50mg/kg/day,1000mg/kg/day,no_data,no_data,no_effect
+DEV:sex ratio,GenRA Neg Act=0 (0) AUC=0 p=1,no_effect,no_effect,no_data,no_data,no_data,no_data,no_data,no_effect,no_effect,no_effect,no_effect,no_effect,no_data,no_data,no_effect
+DEV:spinal cord,GenRA Neg Act=0 (0) AUC=0 p=1,no_effect,no_effect,no_data,no_data,no_data,no_data,no_data,no_effect,no_effect,no_effect,no_effect,no_effect,no_data,no_data,no_effect
+DEV:spleen,GenRA Pos Act=1 (1) AUC=0 p=1,125mg/kg/day,no_data,no_data,no_data,no_data,no_data,no_data,no_data,99ppm,no_data,75mg/kg/day,no_data,no_data,no_data,no_data
+DEV:stomach,GenRA Pos Act=1 (1) AUC=0 p=1,no_data,no_data,no_data,no_data,no_data,no_data,no_data,no_data,no_data,no_data,50mg/kg/day,no_data,no_data,no_data,no_data
+DEV:trachea,GenRA Pos Act=1 (1) AUC=0 p=1,no_data,no_data,no_data,no_data,no_data,no_data,no_data,no_data,no_data,no_data,75mg/kg/day,no_data,no_data,no_data,no_data
+DEV:trunk,GenRA Neg Act=0 (0.101) AUC=0 p=0.89,no_effect,no_effect,no_data,no_data,no_data,no_data,no_data,no_effect,390ppm,no_effect,no_effect,no_effect,no_data,no_data,no_effect
+DEV:urinary bladder,GenRA Pos Act=1 (1) AUC=0 p=1,no_data,no_data,no_data,no_data,no_data,no_data,no_data,no_data,no_data,no_data,75mg/kg/day,no_data,no_data,no_data,no_data
+DEV:uterus,GenRA Neg Act=0 (0.5) AUC=0 p=0.99,no_effect,1200mg/kg/day,no_data,no_data,no_data,no_data,no_data,no_effect,300ppm,180mg/kg/day,50mg/kg/day,no_effect,no_data,no_data,no_effect
+DEV:vagina,GenRA Pos Act=1 (1) AUC=0 p=1,no_data,no_data,no_data,no_data,no_data,no_data,no_data,no_data,no_data,no_data,50mg/kg/day,no_data,no_data,no_data,no_data
+DEV:water consumption,GenRA Pos Act=1 (1) AUC=0 p=1,no_data,no_data,no_data,no_data,no_data,no_data,no_data,no_data,no_data,no_data,no_data,600mg/kg/day,no_data,no_data,no_data
+REP:aborted,GenRA Neg Act=0 (0) AUC=0 p=1,no_data,no_effect,no_data,no_data,no_data,no_data,no_data,no_data,no_data,no_data,no_data,no_data,no_data,no_data,no_data
+REP:all gross anomalies,GenRA Neg Act=0 (0) AUC=0 p=1,no_data,no_effect,no_data,no_data,no_data,no_data,no_data,no_data,no_data,no_data,no_data,no_data,no_data,no_data,no_data
+REP:body weight,GenRA Pos Act=1 (1) AUC=0 p=1,no_data,500mg/kg/day,no_data,no_data,no_data,no_data,no_data,no_data,no_data,no_data,no_data,no_data,no_data,no_data,no_data
+REP:clinical signs,GenRA Neg Act=0 (0) AUC=0 p=1,no_data,no_effect,no_data,no_data,no_data,no_data,no_data,no_data,no_data,no_data,no_data,no_data,no_data,no_data,no_data
+REP:corpora lutea,GenRA Neg Act=0 (0) AUC=0 p=1,no_data,no_effect,no_data,no_data,no_data,no_data,no_data,no_data,no_data,no_data,no_data,no_data,no_data,no_data,no_data
+REP:dead fetuses,GenRA Pos Act=1 (1) AUC=0 p=1,no_data,1000mg/kg/day,no_data,no_data,no_data,no_data,no_data,no_data,no_data,no_data,no_data,no_data,no_data,no_data,no_data
+REP:dystocia,GenRA Pos Act=1 (1) AUC=0 p=1,no_data,500mg/kg/day,no_data,no_data,no_data,no_data,no_data,no_data,no_data,no_data,no_data,no_data,no_data,no_data,no_data
+REP:epididymis,GenRA Neg Act=0 (0) AUC=0 p=1,no_data,no_effect,no_data,no_data,no_data,no_data,no_data,no_data,no_data,no_data,no_data,no_data,no_data,no_data,no_data
+REP:eye opening,GenRA Pos Act=1 (1) AUC=0 p=1,no_data,1000mg/kg/day,no_data,no_data,no_data,no_data,no_data,no_data,no_data,no_data,no_data,no_data,no_data,no_data,no_data
+REP:fertility,GenRA Pos Act=1 (1) AUC=0 p=1,no_data,1000mg/kg/day,no_data,no_data,no_data,no_data,no_data,no_data,no_data,no_data,no_data,no_data,no_data,no_data,no_data
+REP:food consumption,GenRA Neg Act=0 (0) AUC=0 p=1,no_data,no_effect,no_data,no_data,no_data,no_data,no_data,no_data,no_data,no_data,no_data,no_data,no_data,no_data,no_data
+REP:general,GenRA Pos Act=1 (1) AUC=0 p=1,no_data,500mg/kg/day,no_data,no_data,no_data,no_data,no_data,no_data,no_data,no_data,no_data,no_data,no_data,no_data,no_data
+REP:gestation index,GenRA Neg Act=0 (0) AUC=0 p=1,no_data,no_effect,no_data,no_data,no_data,no_data,no_data,no_data,no_data,no_data,no_data,no_data,no_data,no_data,no_data
+REP:gestational length,GenRA Neg Act=0 (0) AUC=0 p=1,no_data,no_effect,no_data,no_data,no_data,no_data,no_data,no_data,no_data,no_data,no_data,no_data,no_data,no_data,no_data
+REP:implantations,GenRA Neg Act=0 (0) AUC=0 p=1,no_data,no_effect,no_data,no_data,no_data,no_data,no_data,no_data,no_data,no_data,no_data,no_data,no_data,no_data,no_data
+REP:litter size,GenRA Neg Act=0 (0) AUC=0 p=1,no_data,no_effect,no_data,no_data,no_data,no_data,no_data,no_data,no_data,no_data,no_data,no_data,no_data,no_data,no_data
+REP:litter viability other,GenRA Pos Act=1 (1) AUC=0 p=1,no_data,500mg/kg/day,no_data,no_data,no_data,no_data,no_data,no_data,no_data,no_data,no_data,no_data,no_data,no_data,no_data
+REP:mating,GenRA Neg Act=0 (0) AUC=0 p=1,no_data,no_effect,no_data,no_data,no_data,no_data,no_data,no_data,no_data,no_data,no_data,no_data,no_data,no_data,no_data
+REP:mortality,GenRA Pos Act=1 (1) AUC=0 p=1,no_data,1500mg/kg/day,no_data,no_data,no_data,no_data,no_data,no_data,no_data,no_data,no_data,no_data,no_data,no_data,no_data
+REP:offspring survival early other,GenRA Neg Act=0 (0) AUC=0 p=1,no_data,no_effect,no_data,no_data,no_data,no_data,no_data,no_data,no_data,no_data,no_data,no_data,no_data,no_data,no_data
+REP:ovary,GenRA Neg Act=0 (0) AUC=0 p=1,no_data,no_effect,no_data,no_data,no_data,no_data,no_data,no_data,no_data,no_data,no_data,no_data,no_data,no_data,no_data
+REP:pinna unfolding,GenRA Pos Act=1 (1) AUC=0 p=1,no_data,1000mg/kg/day,no_data,no_data,no_data,no_data,no_data,no_data,no_data,no_data,no_data,no_data,no_data,no_data,no_data
+REP:postimplantation loss,GenRA Neg Act=0 (0) AUC=0 p=1,no_data,no_effect,no_data,no_data,no_data,no_data,no_data,no_data,no_data,no_data,no_data,no_data,no_data,no_data,no_data
+REP:precoital interval,GenRA Neg Act=0 (0) AUC=0 p=1,no_data,no_effect,no_data,no_data,no_data,no_data,no_data,no_data,no_data,no_data,no_data,no_data,no_data,no_data,no_data
+REP:pregnancy,GenRA Neg Act=0 (0) AUC=0 p=1,no_data,no_effect,no_data,no_data,no_data,no_data,no_data,no_data,no_data,no_data,no_data,no_data,no_data,no_data,no_data
+REP:pregnancy index,GenRA Neg Act=0 (0) AUC=0 p=1,no_data,no_effect,no_data,no_data,no_data,no_data,no_data,no_data,no_data,no_data,no_data,no_data,no_data,no_data,no_data
+REP:preimplantation loss,GenRA Neg Act=0 (0) AUC=0 p=1,no_data,no_effect,no_data,no_data,no_data,no_data,no_data,no_data,no_data,no_data,no_data,no_data,no_data,no_data,no_data
+REP:premature delivery,GenRA Neg Act=0 (0) AUC=0 p=1,no_data,no_effect,no_data,no_data,no_data,no_data,no_data,no_data,no_data,no_data,no_data,no_data,no_data,no_data,no_data
+REP:preputial gland,GenRA Neg Act=0 (0) AUC=0 p=1,no_data,no_effect,no_data,no_data,no_data,no_data,no_data,no_data,no_data,no_data,no_data,no_data,no_data,no_data,no_data
+REP:resorptions,GenRA Neg Act=0 (0) AUC=0 p=1,no_data,no_effect,no_data,no_data,no_data,no_data,no_data,no_data,no_data,no_data,no_data,no_data,no_data,no_data,no_data
+REP:sex ratio,GenRA Neg Act=0 (0) AUC=0 p=1,no_data,no_effect,no_data,no_data,no_data,no_data,no_data,no_data,no_data,no_data,no_data,no_data,no_data,no_data,no_data
+REP:stomach,GenRA Pos Act=1 (1) AUC=0 p=1,no_data,1000mg/kg/day,no_data,no_data,no_data,no_data,no_data,no_data,no_data,no_data,no_data,no_data,no_data,no_data,no_data
+REP:testes,GenRA Neg Act=0 (0) AUC=0 p=1,no_data,no_effect,no_data,no_data,no_data,no_data,no_data,no_data,no_data,no_data,no_data,no_data,no_data,no_data,no_data
+REP:uterus,GenRA Neg Act=0 (0) AUC=0 p=1,no_data,no_effect,no_data,no_data,no_data,no_data,no_data,no_data,no_data,no_data,no_data,no_data,no_data,no_data,no_data
+SUB:[other],GenRA Pos Act=1 (1) AUC=0 p=1,no_data,no_data,no_data,no_data,no_data,no_data,525mg/kg/day,no_data,no_data,no_data,no_data,no_data,no_data,no_data,no_data
+SUB:adrenal gland,GenRA Neg Act=0 (0.188) AUC=0.0625 p=0.97,no_effect,no_effect,678mg/kg/day,no_data,no_data,1600mg/kg/day,no_effect,no_effect,no_data,no_data,no_effect,no_effect,no_effect,no_effect,no_data
+SUB:alanine aminotransferase (alt/sgpt),GenRA Neg Act=0 (0.233) AUC=0 p=0.905,no_effect,no_effect,no_data,no_data,no_data,no_data,no_effect,no_data,no_data,no_data,no_data,2728mg/kg/day,no_data,25mg/kg/day,no_data
+SUB:albumin,GenRA Neg Act=0 (0.257) AUC=0 p=0.89,no_effect,no_effect,no_data,no_data,no_data,no_data,no_effect,1000mg/kg/day,no_data,no_data,no_data,no_data,no_data,50mg/kg/day,no_data
+SUB:albumin-globulin ratio,GenRA Pos Act=1 (1) AUC=0 p=1,no_data,no_data,no_data,no_data,no_data,no_data,no_data,no_data,no_data,no_data,39.1mg/kg/day,no_data,no_data,no_data,no_data
+SUB:alkaline phosphatase (alp/alk),GenRA Neg Act=0 (0.132) AUC=0 p=0.73,no_effect,no_effect,no_data,no_data,no_data,no_data,no_effect,no_data,no_data,no_data,no_data,no_data,no_data,25mg/kg/day,no_data
+SUB:anisocytosis,GenRA Pos Act=1 (1) AUC=0 p=1,no_data,no_data,no_data,no_data,no_data,no_data,no_data,no_data,no_data,no_data,22.5mg/kg/day,no_data,no_data,no_data,no_data
+SUB:bile acids,GenRA Neg Act=0 (0.132) AUC=0 p=0.76,no_effect,no_effect,no_data,no_data,no_data,no_data,no_effect,no_data,no_data,no_data,no_data,no_data,no_data,200mg/kg/day,no_data
+SUB:bilirubin,GenRA Pos Act=1 (1) AUC=0 p=1,no_data,no_data,no_data,no_data,no_data,no_data,no_data,no_data,no_data,no_data,no_data,1038mg/kg/day,no_data,no_data,no_data
+SUB:body weight,GenRA Pos Act=1 (1) AUC=0 p=1,335mg/kg/day,500mg/kg/day,678mg/kg/day,no_data,no_data,1600mg/kg/day,114mg/kg/day,25mg/kg/day,no_data,no_data,39.1mg/kg/day,1038mg/kg/day,500mg/kg/day,50mg/kg/day,no_data
+SUB:bone,GenRA Neg Act=0 (0.261) AUC=0 p=0.915,no_effect,no_effect,no_data,no_data,no_data,800mg/kg/day,no_effect,no_data,no_data,no_data,no_data,no_data,no_data,200mg/kg/day,no_data
+SUB:bone marrow,GenRA Neg Act=0 (0.413) AUC=0 p=0.97,1330mg/kg/day,no_data,no_effect,no_data,no_data,no_effect,165mg/kg/day,no_effect,no_data,no_data,no_effect,no_effect,no_effect,600mg/kg/day,no_data
+SUB:brain,GenRA Neg Act=0 (0) AUC=0 p=1,no_effect,no_effect,no_effect,no_data,no_data,no_effect,no_effect,no_effect,no_data,no_data,no_effect,no_effect,no_effect,no_effect,no_data
+SUB:calcium,GenRA Pos Act=1 (1) AUC=0 p=1,no_data,no_data,no_data,no_data,no_data,no_data,no_data,no_data,no_data,no_data,39.1mg/kg/day,no_data,no_data,no_data,no_data
+SUB:chloride,GenRA Pos Act=1 (1) AUC=0 p=1,no_data,no_data,no_data,no_data,no_data,no_data,no_data,no_data,no_data,no_data,22.5mg/kg/day,no_data,no_data,no_data,no_data
+SUB:cholesterol,GenRA Neg Act=0 (0.117) AUC=0 p=0.79,no_effect,no_effect,no_data,no_data,no_data,no_data,no_effect,no_data,no_data,no_data,no_data,885mg/kg/day,no_data,no_effect,no_data
+SUB:clinical signs,GenRA Pos Act=1 (0.678) AUC=0.20833333333333331 p=0.935,1585mg/kg/day,2000mg/kg/day,no_effect,no_data,no_data,1600mg/kg/day,495mg/kg/day,no_effect,no_data,no_data,22.5mg/kg/day,no_effect,no_effect,600mg/kg/day,no_data
+SUB:clitoral gland,GenRA Neg Act=0 (0) AUC=0 p=1,no_effect,no_effect,no_data,no_data,no_data,no_data,no_effect,no_data,no_data,no_data,no_data,no_data,no_data,no_effect,no_data
+SUB:creatine phosphokinase,GenRA Neg Act=0 (0) AUC=0 p=1,no_effect,no_effect,no_data,no_data,no_data,no_data,no_effect,no_data,no_data,no_data,no_data,no_data,no_data,no_effect,no_data
+SUB:creatinine,GenRA Neg Act=0 (0.12) AUC=0 p=0.78,no_effect,no_effect,no_data,no_data,no_data,no_data,no_effect,no_data,no_data,no_data,39.1mg/kg/day,no_data,no_data,no_effect,no_data
+SUB:ear,GenRA Neg Act=0 (0) AUC=0 p=1,no_data,no_data,no_effect,no_data,no_data,no_effect,no_data,no_effect,no_data,no_data,no_effect,no_effect,no_effect,no_data,no_data
+SUB:epididymis,GenRA Neg Act=0 (0) AUC=0 p=1,no_effect,no_effect,no_effect,no_data,no_data,no_effect,no_effect,no_effect,no_data,no_data,no_effect,no_effect,no_effect,no_effect,no_data
+SUB:erythrocyte (rbc) count differential,GenRA Pos Act=1 (0.603) AUC=0 p=0.95,no_effect,1000mg/kg/day,678mg/kg/day,no_data,no_data,no_data,no_effect,no_data,no_data,no_data,22.5mg/kg/day,no_data,no_data,25mg/kg/day,no_data
+SUB:esophagus,GenRA Neg Act=0 (0) AUC=0 p=1,no_effect,no_effect,no_effect,no_data,no_data,no_effect,no_effect,no_effect,no_data,no_data,no_effect,no_effect,no_effect,no_effect,no_data
+SUB:estrous cycle,GenRA Pos Act=1 (1) AUC=0 p=1,no_data,no_data,no_data,no_data,no_data,no_data,165mg/kg/day,no_data,no_data,no_data,no_data,no_data,no_data,no_data,no_data
+SUB:eye,GenRA Neg Act=0 (0) AUC=0 p=1,no_effect,no_effect,no_effect,no_data,no_data,no_effect,no_effect,no_effect,no_data,no_data,no_effect,no_effect,no_effect,no_effect,no_data
+SUB:food consumption,GenRA Pos Act=1 (0.854) AUC=0 p=0.86,745mg/kg/day,no_data,no_effect,no_data,no_data,1600mg/kg/day,no_data,1000mg/kg/day,no_data,no_data,22.5mg/kg/day,2728mg/kg/day,500mg/kg/day,no_data,no_data
+SUB:full gross necropsy,GenRA Neg Act=0 (0.087) AUC=0 p=0.895,no_effect,no_effect,no_effect,no_data,no_data,no_effect,165mg/kg/day,no_effect,no_data,no_data,no_effect,no_effect,no_effect,no_effect,no_data
+SUB:gallbladder,GenRA Neg Act=0 (0) AUC=0 p=1,no_effect,no_effect,no_data,no_data,no_data,no_data,no_effect,no_data,no_data,no_data,no_data,no_data,no_data,no_effect,no_data
+SUB:globulins,GenRA Pos Act=1 (1) AUC=0 p=1,no_data,no_data,no_data,no_data,no_data,no_data,no_data,1000mg/kg/day,no_data,no_data,39.1mg/kg/day,no_data,no_data,no_data,no_data
+SUB:glucose,GenRA Neg Act=0 (0.12) AUC=0 p=0.725,no_effect,no_effect,no_data,no_data,no_data,no_data,no_effect,no_data,no_data,no_data,22.5mg/kg/day,no_data,no_data,no_effect,no_data
+SUB:harderian gland,GenRA Neg Act=0 (0.342) AUC=0 p=0.775,no_effect,500mg/kg/day,no_data,no_data,no_data,no_data,no_effect,no_data,no_data,no_data,no_data,no_data,no_data,no_effect,no_data
+SUB:heart,GenRA Neg Act=0 (0.155) AUC=0 p=0.975,no_effect,no_effect,no_effect,no_data,no_data,no_effect,33mg/kg/day,no_effect,no_data,no_data,no_effect,no_effect,no_effect,50mg/kg/day,no_data
+SUB:hematocrit (hct),GenRA Pos Act=1 (0.537) AUC=0 p=0.93,no_effect,1000mg/kg/day,no_data,no_data,no_data,no_data,no_effect,no_data,no_data,no_data,39.1mg/kg/day,no_data,no_data,25mg/kg/day,no_data
+SUB:hemoglobin (hgb),GenRA Pos Act=1 (0.603) AUC=0 p=0.96,no_effect,1000mg/kg/day,678mg/kg/day,no_data,no_data,no_data,no_effect,no_data,no_data,no_data,22.5mg/kg/day,no_data,no_data,25mg/kg/day,no_data
+SUB:hypochromia,GenRA Pos Act=1 (1) AUC=0 p=1,no_data,no_data,no_data,no_data,no_data,no_data,no_data,no_data,no_data,no_data,22.5mg/kg/day,no_data,no_data,no_data,no_data
+SUB:intestine large,GenRA Neg Act=0 (0) AUC=0 p=1,no_effect,no_effect,no_effect,no_data,no_data,no_effect,no_effect,no_effect,no_data,no_data,no_effect,no_effect,no_effect,no_effect,no_data
+SUB:intestine small,GenRA Neg Act=0 (0.09) AUC=0 p=0.89,no_effect,no_effect,no_effect,no_data,no_data,1600mg/kg/day,no_effect,no_effect,no_data,no_data,no_effect,no_effect,no_effect,no_effect,no_data
+SUB:jolly bodies,GenRA Pos Act=1 (1) AUC=0 p=1,no_data,no_data,no_data,no_data,no_data,no_data,525mg/kg/day,no_data,no_data,no_data,no_data,no_data,no_data,no_data,no_data
+SUB:ketones,GenRA Pos Act=1 (1) AUC=0 p=1,no_data,no_data,65mg/kg/day,no_data,no_data,no_data,no_data,no_data,no_data,no_data,no_data,no_data,no_data,no_data,no_data
+SUB:kidney,GenRA Pos Act=1 (0.684) AUC=0 p=0.99,820mg/kg/day,250mg/kg/day,240mg/kg/day,no_data,no_data,no_effect,23mg/kg/day,no_effect,no_data,no_data,no_effect,2728mg/kg/day,50mg/kg/day,no_effect,no_data
+SUB:larynx,GenRA Neg Act=0 (0) AUC=0 p=1,no_effect,no_effect,no_effect,no_data,no_data,no_effect,no_effect,no_effect,no_data,no_data,no_effect,no_effect,no_effect,no_effect,no_data
+SUB:leukocyte (wbc) count differential,GenRA Pos Act=1 (0.601) AUC=0 p=0.865,3870mg/kg/day,no_effect,727mg/kg/day,no_data,no_data,no_data,11mg/kg/day,no_data,no_data,no_data,no_data,no_data,no_data,no_effect,no_data
+SUB:liver,GenRA Pos Act=1 (0.747) AUC=0 p=0.995,no_effect,250mg/kg/day,240mg/kg/day,no_data,no_data,1600mg/kg/day,78mg/kg/day,500mg/kg/day,no_data,no_data,22.5mg/kg/day,885mg/kg/day,no_effect,25mg/kg/day,no_data
+SUB:lung,GenRA Neg Act=0 (0.087) AUC=0 p=0.875,no_effect,no_effect,no_effect,no_data,no_data,no_effect,114mg/kg/day,no_effect,no_data,no_data,no_effect,no_effect,no_effect,no_effect,no_data
+SUB:lymph node,GenRA Neg Act=0 (0.408) AUC=0.22222222222222224 p=0.89,no_data,1000mg/kg/day,no_effect,no_data,no_data,no_effect,165mg/kg/day,no_effect,no_data,no_data,no_effect,no_effect,no_effect,600mg/kg/day,no_data
+SUB:lymphocyte,GenRA Pos Act=1 (1) AUC=0 p=1,3870mg/kg/day,no_data,no_data,no_data,no_data,no_data,11mg/kg/day,no_data,no_data,no_data,no_data,no_data,no_data,no_data,no_data
+SUB:macrocytosis,GenRA Pos Act=1 (1) AUC=0 p=1,no_data,no_data,no_data,no_data,no_data,no_data,no_data,no_data,no_data,no_data,22.5mg/kg/day,no_data,no_data,no_data,no_data
+SUB:mammary gland,GenRA Neg Act=0 (0) AUC=0 p=1,no_effect,no_effect,no_effect,no_data,no_data,no_effect,no_effect,no_effect,no_data,no_data,no_effect,no_effect,no_effect,no_effect,no_data
+SUB:mean corpuscular (cell) volume (mcv),GenRA Neg Act=0 (0.236) AUC=0 p=0.935,no_effect,no_effect,no_data,no_data,no_data,no_data,no_effect,no_data,no_data,no_data,22.5mg/kg/day,no_data,no_data,50mg/kg/day,no_data
+SUB:mean corpuscular hemoglobin (mch),GenRA Neg Act=0 (0.236) AUC=0 p=0.885,no_effect,no_effect,no_data,no_data,no_data,no_data,no_effect,no_data,no_data,no_data,22.5mg/kg/day,no_data,no_data,50mg/kg/day,no_data
+SUB:mean corpuscular hemoglobin concentration (mchc),GenRA Neg Act=0 (0.12) AUC=0 p=0.835,no_effect,no_effect,no_data,no_data,no_data,no_data,no_effect,no_data,no_data,no_data,39.1mg/kg/day,no_data,no_data,no_effect,no_data
+SUB:methemoglobin,GenRA Pos Act=1 (1) AUC=0 p=1,no_data,no_data,no_data,no_data,no_data,no_data,no_data,no_data,no_data,no_data,no_data,no_data,no_data,25mg/kg/day,no_data
+SUB:mortality,GenRA Pos Act=1 (0.678) AUC=0.20833333333333331 p=0.895,1585mg/kg/day,2000mg/kg/day,no_effect,no_data,no_data,1600mg/kg/day,495mg/kg/day,no_effect,no_data,no_data,39.1mg/kg/day,no_effect,no_effect,600mg/kg/day,no_data
+SUB:nerve,GenRA Neg Act=0 (0) AUC=0 p=1,no_effect,no_effect,no_effect,no_data,no_data,no_effect,no_effect,no_effect,no_data,no_data,no_effect,no_effect,no_effect,no_effect,no_data
+SUB:nose,GenRA Neg Act=0 (0.245) AUC=0.3125 p=0.8,no_effect,1000mg/kg/day,no_effect,no_data,no_data,no_effect,no_effect,no_effect,no_data,no_data,no_effect,no_effect,no_effect,25mg/kg/day,no_data
+SUB:occult blood,GenRA Neg Act=0 (0) AUC=0 p=1,no_data,no_data,no_data,no_data,no_data,no_data,no_data,no_effect,no_data,no_data,no_data,no_data,no_data,no_data,no_data
+SUB:ovary,GenRA Neg Act=0 (0.272) AUC=0 p=0.985,3870mg/kg/day,no_effect,no_effect,no_data,no_data,no_effect,495mg/kg/day,no_effect,no_data,no_data,no_effect,no_effect,no_effect,no_effect,no_data
+SUB:pancreas,GenRA Neg Act=0 (0.087) AUC=0 p=0.9,no_effect,no_effect,no_effect,no_data,no_data,no_effect,1500mg/kg/day,no_effect,no_data,no_data,no_effect,no_effect,no_effect,no_effect,no_data
+SUB:parathyroid gland,GenRA Neg Act=0 (0) AUC=0 p=1,no_effect,no_effect,no_effect,no_data,no_data,no_effect,no_effect,no_effect,no_data,no_data,no_effect,no_effect,no_effect,no_effect,no_data
+SUB:ph,GenRA Neg Act=0 (0) AUC=0 p=1,no_data,no_data,no_data,no_data,no_data,no_data,no_data,no_effect,no_data,no_data,no_data,no_data,no_data,no_data,no_data
+SUB:pharynx,GenRA Neg Act=0 (0) AUC=0 p=1,no_data,no_data,no_effect,no_data,no_data,no_effect,no_data,no_effect,no_data,no_data,no_effect,no_effect,no_effect,no_data,no_data
+SUB:phosphorus,GenRA Pos Act=1 (1) AUC=0 p=1,no_data,no_data,no_data,no_data,no_data,no_data,no_data,no_data,no_data,no_data,22.5mg/kg/day,no_data,no_data,no_data,no_data
+SUB:pituitary gland,GenRA Neg Act=0 (0) AUC=0 p=1,no_effect,no_effect,no_effect,no_data,no_data,no_effect,no_effect,no_effect,no_data,no_data,no_effect,no_effect,no_effect,no_effect,no_data
+SUB:platelet,GenRA Neg Act=0 (0) AUC=0 p=1,no_effect,no_effect,no_data,no_data,no_data,no_data,no_effect,no_data,no_data,no_data,no_data,no_data,no_data,no_effect,no_data
+SUB:polychromasia,GenRA Pos Act=1 (1) AUC=0 p=1,no_data,no_data,no_data,no_data,no_data,no_data,525mg/kg/day,no_data,no_data,no_data,22.5mg/kg/day,no_data,no_data,no_data,no_data
+SUB:potassium,GenRA Pos Act=1 (1) AUC=0 p=1,no_data,no_data,no_data,no_data,no_data,no_data,no_data,no_data,no_data,no_data,22.5mg/kg/day,no_data,no_data,no_data,no_data
+SUB:preputial gland,GenRA Neg Act=0 (0) AUC=0 p=1,no_effect,no_effect,no_data,no_data,no_data,no_data,no_effect,no_data,no_data,no_data,no_data,no_data,no_data,no_effect,no_data
+SUB:prostate,GenRA Neg Act=0 (0) AUC=0 p=1,no_effect,no_effect,no_effect,no_data,no_data,no_effect,no_effect,no_effect,no_data,no_data,no_effect,no_effect,no_effect,no_effect,no_data
+SUB:protein,GenRA Neg Act=0 (0.335) AUC=0 p=0.97,no_effect,no_effect,no_data,no_data,no_data,no_data,no_effect,1000mg/kg/day,no_data,no_data,39.1mg/kg/day,no_data,no_data,50mg/kg/day,no_data
+SUB:reticulocyte,GenRA Neg Act=0 (0.132) AUC=0 p=0.76,no_effect,no_effect,no_data,no_data,no_data,no_data,no_effect,no_data,no_data,no_data,no_data,no_data,no_data,100mg/kg/day,no_data
+SUB:salivary glands,GenRA Neg Act=0 (0) AUC=0 p=1,no_effect,no_effect,no_effect,no_data,no_data,no_effect,no_effect,no_effect,no_data,no_data,no_effect,no_effect,no_effect,no_effect,no_data
+SUB:seminal vesicle,GenRA Neg Act=0 (0) AUC=0 p=1,no_effect,no_effect,no_effect,no_data,no_data,no_effect,no_effect,no_effect,no_data,no_data,no_effect,no_effect,no_effect,no_effect,no_data
+SUB:skeletal muscle,GenRA Neg Act=0 (0) AUC=0 p=1,no_effect,no_effect,no_data,no_data,no_data,no_data,no_effect,no_data,no_data,no_data,no_data,no_data,no_data,no_effect,no_data
+SUB:skin,GenRA Neg Act=0 (0) AUC=0 p=1,no_effect,no_effect,no_effect,no_data,no_data,no_effect,no_effect,no_effect,no_data,no_data,no_effect,no_effect,no_effect,no_effect,no_data
+SUB:sorbitol dehydrogenase,GenRA Neg Act=0 (0) AUC=0 p=1,no_effect,no_effect,no_data,no_data,no_data,no_data,no_effect,no_data,no_data,no_data,no_data,no_data,no_data,no_effect,no_data
+SUB:sperm measure,GenRA Pos Act=1 (1) AUC=0 p=1,no_data,no_data,no_data,no_data,no_data,no_data,16.5mg/kg/day,no_data,no_data,no_data,no_data,no_data,no_data,no_data,no_data
+SUB:spinal cord,GenRA Neg Act=0 (0) AUC=0 p=1,no_data,no_data,no_effect,no_data,no_data,no_effect,no_data,no_effect,no_data,no_data,no_effect,no_effect,no_effect,no_data,no_data
+SUB:spleen,GenRA Neg Act=0 (0.403) AUC=0.16666666666666666 p=0.97,no_effect,2000mg/kg/day,no_effect,no_data,no_data,no_effect,78mg/kg/day,no_effect,no_data,no_data,22.5mg/kg/day,no_effect,no_effect,50mg/kg/day,no_data
+SUB:stomach,GenRA Pos Act=1 (0.591) AUC=0.16000000000000003 p=0.945,1585mg/kg/day,2000mg/kg/day,no_effect,no_data,no_data,1600mg/kg/day,no_effect,no_effect,no_data,no_data,4.5mg/kg/day,2728mg/kg/day,no_effect,no_effect,no_data
+SUB:testes,GenRA Neg Act=0 (0.36) AUC=0 p=0.97,1585mg/kg/day,no_effect,no_effect,no_data,no_data,no_effect,287mg/kg/day,1000mg/kg/day,no_data,no_data,no_effect,no_effect,no_effect,no_effect,no_data
+SUB:thymus,GenRA Pos Act=1 (0.608) AUC=0.32000000000000006 p=0.77,1585mg/kg/day,500mg/kg/day,no_effect,no_data,no_data,1600mg/kg/day,165mg/kg/day,no_effect,no_data,no_data,no_effect,no_effect,no_effect,600mg/kg/day,no_data
+SUB:thyroid gland,GenRA Neg Act=0 (0) AUC=0 p=1,no_effect,no_effect,no_effect,no_data,no_data,no_effect,no_effect,no_effect,no_data,no_data,no_effect,no_effect,no_effect,no_effect,no_data
+SUB:tongue,GenRA Neg Act=0 (0) AUC=0 p=1,no_effect,no_effect,no_data,no_data,no_data,no_data,no_effect,no_data,no_data,no_data,no_data,no_data,no_data,no_effect,no_data
+SUB:trachea,GenRA Neg Act=0 (0) AUC=0 p=1,no_effect,no_effect,no_effect,no_data,no_data,no_effect,no_effect,no_effect,no_data,no_data,no_effect,no_effect,no_effect,no_effect,no_data
+SUB:triglycerides,GenRA Neg Act=0 (0.117) AUC=0 p=0.8,no_effect,no_effect,no_data,no_data,no_data,no_data,no_effect,no_data,no_data,no_data,no_data,1038mg/kg/day,no_data,no_effect,no_data
+SUB:urea nitrogen,GenRA Neg Act=0 (0.12) AUC=0 p=0.825,no_effect,no_effect,no_data,no_data,no_data,no_data,no_effect,no_data,no_data,no_data,39.1mg/kg/day,no_data,no_data,no_effect,no_data
+SUB:urinary bladder,GenRA Neg Act=0 (0.068) AUC=0 p=0.88,no_effect,no_effect,no_effect,no_data,no_data,no_effect,no_effect,no_effect,no_data,no_data,no_effect,no_effect,500mg/kg/day,no_effect,no_data
+SUB:uterus,GenRA Neg Act=0 (0) AUC=0 p=1,no_effect,no_effect,no_effect,no_data,no_data,no_effect,no_effect,no_effect,no_data,no_data,no_effect,no_effect,no_effect,no_effect,no_data
+SUB:vagina,GenRA Neg Act=0 (0) AUC=0 p=1,no_effect,no_effect,no_data,no_data,no_data,no_data,no_effect,no_data,no_data,no_data,no_data,no_data,no_data,no_effect,no_data
+SUB:volume,GenRA Neg Act=0 (0) AUC=0 p=1,no_data,no_data,no_data,no_data,no_data,no_data,no_data,no_effect,no_data,no_data,no_data,no_data,no_data,no_data,no_data
+SUB:water consumption,GenRA Pos Act=1 (1) AUC=0 p=1,no_data,no_data,no_data,no_data,no_data,no_data,525mg/kg/day,no_data,no_data,no_data,no_data,no_data,no_data,no_data,no_data

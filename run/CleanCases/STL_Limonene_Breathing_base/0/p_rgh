@@ -1,0 +1,118 @@
+/*--------------------------------*- C++ -*----------------------------------*\
+  =========                 |
+  \\      /  F ield         | OpenFOAM: The Open Source CFD Toolbox
+   \\    /   O peration     | Website:  https://openfoam.org
+    \\  /    A nd           | Version:  8
+     \\/     M anipulation  |
+\*---------------------------------------------------------------------------*/
+FoamFile
+{
+    version     2.0;
+    format      ascii;
+    class       volScalarField;
+    location    "0";
+    object      p_rgh;
+}
+// * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
+
+dimensions      [1 -1 -2 0 0 0 0];
+
+internalField   uniform 1e5;
+
+boundaryField
+{
+    inlet1
+    {
+      type               fixedFluxPressure;
+      value              $internalField;
+    }
+    inlet2
+    {
+      type               fixedFluxPressure;
+      value              $internalField;
+    }
+    outlet
+    {
+      type               prghPressure;
+      p                  $internalField;
+      value              $internalField;
+      // type               totalPressure;
+      // p                  $internalField;
+      // p0                  $internalField;
+      // value              $internalField;
+    }
+    door
+    {
+        type               fixedFluxPressure;
+        value              $internalField;
+    }
+    windowsmall
+    {
+        type               fixedFluxPressure;
+        value              $internalField;
+
+    }
+    windowbig
+    {
+        type               fixedFluxPressure;
+        value              $internalField;
+    }
+    columns
+    {
+        type               fixedFluxPressure;
+        value              $internalField;
+    }
+    ceiling
+    {
+        type               fixedFluxPressure;
+        value              $internalField;
+    }
+    floor
+    {
+        type               fixedFluxPressure;
+        value              $internalField;
+    }
+    wallwindow
+    {
+        type               fixedFluxPressure;
+        value              $internalField;
+    }
+    walldoor
+    {
+        type               fixedFluxPressure;
+        value              $internalField;
+    }
+    walloutside
+    {
+        type               fixedFluxPressure;
+        value              $internalField;
+    }
+    wallinside
+    {
+        type               fixedFluxPressure;
+        value              $internalField;
+    }
+    emission_surface
+    {
+        type               fixedFluxPressure;
+        value              $internalField;
+    }
+    IOLet_L_Man
+    {
+        type            fixedFluxPressure;
+        value           $internalField;
+    }
+    IOLet_R_Man
+    {
+        type            fixedFluxPressure;
+        value           $internalField;
+    }
+    LetLessMan
+    {
+        type            fixedFluxPressure;
+        value           $internalField;
+    }
+}
+
+
+// ************************************************************************* //

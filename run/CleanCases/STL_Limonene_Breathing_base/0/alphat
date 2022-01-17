@@ -1,0 +1,112 @@
+/*--------------------------------*- C++ -*----------------------------------*\
+  =========                 |
+  \\      /  F ield         | OpenFOAM: The Open Source CFD Toolbox
+   \\    /   O peration     | Website:  https://openfoam.org
+    \\  /    A nd           | Version:  8
+     \\/     M anipulation  |
+\*---------------------------------------------------------------------------*/
+FoamFile
+{
+    version     2.0;
+    format      ascii;
+    class       volScalarField;
+    location    "0";
+    object      alphat;
+}
+// * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
+
+dimensions      [1 -1 -1 0 0 0 0];
+
+internalField   uniform 0;
+
+boundaryField
+{
+  inlet1
+  {
+      type            fixedValue;
+      value           $internalField;
+  }
+  inlet2
+  {
+      type            fixedValue;
+      value           $internalField;
+  }
+  outlet
+  {
+      type            inletOutlet;
+      inletValue      uniform 0;
+      value           uniform 0;
+  }
+  door
+  {
+      type            fixedValue;
+      value           $internalField;
+  }
+  windowsmall
+  {
+      type            fixedValue;
+      value           $internalField;
+  }
+  windowbig
+  {
+      type            fixedValue;
+      value           $internalField;
+  }
+  columns
+  {
+    type            fixedValue;
+    value           $internalField;
+  }
+  ceiling
+  {
+      type            fixedValue;
+      value           $internalField;
+  }
+  floor
+  {
+      type            fixedValue;
+      value           $internalField;
+  }
+  wallwindow
+  {
+      type            fixedValue;
+      value           $internalField;
+  }
+  walldoor
+  {
+      type            fixedValue;
+      value           $internalField;
+  }
+  walloutside
+  {
+      type            fixedValue;
+      value           $internalField;
+  }
+  wallinside
+  {
+      type            fixedValue;
+      value           $internalField;
+  }
+  emission_surface
+  {
+      type            fixedValue;
+      value           $internalField;
+  }
+  IOLet_L_Man
+  {
+      type            fixedValue;
+      value           $internalField;
+  }
+  IOLet_R_Man
+  {
+      type            fixedValue;
+      value           $internalField;
+  }
+  LetLessMan
+  {
+      type            fixedValue;
+      value           $internalField;
+  }
+}
+
+// ************************************************************************* //

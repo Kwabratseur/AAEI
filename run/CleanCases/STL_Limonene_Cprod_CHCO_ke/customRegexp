@@ -1,0 +1,37 @@
+Cprodplot
+{
+  expr "volAverage\(\) of Cprod = (%f%)";
+  name "my_Cprod";
+  theTitle "Concentration plot";
+  titles (Cprod2);
+  logscale true;
+  type regular;
+}
+Cprodplot2
+{
+  expr "volAverage\(\) of Cprod = (%f%)";
+  titles (Cprod);
+  type slave;
+  master Cprodplot;
+}
+O3plot
+{
+  expr "volAverage\(\) of O3 = (%f%)";
+  titles (O3);
+  type slave;
+  master Cprodplot;
+}
+C10H16plot
+{
+  expr "volAverage\(\) of C10H16 = (%f%)";
+  titles (C10H16);
+  type slave;
+  master Cprodplot;
+}
+CH2Oplot
+{
+  expr "volAverage\(\) of CH2O = (%f%)";
+  titles (CH2O);
+  type slave;
+  master Cprodplot;
+}
