@@ -1,6 +1,6 @@
-__pycache__/
+__pycache__
 /*.egg-info
-/dist/
+/build
 *.py[cod]
 *$py.class
 *.pyc
@@ -11,3 +11,5 @@ __pycache__/
 *.ipynb_checkpoints
 *.pdf
 *.docx
+*.html
+/Example_Data_GenRA

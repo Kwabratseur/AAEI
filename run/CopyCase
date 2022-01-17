@@ -1,0 +1,11 @@
+#!/bin/bash
+#Simple clone script
+
+#$1 = arg1
+foamCloneCase $1 CleanCases/$1
+cp -v $1*.{pvsm,foam} CleanCases/$1
+cp -v $1customRegexp CleanCases/$1 
+cd CleanCases/$1
+foamCleanTutorials
+cd ../../
+echo "done copying $1 !!!"

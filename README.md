@@ -1,3 +1,5 @@
+# Work In Progress!
+
 # Air Adverse Effect Index (AAEI)
 
 ## Introduction
@@ -12,7 +14,7 @@ A brief list of software used in this project
 
 ### OpenFoam
 [OpenFoam](https://openfoam.org/) .org version 9 has been used to run the simulation in this repository.
-I would recommend installing OpenFOAM V9 through docker, following the guide at https://openfoam.org/download/9-linux/. For linux this leads to a straight-forward setup, which is easily accessible. 
+I would recommend installing OpenFOAM V9 through docker, following the guide at https://openfoam.org/download/9-linux/. For linux this leads to a straight-forward setup, which is easily accessible.
 There are no instructions on Windows, but this is fairly easy.:
  1. Download and install Docker: https://docs.docker.com/desktop/windows/install/. You might need to setup WSL.
  2. Once setup, go to https://hub.docker.com/r/openfoam/openfoam9-paraview56 and use the docker pull command to start installing the docker.
@@ -22,7 +24,7 @@ After an installation like this, you access the docker image first and then exec
 
 <img src=https://s3.studylib.net/store/data/025453706_1-bd2eaeb6355a6e966ae4632a763f7e10-768x994.png width="600" height="800">
 
-[Solver capability matrix](https://www.openfoam.com/documentation/guides/latest/doc/openfoam-guide-applications-solvers.html) *(Note: for openfoam.com version, mostly the same but might differ!)* 
+[Solver capability matrix](https://www.openfoam.com/documentation/guides/latest/doc/openfoam-guide-applications-solvers.html) *(Note: for openfoam.com version, mostly the same but might differ!)*
 
 ### PyFoam
 [PyFoam](https://pypi.org/project/PyFoam/) Very convenient library which adds functionality and tools for [OpenFoam](#OpenFoam)
@@ -46,7 +48,7 @@ To ease the copying and management of OpenFOAM cases, a simple script has been w
  * Simply make sure it is executable, and run CopyCase \<CaseName\>.
 
 #### AAEI calculation script
-The most extensive script here. 
+The most extensive script here.
 it provides standard methods to calculate an output file GenRA_
 It provides the following methods:
  * Filter out Metadata from the GenRA files, calculate statistical values and export as **genra_\<formula\>_\<chemical_name\>_metadata.csv**
@@ -59,7 +61,7 @@ It provides the following methods:
          * To averages over time, to determine the **relative** effect on different effect-groups
          * To spatial data, this can locate the more healthier or less healthy locations.
          * To see the contribution to AEI by different **gases**, **test-types** or **effect-types**
-         
+
 #### ParaView AAEI applications script/Macro
 
 First this script needs to be imported into ParaView, name it for example AAEI
@@ -112,7 +114,7 @@ BatchReport(fileNames,compoundNames,FileName,Viz=True,fcn="sum")
  7.The resulting normalized AEI can be applied to any dataset
      * To averages over time, to determine the **relative** effect on different effect-groups
      * To spatial data, this can locate the more healthier or less healthy locations.
-     * To see the contribution to AEI by different **gases**, **test-types** or **effect-types** 
+     * To see the contribution to AEI by different **gases**, **test-types** or **effect-types**
      * To the right the ParaView source-tree is shown, the different effect categories are visible.
 
 
@@ -143,11 +145,17 @@ BatchReport(fileNames,compoundNames,FileName,Viz=True,fcn="sum")
 ### case 3
 
 ### case 4
-
-
-
 <img src=gfx/Sim_Overview_Kazuhide.png width="150" height="280">
 <img src=gfx/AEI_opaq.png width="150" height="280">
 <img src=gfx/Plane_Definitions_STL.png width="150" height="280">
 <img src=gfx/X3_Overview_Geom.png width="150" height="280">
-:tada: :fireworks::tada: :fireworks::tada: :fireworks:
+:tada: :fireworks::tada:
+Note To Self:
+```bash
+python setup.py sdist
+pip install .  # dry-run from folder
+pip uninstall aaei # uninstall
+pip install -e # install with symlink
+twine upload dist/* #because pip doesn't work anymore for some magical reason.
+```
+:fireworks::tada: :fireworks:
