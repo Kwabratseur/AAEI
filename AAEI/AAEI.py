@@ -258,7 +258,7 @@ def BatchReport(fileNames, filename, fcn="sum", viz = False):
     table.replace("", nan_value, inplace=True)
     table.replace(nan_value, 0,  inplace=True)
     table = df_normalize(table)
-    table.to_csv("AEI_Norm_Test.csv")
+    table.to_csv("AEI_Norm.csv")
     if viz:
          print("visualizing dataset")
          plotResult(table, df, fileNames)
