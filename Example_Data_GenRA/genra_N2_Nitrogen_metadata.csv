@@ -1,9 +1,0 @@
-,preferred name,Nitrogen,Cyanamide,Acetonitrile,Calcium cyanamide,Dibromoacetonitrile,Acrylonitrile,Dichloroacetonitrile,Propionitrile
-0,dsstox_sid,DTXSID4036304,DTXSID9034490,DTXSID7020009,DTXSID6020353,DTXSID3024940,DTXSID5020029,DTXSID3021562,DTXSID1021879
-1,molecular weight,28.014,42.041,41.053,80.103,198.845,53.064,109.940,55.080
-2,similarity,1.00001,0.14285714285714285,0.14285714285714285,0.125,0.1,0.1,0.1,0.1
-Effectgroup,total targets,positive targets,positive targets decimal,weighted and averaged limit [mg/kg/day]
-SUB,89,31,29.458,8060.357599999997,SUB
-CHR,84,35,37.053,4267.9325,CHR
-MGR,40,3,3.0,43.75,MGR
-DEV,35,12,12.850999999999999,15145.335000000001,DEV
