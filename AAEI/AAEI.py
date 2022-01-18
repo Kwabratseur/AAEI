@@ -3,7 +3,7 @@
 
 import pandas as pd
 from datetime import datetime
-import csv, random, re, math, sys, os, webbrowser
+import csv, random, re, math, sys, os, webbrowser, shutil
 import numpy as np
 
 import matplotlib.pyplot as plt
@@ -259,8 +259,8 @@ def BatchReport(fileNames, filename, fcn="sum", viz = False):
     table.replace(nan_value, 0,  inplace=True)
     table = df_normalize(table)
     table.to_csv("AEI_Norm_Test.csv")
-    if Viz:
-         print("Viz")
+    if viz:
+         print("visualizing dataset")
          plotResult(table, df, fileNames)
     return MetaBlobs, TargetBlobs, analogBlobs, table, df
 
@@ -274,20 +274,19 @@ def OneGas(Filename="genra_O3"):
     TargetEffectLabels = TrackTargetEffectLabels(HID,TargetEffectLabels)
 
 
-def ArgChecker(Args):
-    Dict = {"filename":"Batch_Report","viz":False,"pivot":"Batch_Report_Target.csv","fcn":"sum","piv":False,"help":False,"Run":False}
+def ArgChecker(Args): # Argument checker; if boolean is put in dict, it is treated as a flag. Any other type will be treated as string.
+    Dict = {"filename":"Batch_Report","viz":False,"pivot":"Batch_Report_Target.csv","fcn":"sum","piv":False,"help":False,"Run":False,"CopyExamples":False}
     for i in Args:
         i0 = i.split("=")
         if i0[0] in Dict.keys():
             if Dict[i0[0]] == False: # Boolean switch detector. If flag is detected, flip value in dict.
                  Dict[i0[0]] = True
             else: # i has been split at the = sign, so this will contain the arg.
-                 Dict[i0[0]] =  i0[1]
+                 Dict[i0[0]] =  i0[1] # If argument is not a boolean, it MUST contain an argument, and here we use pattern arg=value.
                  if(i0[0] == "pivot"):
                      Dict["piv"] = True
                  if(i0[0] == "filename"):
                      Dict["Run"] = True
-
         else:
             print("********** Error, didn't recognize {} ***********".format(i))
             print("possible arguments are:")
@@ -301,11 +300,10 @@ def ArgChecker(Args):
 def main():
     args = sys.argv
     Files = checkFolder(os.listdir())
-    # if len(args[1]) > 0: # If first arg is given
-    #     FileName = args[1]
-    # else:
-    #     FileName = "Batch_Report"
+
     ControlDict = ArgChecker(args[1:])
+    if ControlDict["CopyExamples"]:
+        CopyExamples()
     if ControlDict["Run"] and not ControlDict["help"]:
         if len(Files) > 0:
             print("Running AEI")
@@ -328,6 +326,15 @@ def main():
     # fileNames = ["genra_O3","genra_C10H16O2","genra_C8H14O","genra_CH3CHO","genra_C10H16","genra_N2","genra_CO2","genra_CH2O"]
     #compoundNames = ["Ozone","3-Isopropenyl-6-oxo-heptanal",etc..]# Will be loaded from metadata now.
 
+def CopyExamples():
+    List = ["AEI.py","genra_C10H16.csv","genra_CH2O.csv","genra_O3.csv"]
+    script_dir = "/".join(__file__.split("/")[:-1]) # root dir where script resides, with example files
+    directory_path = os.getcwd()
+    for i in List:
+        print("Copying:   {}/{}".format(script_dir,i))
+        print("To:        {}/{}".format(directory_path,i))
+        print("-"*20)
+        shutil.copy("{}/{}".format(script_dir,i), "{}/{}".format(directory_path,i))
 
 def checkFolder(F):
     NF = []
@@ -338,7 +345,6 @@ def checkFolder(F):
 
 def PivotTable(File):
     pivot_ui(pd.read_csv(File))
-    print(File)
     directory_path = os.getcwd()
     webbrowser.open(directory_path+"/pivottablejs.html", new=2)
 

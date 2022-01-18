@@ -3,7 +3,7 @@
 
 import pandas as pd
 from datetime import datetime
-import csv, random, re, math, sys, os, webbrowser
+import csv, random, re, math, sys, os, webbrowser, shutil
 import numpy as np
 
 import matplotlib.pyplot as plt
@@ -275,7 +275,7 @@ def OneGas(Filename="genra_O3"):
 
 
 def ArgChecker(Args):
-    Dict = {"filename":"Batch_Report","viz":False,"pivot":"Batch_Report_Target.csv","fcn":"sum","piv":False,"help":False,"Run":False}
+    Dict = {"filename":"Batch_Report","viz":False,"pivot":"Batch_Report_Target.csv","fcn":"sum","piv":False,"help":False,"Run":False,"CopyExamples":False}
     for i in Args:
         i0 = i.split("=")
         if i0[0] in Dict.keys():
@@ -306,6 +306,8 @@ def main():
     # else:
     #     FileName = "Batch_Report"
     ControlDict = ArgChecker(args[1:])
+    if ControlDict["CopyExamples"]:
+        CopyExamples()
     if ControlDict["Run"] and not ControlDict["help"]:
         if len(Files) > 0:
             print("Running AEI")
@@ -328,6 +330,14 @@ def main():
     # fileNames = ["genra_O3","genra_C10H16O2","genra_C8H14O","genra_CH3CHO","genra_C10H16","genra_N2","genra_CO2","genra_CH2O"]
     #compoundNames = ["Ozone","3-Isopropenyl-6-oxo-heptanal",etc..]# Will be loaded from metadata now.
 
+def CopyExamples():
+    List = ["AEI.py","genra_C10H16.csv","genra_CH2O.csv","genra_O3.csv"]
+    script_dir = "/".join(__file__.split("/")[:-1]) # root dir where script resides, with example files
+    directory_path = os.getcwd()
+    for i in List:
+        print("Copying:   {}/{}".format(script_dir,i))
+        print("To:        {}/{}".format(directory_path,i))
+        shutil.copy("{}/{}".format(script_dir,i), "{}/{}".format(directory_path,i))
 
 def checkFolder(F):
     NF = []

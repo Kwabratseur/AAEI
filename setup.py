@@ -5,10 +5,11 @@ with open("README.rst", "r", encoding="utf-8") as fh:
     long_description = fh.read()
 
 setup(name='aaei',
-      version='1.0.1',
+      version='1.0.2',
       description='Air Adverse Effect Index',
       long_description=long_description,
       long_description_content_type="text/markdown",
+      include_package_data=True,
       classifiers=[
         'Development Status :: 3 - Alpha',
         'License :: OSI Approved :: MIT License',
