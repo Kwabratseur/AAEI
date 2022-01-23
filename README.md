@@ -5,7 +5,7 @@
 ## Introduction
 In this repository, the python code to calculate an Air Adverse Effect Index is presented. The Comptox **Generalized Read-Across Database** [GenRA](https://comptox.epa.gov/genra/) applies Read-Across methodology on a large database of toxicological values for many chemicals. Gaps can be filled, and a report on confidence of the results is given, plus a likeliness that this effect is positive (present). This tool can provide up to 15 *analog* chemicals, which toxicological properties will be extrapolated to the chemical of interest. This extrapolation can be exported, this is the input-format for the **AAEI** tool.
 
-Additionally, files for four OpenFOAM simulations are made available. It is explained how these files can be run and how the post-processing steps can be applied to calculate the AAEI.
+Additionally, files for four **OpenFOAM** simulations are made available. It is explained how these files can be run and how the post-processing steps can be applied to calculate the AAEI.
 
 #### Installation
 * Through Github:
@@ -151,35 +151,72 @@ Once the AAEI script is imported:
 
 ## Simulations
 
-### File structure
-<img src=gfx/Openfoam_files.png width="150" height="280">
+<img src=gfx/Openfoam_files.png width="150" height="280" align=right>
 
 ### General case setup
-<img src=gfx/Plane_Definitions_STL.png width="800" height="500">
 
-### case 1
-<img src=gfx/Sim_Overview_Kazuhide.png width="800" height="500">
+To run the steps a few things need to be prepared, all the following steps need to be run in an installation where OpenFOAM commands are available. So in the docker, or load your environment variables.
+#### Preparing Mesh
+* Mesh files describing the geometry, located in `<case>/constant/geometry/*.stl` or originating from `<case>/system/blockMeshDict`
+  * in the case of `*.stl` files you have to run do a few things:
+    * run `blockMesh` to generate the base block, that needs to bigger then the geometry.
+    * run `surfaceFeatures` to extract surface features from the files.
+    * run `snappyHexMesh -overwrite` to generate the final geometry, this might take a while.
+      * In some cases snappyHexMesh generates folders like `<case>/0.001/` and `<case>/0.002/`, copy the folder polyMesh to constant and the other files to the `<case>/0/` folder
+      ```
+      cd <case>/
+      blockMesh | tee log.blockMesh
+      surfaceFeatures | tee log.surfaceFeatures
+      snappyHexMesh | tee log.snappyHexMesh
+      cp -r 0.002/polyMesh constant/polyMesh
+      cp 0.002/*Level 0/
+      ```
+  * in the case of `blockMeshDict` simulations simply run `blockMesh`
 
-### case 2
-<img src=gfx/X3_Overview_Geom.png width="1000" height="600">
 
-### case 3
+  Now for sanity, we want to run the simulation a bit more optimized and use all our processors in parallel.
 
+<img src=gfx/Plane_Definitions_STL.png width="400" height="300" align=right>
 
-### case 4
+  * Edit `<case>/system/decomposeParDict`
+    * Change the line `numberOfSubdomains 16;` to the amount of **physical** cores your processor has (not threads). You can check this in task-manager on Windows.
+  * Now run `decomposePar` in the `<case>/` folder, this will split the simulation in subdomains.
 
-<img src=gfx/AEI_opaq.png width="1000" height="600">
+As a last step you can check if everything works with Paraview:
 
+* make a file with `.foam` extension in the `<case>/` directory and open it with openfoam:
+    ```
+    touch <case>/simulation.foam
+    paraview <case>/simulation.foam &
+    ```
+* You can also open the case through the paraview interface.
+* You can inspect the generated geometry, and see how `decomposePar` split the problem in sub-domains. By using the wireframe or Surface with edges visualization, the mesh can be visualized.
 
+#### Running simulation and monitoring
+<img src=gfx/Sim_Overview_Kazuhide.png width="400" height="300" align=right>
 
-# Note To Self:
-:tada: :fireworks::tada:
-```bash
-python setup.py sdist
-pip install .  # dry-run from folder
-pip uninstall aaei # uninstall
-pip install -e # install with symlink
-twine upload dist/* #because pip doesn't work anymore for some magical reason.
-```
+Most cases here use the `buoyantReactingFoam` solver, so this general description is written for those cases.
 
-:fireworks::tada: :fireworks:
+* Go to the `<case>/` directory in your openFOAM environment
+* run `mpirun -np <No_Cores> buoyantReactingFoam -parallel | tee log`
+  * where `<No_Cores>` is the `numberOfSubdomains` you set before in `<case>/system/decomposeParDict`
+  ```
+  cd <case>/
+  mpirun -np 16 buoyantReactingFoam -parallel | tee log
+  ```
+
+With [PyFoam](https://pypi.org/project/PyFoam/) you can monitor the
+simulation visually by graphing the log in realtime.
+
+  * first you need to install it on your **system**, so not in the      **docker** with the command `pip install PyFoam` or your package manager of choice for python.
+  * `pyFoamPlotWatcher --with-all log`
+  * Now a bunch of plots pop-up, among others: residuals, some concentrations changing over time (`customRegExp`), courant number, etc.
+* While running, you can open the `*.foam` file with Paraview. Set the case to decomposed and you can view any new timesteps after refreshing.
+* Stop the simulation with CTRL+C in the command-line window.
+* If you want a nicer view, and the decomposed case to be restored:
+  * `reconstructPar` to reconstruct all timesteps
+  * `reconstructPar --latestTime` to only reconstruct the last available timestep.
+
+<img src=gfx/X3_Overview_Geom.png width="400" height="300" align=left>
+
+<img src=gfx/AEI_opaq.png width="400" height="300" align=right>
