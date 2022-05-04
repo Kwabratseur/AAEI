@@ -12,7 +12,7 @@ Additionally, files for four **OpenFOAM** simulations are made available. It is 
  * Download the .tar.gz from **Releases**
  * Install allowable python
  * Install AAEI:
-  * `sudo pip3.x install aaei-1.0.x.tar.gz[Viz]`
+  * `sudo pip3.x install aaei-1.x.x.tar.gz[Viz]`
   * Without the Viz label, visualization tools will not be installed (Matplotlib, Seabornd and Plotly)
 * Through [Pypi](https://pypi.org/project/aaei/) Package index:
  * `pip install aaei[Viz]`
@@ -151,7 +151,7 @@ Once the AAEI script is imported:
 
 ## Simulations
 
-<img src=gfx/Openfoam_files.png width="150" height="280" align=right>
+<img src=gfx/Openfoam_files.png width="150" height="400" align=right>
 
 ### General case setup
 
@@ -176,7 +176,7 @@ To run the steps a few things need to be prepared, all the following steps need 
 
   Now for sanity, we want to run the simulation a bit more optimized and use all our processors in parallel.
 
-<img src=gfx/Plane_Definitions_STL.png width="400" height="300" align=right>
+<img src=gfx/Plane_Definitions_STL.png width="200" height="150" align=right>
 
   * Edit `<case>/system/decomposeParDict`
     * Change the line `numberOfSubdomains 16;` to the amount of **physical** cores your processor has (not threads). You can check this in task-manager on Windows.
@@ -192,8 +192,9 @@ As a last step you can check if everything works with Paraview:
 * You can also open the case through the paraview interface.
 * You can inspect the generated geometry, and see how `decomposePar` split the problem in sub-domains. By using the wireframe or Surface with edges visualization, the mesh can be visualized.
 
+<img src=gfx/Sim_Overview_Kazuhide.png width="200" height="150" align=right>
+
 #### Running simulation and monitoring
-<img src=gfx/Sim_Overview_Kazuhide.png width="400" height="300" align=right>
 
 Most cases here use the `buoyantReactingFoam` solver, so this general description is written for those cases.
 
@@ -217,6 +218,18 @@ simulation visually by graphing the log in realtime.
   * `reconstructPar` to reconstruct all timesteps
   * `reconstructPar --latestTime` to only reconstruct the last available timestep.
 
-<img src=gfx/X3_Overview_Geom.png width="400" height="300" align=left>
+<img src=gfx/AEI_opaq.png width="300" height="200" align=right>
 
-<img src=gfx/AEI_opaq.png width="400" height="300" align=right>
+<img src=gfx/X3_Overview_Geom.png width="300" height="200" align=left>
+
+# Note To Self:
+:tada: :fireworks::tada:
+```bash
+python setup.py sdist
+pip install .  # dry-run from folder
+pip uninstall aaei # uninstall
+pip install -e # install with symlink
+twine upload dist/* #because pip doesn't work anymore for some magical reason.
+```
+
+:fireworks::tada: :fireworks:

@@ -207,7 +207,7 @@ def metaDataReport(effectLabels,metaDataHID,md,label):
 
 
 
-def BatchReport(fileNames, filename, fcn="sum", viz = False):
+def BatchReport(fileNames, filename, fcn="sum", viz = False, ext = False):
     Header = ["Formula","Name","total targets", "positive targets", "positive targets decimal", "weighted and averaged limit [mg/kg/day]","Effectgroup"]
     TargetEffectLabels = [["MGR"],["REP"],["DEV"],["CHR"],["SUB"],["SAC"]]
     MetaBlobs = []
@@ -249,12 +249,19 @@ def BatchReport(fileNames, filename, fcn="sum", viz = False):
     df.replace("", nan_value, inplace=True)
     df.replace(nan_value, 0,  inplace=True)
 
-    if fcn == "sum":
-        table = pd.pivot_table(df, values='positive targets decimal', index=['Effectgroup'],columns=['Formula',"Testgroup"], aggfunc=np.sum)
-    elif fcn == "avg":
-        table = pd.pivot_table(df, values='positive targets decimal', index=['Effectgroup'],columns=['Formula',"Testgroup"], aggfunc=np.average)
+    if ext:
+        IDX = ['Effectgroup']
+        IDY = ['Formula',"Testgroup"]
     else:
-        table = pd.pivot_table(df, values='positive targets decimal', index=['Effectgroup'],columns=['Formula',"Testgroup"], aggfunc=np.mean)
+        IDX = ['Formula']
+        IDY = ['Testgroup']
+
+    if fcn == "sum":
+        table = pd.pivot_table(df, values='positive targets decimal', index=IDX,columns=IDY, aggfunc=np.sum)
+    elif fcn == "avg":
+        table = pd.pivot_table(df, values='positive targets decimal', index=IDX,columns=IDY, aggfunc=np.average)
+    else:
+        table = pd.pivot_table(df, values='positive targets decimal', index=IDX,columns=IDY, aggfunc=np.mean)
     table.replace("", nan_value, inplace=True)
     table.replace(nan_value, 0,  inplace=True)
     table = df_normalize(table)
@@ -275,7 +282,7 @@ def OneGas(Filename="genra_O3"):
 
 
 def ArgChecker(Args): # Argument checker; if boolean is put in dict, it is treated as a flag. Any other type will be treated as string.
-    Dict = {"filename":"Batch_Report","viz":False,"pivot":"Batch_Report_Target.csv","fcn":"sum","piv":False,"help":False,"Run":False,"CopyExamples":False}
+    Dict = {"filename":"Batch_Report","viz":False,"pivot":"Batch_Report_Target.csv","fcn":"sum","piv":False,"help":False,"Run":False,"CopyExamples":False,"ext":False}
     for i in Args:
         i0 = i.split("=")
         if i0[0] in Dict.keys():
@@ -307,7 +314,7 @@ def main():
     if ControlDict["Run"] and not ControlDict["help"]:
         if len(Files) > 0:
             print("Running AEI")
-            MetaBlobs, TargetBlobs, analogBlobs, PVTable, target_DF = BatchReport(Files,filename=ControlDict["filename"],viz=ControlDict["viz"],fcn=ControlDict["fcn"])
+            MetaBlobs, TargetBlobs, analogBlobs, PVTable, target_DF = BatchReport(Files,filename=ControlDict["filename"],viz=ControlDict["viz"],fcn=ControlDict["fcn"],ext=ControlDict["ext"])
         else:
              print("No suitable files found in this directory!")
     elif ControlDict["piv"] and not ControlDict["help"]:
@@ -316,10 +323,11 @@ def main():
     elif ControlDict["help"]:
         print("Run this script in a folder with genra_<chemical>.csv files.")
         print("Use the flags shown below to control the output")
-        print("You can use fcn: sum, avg, med for the different normalization schemes")
-        print("Use pivot=file.csv flag to open a .html interactive pivot table in your browser. This works for any .csv with categorical data (text flags in rows)")
+        print("Argument fcn= sum, avg, med for the different normalization schemes")
+        print("Argument pivot=file.csv flag to open a .html interactive pivot table in your browser. This works for any .csv with categorical data (text flags in rows)")
         print("Argument viz generates 6 graphs to aid in data analysis.")
-        print("Argument Run runs the script with default filenames in the current folder")
+        print("Argument Run runs the script with default filenames in the current folder.")
+        print("Argument ext exports an extended dataformat which is not compatible with the AEI paraview macro.")
         print("possible arguments are:")
         for i in ControlDict.keys():
             print("arg:  {}  - {}".format(i,ControlDict[i]))
