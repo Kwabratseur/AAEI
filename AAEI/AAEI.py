@@ -206,9 +206,8 @@ def metaDataReport(effectLabels,metaDataHID,md,label):
         f.close()
 
 def CombineEntries(NormTab,In=["CH3CHO","C10H16O2","C8H14O"], Out="Cprod"):
-    print(NormTab)
-    print(NormTab[In])
-    print(NormTab[In].mean(axis=1))
+    NormTab.loc[Out] = NormTab.loc[In].mean(axis=0)
+    return NormTab.drop(In)
 
 def BatchReport(fileNames, filename, fcn="sum", viz = False, ext = False, merge=None):
     Header = ["Formula","Name","total targets", "positive targets", "positive targets decimal", "weighted and averaged limit [mg/kg/day]","Effectgroup"]
@@ -265,10 +264,11 @@ def BatchReport(fileNames, filename, fcn="sum", viz = False, ext = False, merge=
         table = pd.pivot_table(df, values='positive targets decimal', index=IDX,columns=IDY, aggfunc=np.average)
     else:
         table = pd.pivot_table(df, values='positive targets decimal', index=IDX,columns=IDY, aggfunc=np.mean)
-    if merge != None and merge != "None":
-        In = merge.split[">"][0].split(",")
-        Out = merge.split[">"][1]
-        CombineEntries(table,In=In, Out=Out)
+
+    if merge != "None":
+        In = merge.split("-")[0].split(",")
+        Out = merge.split("-")[1]
+        table = CombineEntries(table,In=In, Out=Out)
 
     table.replace("", nan_value, inplace=True)
     table.replace(nan_value, 0,  inplace=True)
@@ -336,7 +336,7 @@ def main():
         print("Argument viz generates 6 graphs to aid in data analysis.")
         print("Argument Run runs the script with default filenames in the current folder.")
         print("Argument ext exports an extended dataformat which is not compatible with the AEI paraview macro.")
-        print("merge=CH3CHO,C10H16O2,C8H14O>Cprod merge 3 gases into Cprod")
+        print("merge=CH3CHO,C10H16O2,C8H14O-Cprod merge 3 gases into Cprod")
         print("possible arguments are:")
         for i in ControlDict.keys():
             print("arg:  {}  - {}".format(i,ControlDict[i]))
