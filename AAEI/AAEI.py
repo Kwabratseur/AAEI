@@ -205,9 +205,12 @@ def metaDataReport(effectLabels,metaDataHID,md,label):
             Writer.writerow([x]+metaDataHID[i])
         f.close()
 
+def CombineEntries(NormTab,In=["CH3CHO","C10H16O2","C8H14O"], Out="Cprod"):
+    print(NormTab)
+    print(NormTab[In])
+    print(NormTab[In].mean(axis=1))
 
-
-def BatchReport(fileNames, filename, fcn="sum", viz = False, ext = False):
+def BatchReport(fileNames, filename, fcn="sum", viz = False, ext = False, merge=None):
     Header = ["Formula","Name","total targets", "positive targets", "positive targets decimal", "weighted and averaged limit [mg/kg/day]","Effectgroup"]
     TargetEffectLabels = [["MGR"],["REP"],["DEV"],["CHR"],["SUB"],["SAC"]]
     MetaBlobs = []
@@ -262,6 +265,11 @@ def BatchReport(fileNames, filename, fcn="sum", viz = False, ext = False):
         table = pd.pivot_table(df, values='positive targets decimal', index=IDX,columns=IDY, aggfunc=np.average)
     else:
         table = pd.pivot_table(df, values='positive targets decimal', index=IDX,columns=IDY, aggfunc=np.mean)
+    if merge != None and merge != "None":
+        In = merge.split[">"][0].split(",")
+        Out = merge.split[">"][1]
+        CombineEntries(table,In=In, Out=Out)
+
     table.replace("", nan_value, inplace=True)
     table.replace(nan_value, 0,  inplace=True)
     table = df_normalize(table)
@@ -282,7 +290,7 @@ def OneGas(Filename="genra_O3"):
 
 
 def ArgChecker(Args): # Argument checker; if boolean is put in dict, it is treated as a flag. Any other type will be treated as string.
-    Dict = {"filename":"Batch_Report","viz":False,"pivot":"Batch_Report_Target.csv","fcn":"sum","piv":False,"help":False,"Run":False,"CopyExamples":False,"ext":False}
+    Dict = {"filename":"Batch_Report","viz":False,"pivot":"Batch_Report_Target.csv","fcn":"sum","piv":False,"help":False,"Run":False,"CopyExamples":False,"ext":False,"merge":"None"}
     for i in Args:
         i0 = i.split("=")
         if i0[0] in Dict.keys():
@@ -314,7 +322,7 @@ def main():
     if ControlDict["Run"] and not ControlDict["help"]:
         if len(Files) > 0:
             print("Running AEI")
-            MetaBlobs, TargetBlobs, analogBlobs, PVTable, target_DF = BatchReport(Files,filename=ControlDict["filename"],viz=ControlDict["viz"],fcn=ControlDict["fcn"],ext=ControlDict["ext"])
+            MetaBlobs, TargetBlobs, analogBlobs, PVTable, target_DF = BatchReport(Files,filename=ControlDict["filename"],viz=ControlDict["viz"],fcn=ControlDict["fcn"],ext=ControlDict["ext"],merge=ControlDict["merge"])
         else:
              print("No suitable files found in this directory!")
     elif ControlDict["piv"] and not ControlDict["help"]:
@@ -328,6 +336,7 @@ def main():
         print("Argument viz generates 6 graphs to aid in data analysis.")
         print("Argument Run runs the script with default filenames in the current folder.")
         print("Argument ext exports an extended dataformat which is not compatible with the AEI paraview macro.")
+        print("merge=CH3CHO,C10H16O2,C8H14O>Cprod merge 3 gases into Cprod")
         print("possible arguments are:")
         for i in ControlDict.keys():
             print("arg:  {}  - {}".format(i,ControlDict[i]))
