@@ -5,17 +5,88 @@ import pandas as pd
 from datetime import datetime
 import csv, random, re, math, sys, os, webbrowser, shutil
 import numpy as np
-
 import matplotlib.pyplot as plt
-
 import plotly.graph_objects as go
-
 import seaborn as sn
-
 from pivottablejs import pivot_ui
 
 sn.set(rc = {'figure.figsize':(20,10)})
 plt.rcParams["figure.figsize"] = (20,10)
+
+
+def translateEntryV2(df,metaData,chemName,DEBUG=False):
+    if DEBUG:
+        print("name: {}  {}".format(df.name,70*"-"))
+    EffectName = [df.name[:3], df.name[3:]]
+    Effect = [df["pred_class"],df["ACT"]]
+    Mag = float(df["ACT"])
+    AUC = float(df["AUC"])
+    p_Val = float(df["pval"])
+
+    EffectName.append(int(Effect[1]))
+    EffectName.append(Mag)
+    EffectName.append(AUC)
+    EffectName.append(p_Val)
+    df.drop(chemName)
+    if DEBUG:
+        print(EffectName)
+        print("--** Effect:{} -- Mag:{} -- AUC:{} -- P-Value:{} **--".format(Effect, Mag, AUC, p_Val))
+    thresholdSimilarityVector = []
+    thresholdSimilaritySum = 0
+    if DEBUG:
+        print("We start enumerating below: {}".format(70*"-"))
+        print(df.index[6:]) # slices out every even dataframe
+    for i,x in enumerate(df[6:]): # our entries have more garbage columns now; change THIS!!!!!<<<<_____----__-___
+        if "_units" not in df.index[6:][i]:
+            if DEBUG:
+                print(i,x,df.index[6:][i])
+            mgkgday = x # Filter out thresholds in mg/kg/day (I assume mg compound to kg body weight per day)
+            if "no_data" in x or "no_effect" in x: # no number detected
+                mgkgday = 0.0
+            else:
+                mgkgday = float(x)/float(metaData.iloc[4][i])
+            # divide by similarity index; higher similarity means chemical/toxilogical fingerprint is more similar. Range will be bigger if more uncertainty
+            thresholdSimilarityVector.append(mgkgday)
+            thresholdSimilaritySum += mgkgday*Mag
+    thresholdSimilarityVector.append(thresholdSimilaritySum)
+    if DEBUG:
+        print("Threshold-Similarity-Vector: {}".format(70*"-"))
+        print(thresholdSimilarityVector)
+    return EffectName+thresholdSimilarityVector
+
+
+def computeHealthIndexV2(fileName,DEBUG=False):
+    genRAData = pd.read_csv("{}.csv".format(fileName), header=0).set_index("chem_id")
+    metaData = genRAData[:14]
+    chemName = metaData.T["preferred name"][0]
+    genRAData = genRAData[14:]
+    columns = []
+    for i,x in enumerate(metaData.T["preferred name"]):
+        if not isinstance(x,str) and "_units" not in metaData.columns[i]: # check if x == NaN.. NaN is a number but math.isnan(x) gives error when it's a string
+            columns.append(metaData.columns[i])
+        elif "_units" in metaData.columns[i]:
+            columns.append("{}_units".format(columns[-1]))
+        else:
+            columns.append(metaData.T["preferred name"][i])
+    genRAData.columns = columns
+    if DEBUG:
+        print("Metadata","-"*70)
+        print(metaData)
+        print("chemical names","-"*70)
+        print(chemName)
+        print("Test translation input:","-"*70)
+        print(genRAData)
+        print("Test translation:","-"*70)
+        translateEntryV2(genRAData.iloc[0],metaData,chemName,DEBUG=DEBUG)
+        print(translateEntryV2(genRAData.iloc[random.randrange(len(genRAData))],metaData,chemName,DEBUG=DEBUG))
+    healthIndexData = []
+    effectLabels = []
+    targetLabels = []
+    for i in genRAData.iloc:
+        healthIndexData.append(translateEntryV2(i,metaData,chemName))
+        effectLabels.append(healthIndexData[-1][0])
+        targetLabels.append(healthIndexData[-1][1])
+    return healthIndexData ,list(set(effectLabels)), list(set(targetLabels)), metaData, chemName
 
 
 
@@ -193,8 +264,8 @@ def metaDataGenTargets(targetLabels, HID):
     return metaDataHID
 
 def metaDataReport(effectLabels,metaDataHID,md,label):
-    print(md)
-    FileName = "{}_{}_metadata.csv".format(label,md.columns[1])
+    print("Metadata {}: {}".format(md.T["preferred name"][0].replace(" ","-"),70*"-"))
+    FileName = "{}_{}_metadata.csv".format(label,md.T["preferred name"][0].replace(" ","-"))
     md.to_csv(FileName)
     Header = ["Effectgroup","total targets", "positive targets", "positive targets decimal", "weighted and averaged limit [mg/kg/day]"]
     with open(FileName, 'a', newline='') as f:
@@ -209,7 +280,11 @@ def CombineEntries(NormTab,In=["CH3CHO","C10H16O2","C8H14O"], Out="Cprod"):
     NormTab.loc[Out] = NormTab.loc[In].mean(axis=0)
     return NormTab.drop(In)
 
-def BatchReport(fileNames, filename, fcn="sum", viz = False, ext = False, merge=None):
+def DerivedEntries(NormTab, In="PM10", Out=["O3",0.3330015744489429]):
+    NormTab.loc[In] = NormTab.loc[Out[0]]*Out[1]
+    return NormTab
+
+def BatchReport(fileNames, filename, fcn="sum", viz = False, ext = False, merge="None",entries = "None", version="v2"):
     Header = ["Formula","Name","total targets", "positive targets", "positive targets decimal", "weighted and averaged limit [mg/kg/day]","Effectgroup"]
     TargetEffectLabels = [["MGR"],["REP"],["DEV"],["CHR"],["SUB"],["SAC"]]
     MetaBlobs = []
@@ -218,7 +293,10 @@ def BatchReport(fileNames, filename, fcn="sum", viz = False, ext = False, merge=
     compoundNames = []
     for label in fileNames:
         #label = "genra_O3"
-        HID, effectLabels, targetLabels, md, Compound = computeHealthIndex(label)#Ozone
+        if version == "v2":
+            HID, effectLabels, targetLabels, md, Compound = computeHealthIndexV2(label)#Ozone
+        else:
+            HID, effectLabels, targetLabels, md, Compound = computeHealthIndex(label)#Ozone
         compoundNames.append(Compound)
         metaDataHID = metaDataGenEffects(effectLabels, HID)
         metaDataHIDt = metaDataGenTargets(targetLabels,HID)
@@ -269,6 +347,10 @@ def BatchReport(fileNames, filename, fcn="sum", viz = False, ext = False, merge=
         In = merge.split("-")[0].split(",")
         Out = merge.split("-")[1]
         table = CombineEntries(table,In=In, Out=Out)
+    
+    if entries != "None":
+        for i in entries: # dict with array of sourcechem:[newchem,conversion]
+            table = DerivedEntries(table,In=i,Out=entries[i])
 
     table.replace("", nan_value, inplace=True)
     table.replace(nan_value, 0,  inplace=True)
@@ -282,7 +364,8 @@ def BatchReport(fileNames, filename, fcn="sum", viz = False, ext = False, merge=
 # One gas GenRA file analysis
 def OneGas(Filename="genra_O3"):
     label = Filename
-    HID, effectLabels, targetLabels, md = computeHealthIndex(label)#Ozone
+    TargetEffectLabels = [["MGR"],["REP"],["DEV"],["CHR"],["SUB"],["SAC"]]
+    HID, effectLabels, targetLabels, md, Compound = computeHealthIndex(label)#Ozone
     metaDataHID = metaDataGenEffects(effectLabels, HID)
     metaDataHIDt = metaDataGenTargets(targetLabels,HID)
     metaDataReport(effectLabels,metaDataHID,md,label)
@@ -290,7 +373,7 @@ def OneGas(Filename="genra_O3"):
 
 
 def ArgChecker(Args): # Argument checker; if boolean is put in dict, it is treated as a flag. Any other type will be treated as string.
-    Dict = {"filename":"Batch_Report","viz":False,"pivot":"Batch_Report_Target.csv","fcn":"sum","piv":False,"help":False,"Run":False,"CopyExamples":False,"ext":False,"merge":"None"}
+    Dict = {"filename":"Batch_Report","viz":False,"pivot":"Batch_Report_Target.csv","fcn":"sum","piv":False,"help":False,"Run":False,"CopyExamples":False,"ext":False,"merge":"None","entries":"None", "version":"v2"}
     for i in Args:
         i0 = i.split("=")
         if i0[0] in Dict.keys():
@@ -322,7 +405,7 @@ def main():
     if ControlDict["Run"] and not ControlDict["help"]:
         if len(Files) > 0:
             print("Running AEI")
-            MetaBlobs, TargetBlobs, analogBlobs, PVTable, target_DF = BatchReport(Files,filename=ControlDict["filename"],viz=ControlDict["viz"],fcn=ControlDict["fcn"],ext=ControlDict["ext"],merge=ControlDict["merge"])
+            MetaBlobs, TargetBlobs, analogBlobs, PVTable, target_DF = BatchReport(Files,filename=ControlDict["filename"],viz=ControlDict["viz"],fcn=ControlDict["fcn"],ext=ControlDict["ext"],merge=ControlDict["merge"],entries=controlDict["entries"],version=ControlDict["version"])
         else:
              print("No suitable files found in this directory!")
     elif ControlDict["piv"] and not ControlDict["help"]:
@@ -344,7 +427,7 @@ def main():
     #compoundNames = ["Ozone","3-Isopropenyl-6-oxo-heptanal",etc..]# Will be loaded from metadata now.
 
 def CopyExamples():
-    List = ["AEI.py","genra_C10H16.csv","genra_CH2O.csv","genra_O3.csv"]
+    List = ["AEI.py","genra_C10H16.csv","genra_CH2O.csv","genra_O3.csv","genra_NO2.csv","genra_SO2.csv"]
     script_dir = "/".join(__file__.split("/")[:-1]) # root dir where script resides, with example files
     directory_path = os.getcwd()
     for i in List:
@@ -373,4 +456,4 @@ if __name__ == "__main__":
         print("Error")
         os._exit(os.EX_OK)
 else:
-    print("---\n{}\n---\nis being imported\n---".format(sys.argv[0]))
+    print("---\n{}\n---\nV1.4.1 is being imported\n---".format(sys.argv[0]))

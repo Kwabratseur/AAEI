@@ -1,23 +1,26 @@
 # Work In Progress!
 
-# Air Adverse Effect Index (AAEI)
+# Dynamic Adverse Effect Index (DAEI/DynAEI)
 
 ## Introduction
-In this repository, the python code to calculate an Air Adverse Effect Index is presented. The Comptox **Generalized Read-Across Database** [GenRA](https://comptox.epa.gov/genra/) applies Read-Across methodology on a large database of toxicological values for many chemicals. Gaps can be filled, and a report on confidence of the results is given, plus a likeliness that this effect is positive (present). This tool can provide up to 15 *analog* chemicals, which toxicological properties will be extrapolated to the chemical of interest. This extrapolation can be exported, this is the input-format for the **AAEI** tool.
+In this repository, the python code to calculate a Dynamic Adverse Effect Index is presented. The Comptox **Generalized Read-Across Database** [GenRA](https://comptox.epa.gov/genra/) applies Read-Across methodology on a large database of toxicological values for many chemicals. Gaps can be filled, and a report on confidence of the results is given, plus a likeliness that this effect is positive (present). This tool can provide up to 15 *analog* chemicals, which toxicological properties will be extrapolated to the chemical of interest. This extrapolation can be exported, this is the input-format for the **DAEI** tool.
 
-Additionally, files for four **OpenFOAM** simulations are made available. It is explained how these files can be run and how the post-processing steps can be applied to calculate the AAEI.
+Additionally, files for four **OpenFOAM** simulations are made available. It is explained how these files can be run and how the post-processing steps can be applied to calculate the DAEI.
+
+see [Openfoam ParaView instructions ](OpenFOAM_ParaView.md) for how to apply DynAEI there, and some general usage tips.
+See [Openfoam Tutorial](https://github.com/Kwabratseur/STL-Thermal-Paraview-tutorial) for an in depth thermal simulation tutorial
 
 #### Installation
 * Through Github:
  * Download the .tar.gz from **Releases**
  * Install allowable python
- * Install AAEI:
+ * Install DAEI:
   * `sudo pip3.x install aaei-1.x.x.tar.gz[Viz]`
   * Without the Viz label, visualization tools will not be installed (Matplotlib, Seabornd and Plotly)
 * Through [Pypi](https://pypi.org/project/aaei/) Package index:
  * `pip install aaei[Viz]`
 
-## Adverse effect index
+## Dynamic Adverse effect index
 
  The table below shows the presence of a certain *health/target effect* per row, related to the *test group* it is categorized under in [GenRA](https://comptox.epa.gov/genra/).  
  This categorization is used as an intermediate step before calculating the total sum or average.
@@ -51,8 +54,8 @@ Additionally, files for four **OpenFOAM** simulations are made available. It is 
       * Files *Batch_Report_Target.csv* ,*Batch_Report_Meta.csv* and one file per input file will be generated in the folder it was run
       * viz will generate a 3D-bubble plot, with X = Effectgroup, Y = species, Z = Testgroup. And bubble-size = positive effect magnitude
       * piv=Batch_Report_Target.csv will generate and open a pivot pivottablejs interactive pivot table in the browser for the file mentioned.
-  5. **AEI_Norm.csv** Follows from this step and can be applied however desired.
-  6. Follow the steps under [ParaView AAEI applications script/Macro](#ParaView-AAEI-applications-script/Macro) to apply the results to a run simulatin
+  5. **AEI_Norm.csv** Follows from this step and can be applied however desired. [General usage](#General-usage) shows how this can be applied and interpreted for generic .csv files.
+  6. Follow the steps under [ParaView DAEI applications script/Macro](#ParaView-DAEI-applications-script/Macro) to apply the results to a run simulatin
   7.The resulting normalized AEI can be applied to any dataset
       * To averages over time, to determine the **relative** effect on different effect-groups
       * To spatial data, this can locate the more healthier or less healthy locations.
@@ -62,33 +65,6 @@ Additionally, files for four **OpenFOAM** simulations are made available. It is 
 ## Software
 
 A list of software used in this project
-
-### OpenFoam
-[OpenFoam](https://openfoam.org/) .org version 9 has been used to run the simulation in this repository.
-I would recommend installing OpenFOAM V9 through docker, following the guide at https://openfoam.org/download/9-linux/. For linux this leads to a straight-forward setup, which is easily accessible.
-There are no instructions on Windows, but this is fairly easy.:
- 1. Download and install Docker: https://docs.docker.com/desktop/windows/install/. You might need to setup WSL.
- 2. Once setup, go to https://hub.docker.com/r/openfoam/openfoam9-paraview56 and use the docker pull command to start installing the docker.
- 3. Run the docker and access it through a terminal, set up some-sort of shared folder in order to work efficiently.
-
-After an installation like this, you access the docker image first and then execute OpenFOAM specific commands.  
-All commands use a certain naming convention, so they are easy to find with autocompletion.  
-To give you a head-start, see the cheat-sheet below.
-
-<img src=https://s3.studylib.net/store/data/025453706_1-bd2eaeb6355a6e966ae4632a763f7e10-768x994.png width="600" height="800">
-
-[Solver capability matrix](https://www.openfoam.com/documentation/guides/latest/doc/openfoam-guide-applications-solvers.html) *(Note: for openfoam.com version, mostly the same but might differ!)*
-
-### PyFoam
-[PyFoam](https://pypi.org/project/PyFoam/) Very convenient library which adds functionality and tools for [OpenFoam](https://openfoam.org/)
- * Used to monitor every simulation with: *pyFoamPlotWatcher --with-all log*
- * Opens number of real-time plots to monitor residuals, specific values
- * *customRegExp* found under some simulation is also shown every timestep, in this case it calculates the total *average gas concentration [ppm]* using functionObjects
-
-### ParaView
-[Paraview](https://www.paraview.org/) has been used for analysis of simulation results. A post-processing script is provided to automatically apply the results of the **AAEI**
- * Installation instructions can be found on the website
- * Make sure that you install a version of paraview **with python!** Otherwise the macro-script will not work.
 
 ### Jupyter notebook
 [Jupyter](https://jupyter.org/) notebooks have been used to do all major data-processing, visualization and analysis. It is also used as an IDE, the **GenRA AEI** scripts have been developed in Jupyter.
@@ -100,7 +76,7 @@ To give you a head-start, see the cheat-sheet below.
 To ease the copying and management of OpenFOAM cases, a simple script has been written and provided, to copy and clean cases on a per-case basis, it will put the cleaned cases in /CleanCases relative from where you are.
  * Simply make sure it is executable, and run CopyCase \<CaseName\>.
 
-#### AAEI calculation script
+#### DAEI calculation script
 it provides standard methods to calculate an output file **AEI_Norm.csv**
 It provides the following methods:
  * Filter out Metadata from the GenRA files, calculate statistical values and export as **genra_\<formula\>_\<chemical_name\>_metadata.csv** for example `genra_O3_Ozone_metadata.csv`
@@ -114,7 +90,7 @@ It provides the following methods:
          * To spatial data, this can locate the more healthier or less healthy locations.
          * To see the contribution to AEI by different **gases**, **test-types** or **effect-types**
 
-##### AAEI commandline help and arguments
+##### DAEI commandline help and arguments
 By running `AEI help` you will get the following output.:
 ```
 Run this script in a folder with genra_<chemical>.csv files.
@@ -132,95 +108,151 @@ arg:  piv  - False
 arg:  help  - True
 arg:  Run  - False
 arg:  CopyExamples  - False
+arg:  version  -  V2
 ```
 Where the first item in the column is the argument, and the second the default state.  
 For example: `AEI filename=Export_2 pivot=Export_2_Target.csv viz fcn=avg`
 
-#### ParaView AAEI applications script/Macro
+## General usage
+The philosophy of this method is to use the most recent and state of the art toxicology knowledge for a data driven dynamic health index. With this approach, all chemical species can be taken into account. Since it is data driven, stability in results is ensured.
 
-First this script needs to be imported into ParaView:
- * To get the script: install this library and run `AEI CopyExamples`, the scripty AEI.py copied in your active directory is the ParaView macro.
- * Or download it [here](/AAEI/AEI.py) from the git manually
-Once the AAEI script is imported:
- * Import the script it in ParaView by copying it to the macro folder, or through the macro toolbar option.
- * Select the source-simulation (*.foam* file in the source-tree)
- * Make sure that there is a **AEI_Norm.csv** available in the ParaView source-tree, values are directly read and applied from there.
- * Run the script [AEI.py](/AAEI/AEI.py), A pop-up will open
-     * give the text-box a comma-separated list of chemicals, such as: **"C10H16","CO2","O3"**
-     * press ok/apply/enter, almost instantly many calculators will be added to the source-tree. The final result is put into the **AEI** calculator, all the other ones are appropriately named.
+To show how this works, the EU Air Quality Index is used as a comparison. We generate data suitable for the EUAQI, but also some more data which will be omitted. The DynAEI will be able to use all data. The results follow coarsely the same patterns for now. But this difference might change significantly depending on the samples, but also new studies in the future.
 
-## Simulations
+The function mentioned in these subparagraphs are all found in AEI_PV.py. AAEI must be imported for these to work.
+### Example function demo
 
-<img src=gfx/Openfoam_files.png width="150" height="400" align=right>
+The function RunFcnDemo() found in AEI_PV.py shows an example implementation of how to generate and apply DynAEI, and make a comparison to EUAQI.
 
-### General case setup
+* It can be run with the following code:
+```
+Import AAEI
+From AEI_PV import *
+RunFcnDemo()
+```
+Below I will explain the function calls in this demo function to show how it can be applied to your data.
 
-To run the steps a few things need to be prepared, all the following steps need to be run in an installation where OpenFOAM commands are available. So in the docker, or load your environment variables.
-#### Preparing Mesh
-* Mesh files describing the geometry, located in `<case>/constant/geometry/*.stl` or originating from `<case>/system/blockMeshDict`
-  * in the case of `*.stl` files you have to run do a few things:
-    * run `blockMesh` to generate the base block, that needs to bigger then the geometry.
-    * run `surfaceFeatures` to extract surface features from the files.
-    * run `snappyHexMesh -overwrite` to generate the final geometry, this might take a while.
-      * In some cases snappyHexMesh generates folders like `<case>/0.001/` and `<case>/0.002/`, copy the folder polyMesh to constant and the other files to the `<case>/0/` folder
-      ```
-      cd <case>/
-      blockMesh | tee log.blockMesh
-      surfaceFeatures | tee log.surfaceFeatures
-      snappyHexMesh | tee log.snappyHexMesh
-      cp -r 0.002/polyMesh constant/polyMesh
-      cp 0.002/*Level 0/
-      ```
-  * in the case of `blockMeshDict` simulations simply run `blockMesh`
+#### Procedure to generate DynAEI for (later) use
+Since this is a fully data driven approach where no limits are determined ahead of time it needs to be generated for each unique set of compounds that need to be compared.
+
+Since the chemistry matters for lookup purposes, it is important to follow the naming conventions.
+
+You can simply start with importing the libraries.
+```
+Import AAEI
+From AEI_PV import *
+```
+
+The function `AAEI.BatchReport` does all the heavy lifting and generates the dynamic index for you. Below you can see it's input arguments. In general, you set the fileNames to a list of "genra_[chemical_name]", the output filename, you indicate which values to merge and which additional entries to add. More about the last 2 below.
+```
+BatchReport(fileNames,
+            filename,
+            fcn="sum",
+            viz = False,
+            ext = False,
+            merge="None",
+            entries = "None",
+            version="v2")
+```
+
+##### Adding entries as a function of other data
+This approach can only work with pure chemicals, things like particulate matter in general have an unknown chemical composition, therefore there is no exposure assay data that can be generalized and found in GenRA. To solve this problem, PM10 or PM25 can be expressed as a function of another compound. In this case, a linear correlation was established with the limit values of Ozone and PM10 found in the EUAQI, the same was done for Ozone and PM2.5.
+We pass the keyword `entries` a dictionary with the linear coefficient found, like shown below.
+```
+entries= {"PM10":["O3",0.3330015744489429],
+          "PM25":["O3",0.6382530176938073]}
+```
+##### Merging multiple entries into a single entry
+In certain chemistry models, simplifications are made and chemical reactions can be binned into a term like resultant reaction product, which is a certain composition of other known compounds. To facilitate these models, below syntax can be used to merge the GenRA data of multiple compounds into one product. Below CH3CHO, C10H16O2 and C8H14O are merged into one term called Cprod
+`merge="CH3CHO,C10H16O2,C8H14O-Cprod"`
+
+##### Generate the DynAEI
+
+The example below would assume that 6 genra_[chemical].csv files are available, no data will be merged but 2 entries will be added since entries are passed to the function.
+```
+MetaBlobs, TargetBlobs, analogBlobs, PVTable, target_DF = AAEI.BatchReport(["genra_C10H16",
+                                                                            "genra_CH2O",
+                                                                            "genra_O3",
+                                                                            "genra_SO2",
+                                                                            "genra_NO2",
+                                                                            "genra_CO2"],
+                                                                            entries=entries,
+                                                                            filename="Batch_Report")
+```
+Only PVTable is further used, this contains the per-assay-group and aggregated toxicity for each compound, this can be applied with relative ease.
+A lot of files will be exported in this step.
+Now we have a working index loaded, let's proceed with either generating or loading data and applying the index.
+
+#### load data or generate samples
+Here we will use the sample generator to generate at least all required samples for EUAQI and some more. The sample instantiator dictionary below shows values in ppb, except for pm10 and pm25 (pm2.5) (both in ug/m3).
+```
+sampleInstantiator = {"C10H16":{"min":0,"max":66872},
+                      "CH2O":{"min":0,"max":1339},
+                      "O3":{"min":0,"max":300},
+                      "NO2":{"min":0,"max":300},
+                      "SO2":{"min":0,"max":800},
+                      "PM10":{"min":0,"max":150},
+                      "PM25":{"min":0,"max":200},
+                      "CO2":{"min":4000000,"max":500000}}
+```
+Then Either load or generate data into a pandas dataframe with the column names: "O3" "NO2" "SO2" "PM10" "PM25" "CO2" "C10H16" "CH2O":
+##### Generate
+10 samples are generated `df = sampleGenerator(sampleInstantiator,10)`
+
+<img src=gfx/Original_Samples.png width="400" height="300" align="right">
 
 
-  Now for sanity, we want to run the simulation a bit more optimized and use all our processors in parallel.
+##### Or Load
+ In this edge case, PM10 and PM25 have to be in ug/m3 for the EUAQI comparison, otherwise make sure that everything is in the same units.
+```
+df = pd.read_csv("data.csv")
+df.columns = ["O3", "NO2", "SO2", "PM10", "PM25", "CO2", "C10H16", "CH2O"]
 
-<img src=gfx/Plane_Definitions_STL.png width="200" height="150" align=right>
+```
+And set the columns to the right name.
 
-  * Edit `<case>/system/decomposeParDict`
-    * Change the line `numberOfSubdomains 16;` to the amount of **physical** cores your processor has (not threads). You can check this in task-manager on Windows.
-  * Now run `decomposePar` in the `<case>/` folder, this will split the simulation in subdomains.
+Note that the 3 (CO2, limonene and formaldehyde are not implemented in EUAQI)
 
-As a last step you can check if everything works with Paraview:
+##### Prepare data for later reversibility
+This allows for later reversibility, but also to express toxicity equivalence over all species in the sample.
 
-* make a file with `.foam` extension in the `<case>/` directory and open it with openfoam:
-    ```
-    touch <case>/simulation.foam
-    paraview <case>/simulation.foam &
-    ```
-* You can also open the case through the paraview interface.
-* You can inspect the generated geometry, and see how `decomposePar` split the problem in sub-domains. By using the wireframe or Surface with edges visualization, the mesh can be visualized.
+`invStats = df.describe().drop(["count","25%","50%","75%"])`
 
-<img src=gfx/Sim_Overview_Kazuhide.png width="200" height="150" align=right>
+#### procedure to apply to csv data
 
-#### Running simulation and monitoring
+1. Extract statistics for later reversibility
+2. Apply DynAEI to samples `res, normStats = impactSampling(df,PVTable)`
 
-Most cases here use the `buoyantReactingFoam` solver, so this general description is written for those cases.
+##### Reversing function or expressing equivalence
 
-* Go to the `<case>/` directory in your openFOAM environment
-* run `mpirun -np <No_Cores> buoyantReactingFoam -parallel | tee log`
-  * where `<No_Cores>` is the `numberOfSubdomains` you set before in `<case>/system/decomposeParDict`
-  ```
-  cd <case>/
-  mpirun -np 16 buoyantReactingFoam -parallel | tee log
-  ```
+reverses the function, since it is not fully reversible this is only a approximation
+`res.T.iloc[len(df.T):len(df.T)*2].T.apply(directInverser, args=(invStats,res["sAgg"],PVTable))`
 
-With [PyFoam](https://pypi.org/project/PyFoam/) you can monitor the
-simulation visually by graphing the log in realtime.
+<img src=gfx/Recovered_Concentration_DynAEI.png width="400" height="300" align="right" >
 
-  * first you need to install it on your **system**, so not in the      **docker** with the command `pip install PyFoam` or your package manager of choice for python.
-  * `pyFoamPlotWatcher --with-all log`
-  * Now a bunch of plots pop-up, among others: residuals, some concentrations changing over time (`customRegExp`), courant number, etc.
-* While running, you can open the `*.foam` file with Paraview. Set the case to decomposed and you can view any new timesteps after refreshing.
-* Stop the simulation with CTRL+C in the command-line window.
-* If you want a nicer view, and the decomposed case to be restored:
-  * `reconstructPar` to reconstruct all timesteps
-  * `reconstructPar --latestTime` to only reconstruct the last available timestep.
+The nice thing about this feature is the posibility to express Any toxicity into another, we can transponate everything to CO2 values, creating a CO2_Equivalent for all samples in the set.
+Do this with the following oneliner:
+`res.T.iloc[len(df.T):len(df.T)*2].T.apply(directInverser,args=(invStats,res["sAgg"],PVTable,"CO2"))`
+To explain this oneliner further:
+ * `res.T.iloc` transponate the result, work with number indices
+ * `len(df.T):len(df.T)*2` take a slice from the length of the original data upto twice original data (all DynAEI indices)
+ * `.T.apply(directInverser,` Transponate it back and Apply the directInverser function
+ * with the input arguments `args=(invStats,res["sAgg"],PVTable,"CO2"))` from which `CO2` is optional, when nothing is given, the function tries to reverse the index. If a chemical name is given that is found in the index, all data is converted to that order of magnitude.
 
-<img src=gfx/AEI_opaq.png width="300" height="200" align=right>
+##### Calculate EUAQI for sample
 
-<img src=gfx/X3_Overview_Geom.png width="300" height="200" align=left>
+```
+euaqi = DF_Apply_EUAQI(df)
+euaqi.plot()
+```
+<img src=gfx/calculated_EUAQI.png width="400" height="300" >
+
+##### Heatmap comparing EUAQI with DynAEI
+To make a fair comparison, DynAEI was scaled to the min and max of EUAQI; the result of each group is shown next to each other and the non-available chemicals in EUAQI are shown at the right.
+```
+df_DynAEI_EUAQI = pd.concat([(res.T.iloc[8:].T*7),pd.DataFrame.from_records(euaqi)],axis=1)[Nice_Col_Order]
+stdHM(df_DynAEI_EUAQI)
+```
+<img src=gfx/Compared_EUAQI_DynAEI_hm.png width="400" height="300" align="right">
 
 # Note To Self:
 :tada: :fireworks::tada:
